@@ -1,6 +1,7 @@
 package cn.lc.rpc.server;
 
 import cn.lc.rpc.RpcInvokeHook;
+import cn.lc.rpc.RpcRequest;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -37,7 +38,7 @@ public class RpcServer
 		AtomicInteger idGenerator = new AtomicInteger(0);
 		for(int i=0; i<10; i++)
 		{
-			rpcServerRequestHandler.addRequest(new RpcRequest(idGenerator.addAndGet(1), 
+			rpcServerRequestHandler.addRequest(new RpcRequest(idGenerator.addAndGet(1),
 					"testMethod01", new Object[]{"qwerty"}));
 		}
 	}

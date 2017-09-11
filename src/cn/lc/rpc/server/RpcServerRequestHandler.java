@@ -1,6 +1,7 @@
 package cn.lc.rpc.server;
 
 import cn.lc.rpc.RpcInvokeHook;
+import cn.lc.rpc.RpcRequest;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
