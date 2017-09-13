@@ -36,11 +36,11 @@ public class RpcServer
 		
 		//simulation for receive RpcRequest
 		AtomicInteger idGenerator = new AtomicInteger(0);
-		for(int i=0; i<10; i++)
+		/*for(int i=0; i<10; i++)
 		{
 			rpcServerRequestHandler.addRequest(new RpcRequest(idGenerator.addAndGet(1),
 					"testMethod01", new Object[]{"qwerty"}));
-		}
+		}*/
 	}
 	
 	public void stop()

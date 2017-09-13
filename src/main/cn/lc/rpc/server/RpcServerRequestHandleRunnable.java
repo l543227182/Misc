@@ -2,6 +2,7 @@ package main.cn.lc.rpc.server;
 
 import main.cn.lc.rpc.RpcInvokeHook;
 import main.cn.lc.rpc.RpcRequest;
+import main.cn.lc.rpc.client.RpcRequestWrapper;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -13,11 +14,11 @@ public class RpcServerRequestHandleRunnable implements Runnable
 	private Class<?> interfaceClass;
 	private Object serviceProvider;
 	private RpcInvokeHook rpcInvokeHook;
-	private BlockingQueue<RpcRequest> requestQueue;
+	private BlockingQueue<RpcRequestWrapper> requestQueue;
 		
 	public RpcServerRequestHandleRunnable(Class<?> interfaceClass,
 			Object serviceProvider, RpcInvokeHook rpcInvokeHook, 
-			BlockingQueue<RpcRequest> requestQueue) 
+			BlockingQueue<RpcRequestWrapper> requestQueue)
 	{
 		this.interfaceClass = interfaceClass;
 		this.serviceProvider = serviceProvider;
@@ -31,7 +32,7 @@ public class RpcServerRequestHandleRunnable implements Runnable
 		{
 			try 
 			{
-				RpcRequest rpcRequest = requestQueue.take();
+				RpcRequestWrapper rpcRequest = requestQueue.take();
 				
 				String methodName = rpcRequest.getMethodName();	
 				Object[] args = rpcRequest.getArgs();

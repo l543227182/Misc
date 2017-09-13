@@ -1,14 +1,14 @@
-package main.cn.lc.rpc.server;
-
-import main.cn.lc.rpc.RpcInvokeHook;
-import main.cn.lc.rpc.RpcRequest;
-import main.cn.lc.rpc.client.RpcRequestWrapper;
+package main.cn.lc.rpc.netty;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 
+
+import main.cn.lc.rpc.RpcInvokeHook;
+import main.cn.lc.rpc.client.RpcRequestWrapper;
+import main.cn.lc.rpc.server.RpcServerRequestHandleRunnable;
 
 public class RpcServerRequestHandler 
 {
@@ -34,16 +34,15 @@ public class RpcServerRequestHandler
 		threadPool = Executors.newFixedThreadPool(threads);
 		for(int i=0; i<threads; i++)
 		{
-			threadPool.execute(new RpcServerRequestHandleRunnable(interfaceClass, 
-					serviceProvider, rpcInvokeHook, requestQueue));
+			threadPool.execute(new RpcServerRequestHandleRunnable(interfaceClass,serviceProvider, rpcInvokeHook, requestQueue));
 		}
 	}
 	
-	public void addRequest(RpcRequestWrapper rpcRequest)
+	public void addRequest(RpcRequestWrapper rpcRequestWrapper)
 	{
 		try 
 		{
-			requestQueue.put(rpcRequest);
+			requestQueue.put(rpcRequestWrapper);
 		} 
 		catch (InterruptedException e) 
 		{
