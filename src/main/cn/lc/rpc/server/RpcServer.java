@@ -18,20 +18,17 @@ public class RpcServer
 	private RpcServerRequestHandler rpcServerRequestHandler;
 	
 	protected RpcServer(Class<?> interfaceClass, Object serviceProvider, int port, int threads,
-			RpcInvokeHook rpcInvokeHook) 
-	{	
+			RpcInvokeHook rpcInvokeHook) {
 		this.interfaceClass = interfaceClass;
 		this.serviceProvider = serviceProvider;
 		this.port = port;
 		this.threads = threads;
 		this.rpcInvokeHook = rpcInvokeHook;
-		
 		rpcServerRequestHandler = new RpcServerRequestHandler(interfaceClass,serviceProvider, threads, rpcInvokeHook);
 		rpcServerRequestHandler.start();
 	}	
 	
-	public void start()
-	{
+	public void start() {
 		System.out.println("bind port:"+port + " success!");
 		
 		//simulation for receive RpcRequest

@@ -1,3 +1,4 @@
+/*
 package main.cn.lc.mylock;
 
 import java.awt.*;
@@ -9,9 +10,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+*/
 /**
  * Created by luochao.byron on 2017/7/5.
- */
+ *//*
+
 interface  defualtInter{
     public default  void test () {
         System.out.println("Defualt test");
@@ -58,3 +61,4 @@ public class test {
         }
     }
 }
+*/

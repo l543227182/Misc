@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 
 public class ClientService {
-	private static final String HOST = "127.0.0.1";
+	private static final String HOST = "lc-studio.cn";
 	private static final int PORT = 19999;
 	private static SocketChannel sc;
 	

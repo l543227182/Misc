@@ -74,7 +74,9 @@ public class ChatServer implements Runnable {
 				if (n > 0) {
 					//从选择器上获取已选择的key的集合并进行迭代
 					Iterator<SelectionKey> iter = selector.selectedKeys().iterator();
+					int size = 0;
 					while (iter.hasNext()) {
+						size++;
 						SelectionKey key = iter.next();
 						//若此key的通道是等待接受新的套接字连接
 						if (key.isAcceptable()) {
@@ -101,6 +103,7 @@ public class ChatServer implements Runnable {
 							writeMsg(key);
 						}
 					}
+					System.out.println(size);
 				}
 			}
 		} catch (IOException e) {
