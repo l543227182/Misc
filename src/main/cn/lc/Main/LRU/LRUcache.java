@@ -6,14 +6,14 @@ import java.util.Iterator;
 /**
  * Created by luochao.byron on 2017/9/25.
  */
-public class LRUcache implements Iterator{
+public class LRUcache<K,V> implements Iterator{
     @Override
     public boolean hasNext() {
         return pointer.pre != header;
     }
 
     @Override
-    public Object next() {
+    public V next() {
         Node pre = pointer.pre;
         pointer = pointer.pre;
         return pre.value;
@@ -26,14 +26,15 @@ public class LRUcache implements Iterator{
             pointer = tail;
         }
     }
+
     private Node pointer ;
     class Node {
-        private Object value;
-        private Object key;
+        private V value;
+        private K key;
         private int count;
         private Node next;
         private Node pre;
-        public Node(Object key,Object value){
+        public Node(K key,V value){
             this.key = key;
             this.value = value;
         }
@@ -44,7 +45,7 @@ public class LRUcache implements Iterator{
 
     private Node header;
     private Node tail;
-    private HashMap<Object,Node> map;
+    private HashMap<K,Node> map;
     private int capacity ;
     public LRUcache (int capacity) {
         this.capacity = capacity;
@@ -55,8 +56,10 @@ public class LRUcache implements Iterator{
         tail.pre = tail.next = header;
         pointer = tail;
     }
-
-    public void put (Object key,Object  value ){
+    public LRUcache (){
+        this(16);
+    }
+    public void put (K key,V  value ){
         assert key==null:"元素不能为空";
         if(map.containsKey(key)){
             map.get(key).value = value;
@@ -78,7 +81,7 @@ public class LRUcache implements Iterator{
         tail.next = header;
     }
 
-    public Object get(Object key){
+    public V get(K key){
         assert key==null:"键值元素不能为空";
         Node node = map.get(key);
         node.pre.next = node.next;
