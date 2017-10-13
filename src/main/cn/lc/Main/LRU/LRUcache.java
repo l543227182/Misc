@@ -82,7 +82,7 @@ public class LRUcache<K,V> implements Iterator{
     }
 
     public V get(K key){
-        assert key==null:"键值元素不能为空";
+        assert key!=null;
         Node node = map.get(key);
         node.pre.next = node.next;
         node.next.pre = node.pre;

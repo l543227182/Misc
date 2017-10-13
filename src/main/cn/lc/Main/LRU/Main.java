@@ -12,7 +12,7 @@ public class Main {
         lrUcache.put("12222","4");
         lrUcache.put("122222","5");
         lrUcache.put("1222222","6");
-        String s = lrUcache.get("12");
+        String s = lrUcache.get(null);
         lrUcache.put("jj","the lastest");
         while(lrUcache.hasNext()){
             System.out.println(lrUcache.next());
