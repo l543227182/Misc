@@ -1,12 +1,11 @@
-package lc.rpc.netty;
+package main.cn.lc.rpc.netty;
 
 
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import lc.rpc.RpcResponse;
-import lc.rpc.client.RpcClientChannelInactiveListener;
-
+import main.cn.lc.rpc.RpcResponse;
+import main.cn.lc.rpc.client.RpcClientChannelInactiveListener;
 
 public class RpcClientDispatchHandler extends ChannelInboundHandlerAdapter
 {
@@ -14,7 +13,7 @@ public class RpcClientDispatchHandler extends ChannelInboundHandlerAdapter
 	private RpcClientChannelInactiveListener rpcClientChannelInactiveListener = null;
 	
 	public RpcClientDispatchHandler(
-			 RpcClientResponseHandler rpcClientResponseHandler,
+			RpcClientResponseHandler rpcClientResponseHandler, 
 			RpcClientChannelInactiveListener rpcClientChannelInactiveListener)
 	{
 		this.rpcClientResponseHandler = rpcClientResponseHandler;

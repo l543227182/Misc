@@ -1,11 +1,10 @@
-package lc.rpc.Serializer;
+package main.cn.lc.rpc.Serializer;
 
-
+import main.cn.lc.rpc.RpcRequest;
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.Serializer;
 import com.esotericsoftware.kryo.io.Input;
 import com.esotericsoftware.kryo.io.Output;
-import lc.rpc.RpcRequest;
 
 public class RpcRequestSerializer extends Serializer<RpcRequest>
 {

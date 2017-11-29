@@ -1,5 +1,4 @@
-package lc.Main.LRU;
-
+package main.cn.lc.Main.LRU;
 
 /**
  * Created by luochao.byron on 2017/9/25.

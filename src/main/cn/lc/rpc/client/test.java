@@ -1,10 +1,7 @@
-package lc.rpc.client;
+package main.cn.lc.rpc.client;
 
-import lc.rpc.RpcInvokeHook;
-import lc.rpc.TestInterface;
-import lc.rpc.client.RpcClientAsyncProxy;
-import lc.rpc.client.RpcFuture;
-
+import main.cn.lc.rpc.RpcInvokeHook;
+import main.cn.lc.rpc.TestInterface;
 
 /**
  * Created by luochao.byron on 2017/9/11.
@@ -23,13 +20,13 @@ public class test {
         }
     };
     public static  void  testSynchronous(){
-        TestInterface build =  RpcClientProxyBuilder.create(TestInterface.class).hook(rpcInvokeHook).timeout(0).
+        TestInterface build = RpcClientProxyBuilder.create(TestInterface.class).hook(rpcInvokeHook).timeout(0).
                 connect("localhost",111).build();
         String hahaha = build.testMethod01("hahaha");
         System.out.println(hahaha);
     }
     public void testAynschronous(){
-        RpcClientAsyncProxy rpcClientAsyncProxy =  RpcClientProxyBuilder.create(TestInterface.class).timeout(0)
+        RpcClientAsyncProxy rpcClientAsyncProxy = RpcClientProxyBuilder.create(TestInterface.class).timeout(0)
                 .hook(rpcInvokeHook)
                 .connect("127.0.0.1", 3721).buildAsyncProxy();
         RpcFuture call = rpcClientAsyncProxy.call("testMethod01", "qwerty");

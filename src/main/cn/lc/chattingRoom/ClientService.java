@@ -1,4 +1,4 @@
-package lc.chattingRoom;
+package main.cn.lc.chattingRoom;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

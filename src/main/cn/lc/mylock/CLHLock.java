@@ -1,6 +1,4 @@
-package lc.mylock;
-
-import lc.mylock.Lock;
+package main.cn.lc.mylock;
 
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -8,7 +6,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * �޽��������ʹ��һ����������֯�߳�
  * ����L������n���̣߳���ô���Ŀռ临�Ӷ�ΪO(L+n)
  * **/
-public class CLHLock implements Lock {
+public class CLHLock implements Lock{
 	// ԭ�ӱ���ָ���β
 	private AtomicReference<QNode> tail;
 	// ����ָ�룬һ��ָ���Լ���Node,һ��ָ��ǰһ��Node

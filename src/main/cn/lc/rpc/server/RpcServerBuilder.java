@@ -1,7 +1,7 @@
-package lc.rpc.server;
+package main.cn.lc.rpc.server;
 
 
-import lc.rpc.RpcInvokeHook;
+import main.cn.lc.rpc.RpcInvokeHook;
 
 public class RpcServerBuilder
 {

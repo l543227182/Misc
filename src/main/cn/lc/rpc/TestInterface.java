@@ -1,4 +1,4 @@
-package lc.rpc;
+package main.cn.lc.rpc;
 
 public interface TestInterface
 {

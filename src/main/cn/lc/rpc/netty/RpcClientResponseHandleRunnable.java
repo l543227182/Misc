@@ -1,8 +1,7 @@
-package lc.rpc.netty;
+package main.cn.lc.rpc.netty;
 
-
-import lc.rpc.RpcResponse;
-import lc.rpc.client.RpcFuture;
+import main.cn.lc.rpc.RpcResponse;
+import main.cn.lc.rpc.client.RpcFuture;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentMap;

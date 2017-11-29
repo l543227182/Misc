@@ -1,4 +1,4 @@
-package lc.rpc.Serializer;
+package main.cn.lc.rpc.Serializer;
 
 
 import com.esotericsoftware.kryo.Kryo;
@@ -9,7 +9,7 @@ public class KryoHolder
 	{
 		protected Kryo initialValue() 
 		{
-			Kryo kryo = new lc.rpc.Serializer.KryoReflectionFactory();
+			Kryo kryo = new KryoReflectionFactory();
 						
 			return kryo;
 		};

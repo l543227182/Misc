@@ -1,4 +1,4 @@
-package lc.netty.nettytest.server;
+package main.cn.lc.netty.nettytest.server;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

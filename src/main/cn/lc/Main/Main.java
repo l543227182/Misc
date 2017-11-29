@@ -1,4 +1,4 @@
-package lc.Main;
+package main.cn.lc.Main;
 
 import java.io.IOException;
 import java.util.*;

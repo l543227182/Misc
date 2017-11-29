@@ -1,4 +1,4 @@
-package lc.demo;
+package main.cn.lc.demo;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

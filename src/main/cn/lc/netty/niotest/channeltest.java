@@ -1,4 +1,4 @@
-package lc.netty.niotest;
+package main.cn.lc.netty.niotest;
 
 import java.io.RandomAccessFile;
 import java.nio.channels.FileChannel;

@@ -1,8 +1,7 @@
-package lc.rpc.client;
+package main.cn.lc.rpc.client;
 
-
-import lc.rpc.RpcInvokeHook;
-import lc.rpc.TestInterface;
+import main.cn.lc.rpc.RpcInvokeHook;
+import main.cn.lc.rpc.TestInterface;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
@@ -27,7 +26,7 @@ public class RpcClient implements InvocationHandler
 		this.port = port;		
 	}
 	
-	public  RpcFuture call(String methodName, Object ... args)
+	public RpcFuture call(String methodName, Object ... args)
 	{
 		if(rpcInvokeHook != null)
 			rpcInvokeHook.beforeInvoke(methodName, args);
@@ -40,7 +39,7 @@ public class RpcClient implements InvocationHandler
 		System.out.println("");
 		
 		//simulation for remote invoke
-		 RpcFuture rpcFuture = new  RpcFuture();
+		RpcFuture rpcFuture = new RpcFuture();
 		TestThread testThread = new TestThread(rpcFuture, methodName, args);
 		testThread.start();
 		
@@ -50,7 +49,7 @@ public class RpcClient implements InvocationHandler
 	public Object invoke(Object proxy, Method method, Object[] args)
 			throws Throwable 
 	{		
-		 RpcFuture rpcFuture = call(method.getName(), args);
+		RpcFuture rpcFuture = call(method.getName(), args);
 		Object result;
 		if(timeoutMills == 0)
 			result = rpcFuture.get();
@@ -90,7 +89,7 @@ public class RpcClient implements InvocationHandler
 		Object[] args;
 		RpcFuture rpcFuture;
 		
-		public TestThread( RpcFuture rpcFuture, String methodName, Object[] args)
+		public TestThread(RpcFuture rpcFuture, String methodName, Object[] args)
 		{
 			this.rpcFuture = rpcFuture;
 			this.methodName = methodName;

@@ -1,4 +1,4 @@
-package lc.mylock;
+package main.cn.lc.mylock;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * ��һ���ڵ㳬ʱ���߱��жϣ���ô����ǰ���ڵ㲻Ϊ�ա������ڵ㿴������ǰ���ڵ㲻Ϊ�գ����Ҳ���AVAILABLEʱ��֪������ڵ��˳��ˣ��ͻ�������
  * ���ڵ������������ٽ���������ǰ���ڵ���Ա�����
  * **/
-public class TimeoutLock implements TryLock {
+public class TimeoutLock implements TryLock{
 	// ����Ϊ��̬��������ֹ����ʱ����
 	private static final QNode AVAILABLE = new QNode();
 	

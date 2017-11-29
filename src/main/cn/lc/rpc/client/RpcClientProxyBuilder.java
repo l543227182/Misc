@@ -1,6 +1,6 @@
-package lc.rpc.client;
+package main.cn.lc.rpc.client;
 
-import lc.rpc.RpcInvokeHook;
+import main.cn.lc.rpc.RpcInvokeHook;
 
 import java.lang.reflect.Proxy;
 

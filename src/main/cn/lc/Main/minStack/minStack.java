@@ -1,4 +1,4 @@
-package lc.Main.minStack;
+package main.cn.lc.Main.minStack;
 
 import java.io.IOException;
 import java.util.*;

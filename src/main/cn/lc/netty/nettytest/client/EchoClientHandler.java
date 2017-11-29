@@ -1,4 +1,4 @@
-package lc.netty.nettytest.client;
+package main.cn.lc.netty.nettytest.client;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufUtil;

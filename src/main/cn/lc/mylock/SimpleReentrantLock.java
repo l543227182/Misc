@@ -1,6 +1,4 @@
-package lc.mylock;
-
-import lc.mylock.Lock;
+package main.cn.lc.mylock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -9,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * �򵥵Ŀ�������ʵ�֣�ʹ��һ����������¼��ǰ�߳��������Ĵ����������ʱ��������1���ͷ���ʱ��������1��������������0ʱ��ʾ�ͷ�����
  * **/
-public class SimpleReentrantLock implements Lock {
+public class SimpleReentrantLock implements Lock{
     
     // ָ���Ѿ���������߳�
     private volatile Thread exclusiveOwnerThread;
