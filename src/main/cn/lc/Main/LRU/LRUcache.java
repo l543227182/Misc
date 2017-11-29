@@ -1,4 +1,4 @@
-package main.cn.lc.Main.LRU;
+package lc.Main.LRU;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package main.cn.lc.chattingRoom;
+package lc.chattingRoom;
 
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -46,8 +46,8 @@ public class SetNameFrame extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				String uname = txtName.getText();
-				ClientService service = ClientService.getInstance();
-				ChatFrame chatFrame = new ChatFrame(service, uname);
+				 ClientService service =  ClientService.getInstance();
+				 ChatFrame chatFrame = new  ChatFrame(service, uname);
 				chatFrame.show();
 				setVisible(false);
 			}

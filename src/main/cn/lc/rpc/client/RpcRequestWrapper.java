@@ -1,7 +1,8 @@
-package main.cn.lc.rpc.client;
+package lc.rpc.client;
 
 import io.netty.channel.Channel;
-import main.cn.lc.rpc.RpcRequest;
+import lc.rpc.RpcRequest;
+
 
 /**
  * wrap the RpcRequest and add a Channel field to keep the channel which this request is from

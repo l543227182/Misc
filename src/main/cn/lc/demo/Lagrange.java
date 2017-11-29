@@ -1,4 +1,4 @@
-package main.cn.lc.demo;
+package lc.demo;
 
 import java.util.Scanner;
 

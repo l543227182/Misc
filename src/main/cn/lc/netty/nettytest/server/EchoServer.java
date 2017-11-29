@@ -1,4 +1,4 @@
-package main.cn.lc.netty.nettytest.server;
+package lc.netty.nettytest.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;

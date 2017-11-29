@@ -1,4 +1,4 @@
-package main.cn.lc.rpc;
+package lc.rpc;
 
 /**
  * Invoke when RpcClient or RpcServer invoke a method. It is used 

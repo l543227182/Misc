@@ -1,10 +1,10 @@
-package main.cn.lc.rpc.netty;
+package lc.rpc.netty;
 
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
-import main.cn.lc.rpc.Serializer.KryoSerializer;
+import lc.rpc.Serializer.KryoSerializer;
 
 public class NettyKryoEncoder extends MessageToByteEncoder<Object>
 {	

@@ -1,12 +1,12 @@
-package main.cn.lc.rpc.netty;
+package lc.rpc.netty;
 
 
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import main.cn.lc.rpc.RpcRequest;
-import main.cn.lc.rpc.client.RpcRequestWrapper;
-import main.cn.lc.rpc.server.RpcServerRequestHandler;
+import lc.rpc.RpcRequest;
+import lc.rpc.client.RpcRequestWrapper;
+
 
 public class RpcServerDispatchHandler extends ChannelInboundHandlerAdapter
 {

@@ -1,7 +1,7 @@
-package main.cn.lc.rpc.client;
+package lc.rpc.client;
 
 
-public class RpcClientAsyncProxy 
+public class RpcClientAsyncProxy
 {
 	private RpcClient rpcClient;
 	
@@ -10,8 +10,8 @@ public class RpcClientAsyncProxy
 		this.rpcClient = rpcClient;
 	}
 	
-	public RpcFuture call(String methodName, Object ... args)
+	public  RpcFuture call(String methodName, Object ... args)
 	{
-		return (RpcFuture)rpcClient.call(methodName, args);				
+		return (RpcFuture)rpcClient.call(methodName, args);
 	}
 }

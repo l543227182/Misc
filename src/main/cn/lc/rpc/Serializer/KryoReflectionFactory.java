@@ -1,4 +1,4 @@
-package main.cn.lc.rpc.Serializer;
+package lc.rpc.Serializer;
 
 import java.lang.reflect.InvocationHandler;
 import java.net.URI;
@@ -13,12 +13,11 @@ import java.util.GregorianCalendar;
 import java.util.Map;
 import java.util.UUID;
 import java.util.regex.Pattern;
-
-import main.cn.lc.rpc.RpcRequest;
-import main.cn.lc.rpc.RpcResponse;
 import com.esotericsoftware.kryo.Serializer;
 import com.esotericsoftware.kryo.serializers.DefaultSerializers;
 import de.javakaffee.kryoserializers.*;
+import lc.rpc.RpcRequest;
+import lc.rpc.RpcResponse;
 
 
 public class KryoReflectionFactory extends KryoReflectionFactorySupport
@@ -27,8 +26,8 @@ public class KryoReflectionFactory extends KryoReflectionFactorySupport
 	{
 		this.setRegistrationRequired(false);
 		setReferences(true); 
-		register(RpcRequest.class, new RpcRequestSerializer());
-		register(RpcResponse.class, new RpcResponseSerializer());
+		register(RpcRequest.class, new   lc.rpc.Serializer.RpcRequestSerializer());
+		register(RpcResponse.class, new  lc.rpc.Serializer.RpcResponseSerializer());
         register(Arrays.asList("").getClass(), new ArraysAsListSerializer());
         register(Collections.EMPTY_LIST.getClass(), new DefaultSerializers.CollectionsEmptyListSerializer());
         register(Collections.EMPTY_MAP.getClass(), new CollectionsEmptyMapSerializer());

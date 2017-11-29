@@ -1,4 +1,4 @@
-package main.cn.lc.rpc.Serializer;
+package lc.rpc.Serializer;
 
 import java.io.IOException;
 

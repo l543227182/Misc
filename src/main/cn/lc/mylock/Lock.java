@@ -1,4 +1,4 @@
-package main.cn.lc.mylock;
+package lc.mylock;
 
 public interface Lock {
     public void lock();  

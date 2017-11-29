@@ -1,4 +1,4 @@
-package main.cn.lc.rpc.client;
+package lc.rpc.client;
 
 public interface RpcClientChannelInactiveListener 
 {

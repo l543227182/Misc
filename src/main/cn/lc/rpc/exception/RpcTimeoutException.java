@@ -1,4 +1,4 @@
-package main.cn.lc.rpc.exception;
+package lc.rpc.exception;
 
 /**
  * Created by luochao.byron on 2017/9/11.

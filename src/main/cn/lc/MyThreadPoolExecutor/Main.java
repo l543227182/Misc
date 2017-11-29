@@ -1,4 +1,4 @@
-package main.cn.lc.MyThreadPoolExecutor;
+package lc.MyThreadPoolExecutor;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Main {
     public static AtomicInteger j = new AtomicInteger(0);
     public static void main(String args[])  {
-        ThreadPoolExecutor poolExecutor =ThreadPoolExecutor.newInstance();
+     ThreadPoolExecutor poolExecutor = ThreadPoolExecutor.newInstance();
         for(int i = 0;i<8 ;i++){
             poolExecutor.execute(new Runnable() {
                 @Override

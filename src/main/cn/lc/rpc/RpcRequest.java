@@ -1,4 +1,4 @@
-package main.cn.lc.rpc;
+package lc.rpc;
 
 public class RpcRequest 
 {

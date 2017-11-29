@@ -1,4 +1,4 @@
-package main.cn.lc.mylock;
+package lc.mylock;
 
 import java.util.concurrent.TimeUnit;
 

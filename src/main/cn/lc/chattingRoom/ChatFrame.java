@@ -1,4 +1,6 @@
-package main.cn.lc.chattingRoom;
+package lc.chattingRoom;
+
+import lc.chattingRoom.ClientService;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

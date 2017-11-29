@@ -1,4 +1,4 @@
-package main.cn.lc.unzip;
+package lc.unzip;
 
 import net.sf.sevenzipjbinding.*;
 import net.sf.sevenzipjbinding.impl.RandomAccessFileInStream;

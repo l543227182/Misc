@@ -1,7 +1,8 @@
-package main.cn.lc.rpc.client;
+package lc.rpc.client;
 
-import main.cn.lc.rpc.RpcFutureListener;
-import main.cn.lc.rpc.exception.RpcTimeoutException;
+
+import lc.rpc.RpcFutureListener;
+import lc.rpc.exception.RpcTimeoutException;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
