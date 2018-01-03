@@ -26,7 +26,6 @@ public class SimpleReentrantLock implements Lock{
         holdCount = 0;
     }
     
-    @Override
     public void lock() {
         lock.lock();
         try{
@@ -53,7 +52,6 @@ public class SimpleReentrantLock implements Lock{
         }
     }
 
-    @Override
     public void unlock() {
         lock.lock();
         try{

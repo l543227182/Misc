@@ -1,14 +1,7 @@
 package main.cn.lc.demo;
 
 
-import javafx.concurrent.Task;
 
-import java.awt.*;
-import java.util.BitSet;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * Created by luochao.byron on 2017/7/4.

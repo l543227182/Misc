@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * �޽��������ʹ��һ����������֯�߳�
  * ����L������n���̣߳���ô���Ŀռ临�Ӷ�ΪO(L+n)
  * **/
-public class CLHLock implements Lock{
+public class CLHLock implements  Lock {
 	// ԭ�ӱ���ָ���β
 	private AtomicReference<QNode> tail;
 	// ����ָ�룬һ��ָ���Լ���Node,һ��ָ��ǰһ��Node
@@ -27,7 +27,6 @@ public class CLHLock implements Lock{
 		};
 	}
 	
-	@Override
 	public void lock() {
 		QNode node = myNode.get();
 		node.lock = true;
@@ -41,7 +40,6 @@ public class CLHLock implements Lock{
 		}
 	}
 
-	@Override
 	public void unlock() {
 		QNode node = myNode.get();
 		node.lock = false;

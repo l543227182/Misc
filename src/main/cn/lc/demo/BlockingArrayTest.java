@@ -13,8 +13,6 @@ public class BlockingArrayTest {
 		
 		for(int i = 0; i < 100; i ++){
 			Thread t = new Thread(new Runnable(){
-	
-				@Override
 				public void run() {
 					try {
 						blockingArray.put(count.incrementAndGet());
@@ -30,7 +28,6 @@ public class BlockingArrayTest {
 		for(int i = 0; i < 100; i ++){
 			Thread t = new Thread(new Runnable(){
 	
-				@Override
 				public void run() {
 					try {
 						blockingArray.take();

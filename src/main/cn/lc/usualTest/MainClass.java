@@ -1,4 +1,4 @@
-package main.cn.lc.unzip;
+package main.cn.lc.usualTest;
 
 import net.sf.sevenzipjbinding.*;
 import net.sf.sevenzipjbinding.impl.RandomAccessFileInStream;

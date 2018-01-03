@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * �޽��������ʹ��һ����������֯�߳�
  * ����L������n���̣߳���ô���Ŀռ临�Ӷ�ΪO(L+n)
  * **/
-public class MCSLock implements Lock{
+public class MCSLock implements  Lock {
 	// ԭ�ӱ���ָ���β
 	private AtomicReference<QNode> tail;
 	// ����ָ�룬һ��ָ���Լ���Node,һ��ָ��ǰһ��Node
@@ -20,8 +20,7 @@ public class MCSLock implements Lock{
 			}
 		};
 	}
-	
-	@Override
+
 	public void lock() {
 		QNode node = myNode.get();
 		// CASԭ�Ӳ�������֤ԭ����
@@ -37,7 +36,6 @@ public class MCSLock implements Lock{
 		}
 	}
 
-	@Override
 	public void unlock() {
 		QNode node = myNode.get();
 		if(node.next == null){

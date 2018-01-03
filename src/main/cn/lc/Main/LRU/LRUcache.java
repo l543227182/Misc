@@ -84,8 +84,14 @@ public class LRUcache<K,V> implements Iterator{
     public V get(K key){
         assert key!=null;
         Node node = map.get(key);
+        if(node == null) {
+            return null;
+        }
+        // del node
         node.pre.next = node.next;
         node.next.pre = node.pre;
+
+        // LRU
         addTailNode(node);
         return node.value;
     }
