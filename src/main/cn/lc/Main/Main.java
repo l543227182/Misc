@@ -1,6 +1,10 @@
 package main.cn.lc.Main;
 
+import jdk.nashorn.internal.parser.JSONParser;
+import org.springframework.web.servlet.ViewResolver;
+
 import java.io.IOException;
+import java.lang.reflect.Proxy;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -15,10 +19,11 @@ interface  test{
 /** * Created by humac on 2017/9/7. */
 public class Main {
   public static void main(String args[]) throws IOException {
-      bitMapTest();
+      // bitMapTest();
       LinkedHashMap link=new LinkedHashMap();
   }
 
+  private static ThreadLocal  tl =new ThreadLocal();
     public static void bitMapTest(){
         int[] a={1,2,3,4,5,6,78,9,5,66,22,3,112,1233,555};
         BitSet bs=new BitSet();
@@ -26,6 +31,9 @@ public class Main {
             bs.set(item,true);
         });
         System.out.print(bs.size());
+
+        tl.set("11");
+        tl.get();
     }
     private static void function2(){
         String[] str={"1","12","a231","A231","222"};
