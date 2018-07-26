@@ -7,14 +7,26 @@ import net.sf.sevenzipjbinding.simple.ISimpleInArchiveItem;
 
 import java.io.*;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * Created by luochao.byron on 2017/7/7.
  */
 public class MainClass {
     public static void main(String[] args){
-        unzipDirWithPassword("D:\\download\\demo.zip","D:\\download\\demo","123asd");
+        //unzipDirWithPassword("D:\\download\\demo.zip","D:\\download\\demo","123asd");
+
+        StringBuffer sb= new StringBuffer(12);
+        String task_id = "123321";
+        String sql = String.format("select * from t_notifytasks where task_id like% %s$1 %",task_id);
+        System.out.println(sql);
+
+        Map<String ,String > targetMap = new HashMap<String,String>();
+
     }
+
     public static void unzipDirWithPassword( final String sourceZipFile ,
                                       final String destinationDir , final String password ){
         RandomAccessFile randomAccessFile = null;

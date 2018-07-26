@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JsonUtils">
+    <output-path>$PROJECT_DIR$/out/artifacts/JsonUtils</output-path>
+    <root id="archive" name="JsonUtils.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/target/classes/main/cn/lc/usualTest/JsonUtils.class" />
+      <element id="file-copy" path="$PROJECT_DIR$/target/classes/main/cn/lc/usualTest/JsonUtils$TrieNode.class" />
+    </root>
+  </artifact>
+</component>
