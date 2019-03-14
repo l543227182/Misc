@@ -5,6 +5,7 @@ import com.lc.web.Model.itemComment;
 import com.lc.web.service.DataService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Request;
 import us.codecraft.webmagic.Site;
@@ -24,6 +25,7 @@ import java.io.OutputStreamWriter;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
+@Component
 public class mainCrawler implements PageProcessor {
     private Site site = Site.me().setRetryTimes(3).setSleepTime(1000).setTimeOut(10000);
     public static ConcurrentHashMap<String,crawlerBean> pageMap=new ConcurrentHashMap<String,crawlerBean>();

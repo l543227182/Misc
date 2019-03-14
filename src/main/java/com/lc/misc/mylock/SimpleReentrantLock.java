@@ -5,19 +5,19 @@ import java.util.concurrent.locks.ReentrantLock;
 
 
 /**
- * �򵥵Ŀ�������ʵ�֣�ʹ��һ����������¼��ǰ�߳��������Ĵ����������ʱ��������1���ͷ���ʱ��������1��������������0ʱ��ʾ�ͷ�����
- * **/
+ 简单的自定义排它锁
+ */
 public class SimpleReentrantLock implements Lock{
     
-    // ָ���Ѿ���������߳�
+    // 拥有执行权的线程
     private volatile Thread exclusiveOwnerThread;
     
-    // ��¼��ȡ��ͬһ�����Ĵ���
+    // 应该是lock了几次
     private volatile int holdCount;
     
     private final java.util.concurrent.locks.Lock lock;
     
-    // �Ƿ����Լ������������
+    // wati notify
     private final Condition isCountZero;
     
     public SimpleReentrantLock(){
@@ -29,14 +29,14 @@ public class SimpleReentrantLock implements Lock{
     public void lock() {
         lock.lock();
         try{
-            // ��ǰ�̵߳�����
+
             Thread currentThread = Thread.currentThread();
-            // �����������߳����Լ�����ô��������1��ֱ�ӷ���
-            if(exclusiveOwnerThread == currentThread){
+            // 如果是当前线程 hold++
+           if(exclusiveOwnerThread == currentThread){
                 holdCount ++;
                 return;
             }
-            
+            // 否则线程进入等待
             while(holdCount != 0){
                 try {
                     isCountZero.await();
@@ -44,7 +44,7 @@ public class SimpleReentrantLock implements Lock{
                     throw new RuntimeException("Interrupted");
                 }
             }
-            // ��exclusiveOwnerThread����Ϊ�Լ�
+            //
             exclusiveOwnerThread = currentThread;
             holdCount ++;
         }finally{
@@ -56,6 +56,7 @@ public class SimpleReentrantLock implements Lock{
         lock.lock();
         try{
             holdCount --;
+            // 唤醒所有 公平争抢锁
             if(holdCount == 0){
                 isCountZero.signalAll();
             }
