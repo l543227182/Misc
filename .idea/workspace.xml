@@ -3,8 +3,145 @@
   <component name="ChangeListManager">
     <list default="true" id="d5a6f629-f925-4f2c-8798-9419fd06a0c9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Misc.iml" afterPath="$PROJECT_DIR$/Misc.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Demo04.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MiscApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/ConsistentHashing/ConsistentHashingWithoutVirtualNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/Main/LRU/LRUcache$Node.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/Main/LRU/LRUcache.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/Main/LRU/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/Main/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/Main/minStack/minStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/Main/test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/MyThreadPoolExecutor/Main$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/MyThreadPoolExecutor/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/MyThreadPoolExecutor/ThreadFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/MyThreadPoolExecutor/ThreadPoolExecutor$Worker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/MyThreadPoolExecutor/ThreadPoolExecutor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/algorithm/theLargePalindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/ChatFrame$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/ChatFrame$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/ChatFrame$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/ChatFrame$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/ChatFrame$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/ChatFrame$MsgThread.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/ChatFrame.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/ChatServer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/ClientService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/SetNameFrame$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/chattingRoom/SetNameFrame.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/A.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/A_Father.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/B.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/DecrptClassLoader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/Demo01.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/Demo02.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/Demo03.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/Demo05.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/EncrptUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/FileSystemClassLoader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/MyClassLoader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/classLoader/NetClassLoader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/demo/A.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/demo/BlockingArrayTest$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/demo/BlockingArrayTest$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/demo/BlockingArrayTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/demo/BlockingArrayWithCondition.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/demo/Lagrange.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/demo/MyClassLoader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/demo/Sample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/demo/hello$EventType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/demo/hello.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/CLHLock$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/CLHLock$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/CLHLock$QNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/CLHLock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/Lock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/MCSLock$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/MCSLock$QNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/MCSLock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/SimpleReentrantLock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/TimeoutLock$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/TimeoutLock$QNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/TimeoutLock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/mylock/TryLock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/netty/nettytest/client/EchoClient$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/netty/nettytest/client/EchoClient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/netty/nettytest/client/EchoClientHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/netty/nettytest/nettydemo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/netty/nettytest/server/EchoServer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/netty/nettytest/server/EchoServer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/netty/nettytest/server/EchoServerHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/netty/nettytest/server/SimpleChatServerHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/netty/niotest/channeltest$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/netty/niotest/channeltest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/JsonUtils2$TrieNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/JsonUtils2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/RpcFutureListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/RpcInvokeHook.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/RpcRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/RpcResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/Serializer/KryoHolder$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/Serializer/KryoHolder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/Serializer/KryoReflectionFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/Serializer/KryoSerializer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/Serializer/RpcRequestSerializer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/Serializer/RpcResponseSerializer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/TestInterface.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/RpcClient$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/RpcClient$TestThread.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/RpcClient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/RpcClientAsyncProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/RpcClientChannelInactiveListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/RpcClientProxyBuilder$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/RpcClientProxyBuilder$ProxyBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/RpcClientProxyBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/RpcFuture.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/RpcRequestWrapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/test$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/client/test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/exception/RpcTimeoutException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/netty/NettyKryoDecoder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/netty/NettyKryoEncoder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/netty/RpcClientDispatchHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/netty/RpcClientResponseHandleRunnable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/netty/RpcClientResponseHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/netty/RpcServerDispatchHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/netty/RpcServerRequestHandleRunnable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/netty/RpcServerRequestHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/server/RpcServer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/server/RpcServerBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/server/RpcServerRequestHandleRunnable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/server/RpcServerRequestHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/server/test$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/server/test$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/rpc/server/test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/DateSort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/EnumTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/JsonUtils$TrieNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/JsonUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/ScheduleTaskParamsAnalyszer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/SpringTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/TestExcel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/bitSetTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/execThread.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/flatMapTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/isNotTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/sortTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/usualTest/test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/utils/Maps.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/misc/utils/Utils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/web/Mapper/DataMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/web/Mapper/SubDataMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/web/Model/crawlerBean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/web/Model/itemComment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/web/controller/indexController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/web/crawler/mainCrawler$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/web/crawler/mainCrawler$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/web/crawler/mainCrawler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/web/service/DataService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lc/web/utils/StringArrayTypeHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lc/usualTest/genAsciiImage.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,12 +153,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/spring/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="909">
+              <caret line="119" column="21" lean-forward="false" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Misc.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Misc.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2467">
+              <caret line="131" column="63" lean-forward="false" selection-start-line="131" selection-start-column="63" selection-end-line="131" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -137,10 +294,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/SpringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MiscApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/isNotTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/TestExcel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/spring/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -209,9 +366,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,73 +375,12 @@
               <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
               <item name="Misc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lc" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +427,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MiscApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -515,8 +610,8 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Application.isNotTest" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.MiscApplication" />
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.MiscApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Application.isNotTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.flatMapTest" />
       <item index="3" class="java.lang.String" itemvalue="Application.ConsistentHashingWithoutVirtualNode" />
       <item index="4" class="java.lang.String" itemvalue="Application.DateSort" />
@@ -569,7 +664,8 @@
       <workItem from="1551790522608" duration="1306000" />
       <workItem from="1551936922595" duration="1745000" />
       <workItem from="1552295062648" duration="3789000" />
-      <workItem from="1552552705536" duration="1584000" />
+      <workItem from="1552552705536" duration="1592000" />
+      <workItem from="1552615834338" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="修改目录结构,springboot">
       <created>1543912073428</created>
@@ -582,25 +678,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93709000" />
+    <option name="totallyTimeSpent" value="93752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3008658" sideWeight="0.6140725" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28464818" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104477614" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37555555" sideWeight="0.3859275" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28944564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29264393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -613,10 +712,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3588889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6078838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -705,13 +802,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/EventObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/jre/lib/ext/jfxrt.jar!/com/sun/deploy/uitoolkit/impl/fx/ui/CertificateDialog.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -828,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,14 +1090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="108" column="40" lean-forward="false" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final.jar!/io/netty/util/concurrent/AbstractEventExecutor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -1063,6 +1144,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="909">
+          <caret line="119" column="21" lean-forward="false" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Misc.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2467">
+          <caret line="131" column="63" lean-forward="false" selection-start-line="131" selection-start-column="63" selection-end-line="131" selection-end-column="63" />
           <folding />
         </state>
       </provider>
