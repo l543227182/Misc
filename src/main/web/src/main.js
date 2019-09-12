@@ -36,7 +36,13 @@ Vue.config.productionTip = false
 
 import uploader from 'vue-simple-uploader'
 Vue.use(uploader)
+import VueVideoPlayer from 'vue-video-player'
 
+// require videojs style
+import 'video.js/dist/video-js.css'
+// import 'vue-video-player/src/custom-t
+
+Vue.use(VueVideoPlayer)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

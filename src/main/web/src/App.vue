@@ -16,7 +16,7 @@
         <el-menu theme="dark"  :default-openeds="['1']" :default-active='routerMatch.path'>
           <el-menu-item index="/home" @click="routePush('index')">主页</el-menu-item>
          <el-menu-item index="/test" @click="routePush('test')">测试</el-menu-item>
-         <el-menu-item index="/upload" @click="routePush('upload')">upload</el-menu-item>
+         <el-menu-item index="/upload" @click="routePush('video')">视频</el-menu-item>
           <!-- <el-menu-item index="/manual" @click="routePush('manualArea')">手动开区</el-menu-item>
           <el-menu-item index="/recommendation" @click="routePush('recomList')">推荐区调整</el-menu-item>
           <el-menu-item index="/areaParam" @click="routePush('areaParam')">开区参数</el-menu-item>

@@ -65,7 +65,8 @@ public class indexController {
     @ExceptionHandler(Exception.class)
     @ResponseBody
     public String handleError(HttpServletRequest req, Exception exception) {
-    return "hello world";
+        exception.printStackTrace();
+        return "hello world";
     }
 
     @GetMapping("/getTask")
