@@ -20,7 +20,7 @@ export default {
     let instance = axios.create(options || {})
     instance.interceptors.request.use(function (config) {
       // Do something before request is sent
-      config.url = '/api' + config.url
+      // config.url = '/api' + config.url
       return config
     })
     // Add a response interceptor

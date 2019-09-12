@@ -1,0 +1,63 @@
+{
+  "agent": {
+    "version": "7.2.0",
+    "ephemeral_id": "5253282b-a14f-433b-bb66-562ecbed0971",
+    "type": "daemonbeat",
+    "hostname": "SH-luochao",
+    "id": "005595f4-9cce-4e51-84e5-12f8057b474c",
+    "name": "daemonbeat"
+  },
+  "counter": 4367,
+  "fields": {
+    "project_id": 39,
+    "private_ip": "10.246.124.26",
+    "collect_instance": [
+      417,
+      256
+    ],
+    "server_id": "lc",
+    "os_type": "WINDOWS"
+  },
+  "host": {
+    "name": "daemonbeat"
+  },
+  "tags": [
+    "beats_input_raw_event"
+  ],
+  "ecs": {
+    "version": "1.0.0"
+  },
+  "daemonbeat": {
+    "ymlmd5": "",
+    "enable": true,
+    "2268": {
+      "cpu": "0.00",
+      "daemonbeat": "2268",
+      "memory": "0.13"
+    },
+    "fields": {}
+  },
+  "type": "daemonbeat",
+  "allbeats": {
+    "processbeat": {
+      "ymlmd5": "326d2928661d9576763c49ff1088dc53",
+      "enable": false,
+      "fields": {
+        "ymlver": "1",
+        "beatver": "1.0.0",
+        "id": 504
+      }
+    },
+    "metricbeat": {
+      "ymlmd5": "756f15a7b8bad1b57676ad2a77ec6796",
+      "enable": false,
+      "fields": {
+        "ymlver": "7",
+        "beatver": "6.2.2",
+        "id": 482
+      }
+    }
+  },
+  "@version": "1",
+  "@timestamp": "2019-07-18T02:40:47.903Z"
+}

@@ -34,6 +34,9 @@ FilterInstall(Vue)
 
 Vue.config.productionTip = false
 
+import uploader from 'vue-simple-uploader'
+Vue.use(uploader)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

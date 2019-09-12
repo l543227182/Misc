@@ -1,0 +1,115 @@
+{
+  "host": {
+    "name": "daemonbeat"
+  },
+  "counter": 7419,
+  "@version": "1",
+  "tags": [
+    "beats_input_raw_event"
+  ],
+  "agent": {
+    "id": "40c8b65b-9613-4d55-82e4-7054168fc0f2",
+    "ephemeral_id": "44b5909f-5370-4376-b701-551b033a5323",
+    "hostname": "host-172-16-0-12",
+    "version": "7.2.0",
+    "type": "daemonbeat",
+    "name": "daemonbeat"
+  },
+  "ecs": {
+    "version": "1.0.0"
+  },
+  "type": "daemonbeat",
+  "allbeats": {
+    "processbeat": {
+      "enable": true,
+      "processbeat": {
+        "memory": "41824",
+        "cpu": "0.00",
+        "pid": "25854"
+      },
+      "ymlmd5": "dd96e074e6b118ba27c56118bf16b40d",
+      "fields": {
+        "id": 481,
+        "beatver": "1.0.0",
+        "ymlver": "18"
+      }
+    },
+    "nettoolbeat": {
+      "enable": true,
+      "nettoolbeat": {
+        "memory": "16864",
+        "cpu": "0.00",
+        "pid": "15648"
+      },
+      "ymlmd5": "4e9b8f3470e9878a01783c109b99494a",
+      "fields": {
+        "id": 467,
+        "beatver": "1.0.0",
+        "ymlver": "9"
+      }
+    },
+    "filebeat": {
+      "enable": true,
+      "filebeat": {
+        "memory": "18280",
+        "cpu": "0.00",
+        "pid": "15537"
+      },
+      "ymlmd5": "b60dec960c5385dd021178f344cef03b",
+      "fields": {
+        "id": 475,
+        "beatver": "6.2.2",
+        "ymlver": "6"
+      }
+    },
+    "metricbeat": {
+      "enable": true,
+      "ymlmd5": "298fd74eac512d2f7b5ea2600db81a51",
+      "metricbeat": {
+        "memory": "71028",
+        "cpu": "0.00",
+        "pid": "15597"
+      },
+      "fields": {
+        "id": 486,
+        "beatver": "6.2.2",
+        "ymlver": "22"
+      }
+    },
+    "journalbeat": {
+      "journalbeat": {
+        "memory": "19768",
+        "cpu": "0.00",
+        "pid": "15565"
+      },
+      "enable": true,
+      "ymlmd5": "76f48263ca92de427119d24435a54334",
+      "fields": {
+        "id": 471,
+        "beatver": "5.6.9",
+        "ymlver": "5"
+      }
+    }
+  },
+  "@timestamp": "2019-07-01T05:42:22.151Z",
+  "daemonbeat": {
+    "enable": true,
+    "ymlmd5": "",
+    "daemonbeat": {
+      "memory": "40352",
+      "cpu": "0.00",
+      "pid": "19931"
+    },
+    "fields": {}
+  },
+  "fields": {
+    "public_ip": "116.211.26.85",
+    "os_type": "LINUX",
+    "collect_instance": [
+      459
+    ],
+    "project_id": 39,
+    "server_id": "dmp:86248",
+    "private_ip": "172.16.0.12"
+  }
+}

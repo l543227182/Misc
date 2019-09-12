@@ -29,7 +29,6 @@ public class SimpleChatServerHandler extends SimpleChannelInboundHandler<String>
 		Channel incoming = ctx.channel();
 		// Broadcast a message to multiple Channels
 		channels.writeAndFlush(getSendByteBuf("[SERVER] - " + incoming.remoteAddress() + " 离开\n"));
-
 		// A closed Channel is automatically removed from ChannelGroup,
 		// so there is no need to do "channels.remove(ctx.channel());"
     }

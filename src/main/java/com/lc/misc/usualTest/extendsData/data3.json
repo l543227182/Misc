@@ -1,0 +1,70 @@
+{
+  "agent": {
+    "version": "7.2.0",
+    "ephemeral_id": "a5713ce7-111a-4252-a8d8-5c2df1ebfaf4",
+    "type": "daemonbeat",
+    "hostname": "localhost.localdomain",
+    "id": "eaeb9c33-5c4f-4b95-83b1-0bc6e9152b4e",
+    "name": "daemonbeat"
+  },
+  "counter": 4509,
+  "fields": {
+    "private_ip": "10.15.10.60",
+    "public_ip": "123.59.98.60",
+    "server_id": "test_60",
+    "project_id": 39,
+    "collect_instance": [394, 466],
+    "os_type": "LINUX"
+  },
+  "host": {
+    "name": "daemonbeat"
+  },
+  "tags": ["beats_input_raw_event"],
+  "ecs": {
+    "version": "1.0.0"
+  },
+  "type": "daemonbeat",
+  "daemonbeat": {
+    "ymlmd5": "",
+    "enable": true,
+    "fields": {},
+    "daemonbeat": {
+      "cpu": "5",
+      "pid": "3546",
+      "memory": "daemonbeat"
+    }
+  },
+  "allbeats": {
+    "processbeat": {
+      "ymlmd5": "3d499b007588e37223a565be02e147a4",
+      "enable": true,
+      "processbeat": {
+        "cpu": "-1",
+        "pid": "",
+        "memory": "-1"
+      },
+      "fields": {
+        "ymlver": "3",
+        "beatver": "1.0.0",
+        "id": 488
+      },
+      "beatexist": false
+    },
+    "metricbeat": {
+      "ymlmd5": "0198e041cb9a4e2b629b871a27f850a6",
+      "enable": true,
+      "fields": {
+        "ymlver": "30",
+        "beatver": "6.2.2",
+        "id": 485
+      },
+      "metricbeat": {
+        "cpu": "1",
+        "pid": "3785",
+        "memory": "metricbeat"
+      }
+    }
+  },
+  "@version": "1",
+  "@timestamp": "2019-07-01T05:40:19.464Z"
+}

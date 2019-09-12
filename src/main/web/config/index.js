@@ -34,7 +34,12 @@ module.exports = {
           '^/api': '/'
         },
         changeOrigin: true
-      }
+      },
+      '/webapi': {
+        target: 'https://job.gcloud.com.cn', // develop server, add hosts: 116.211.24.83 	job.gcloud.com.cn
+        secure: false,
+        changeOrigin: true
+      },
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README

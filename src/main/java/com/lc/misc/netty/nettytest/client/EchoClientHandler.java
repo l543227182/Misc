@@ -1,7 +1,5 @@
 package com.lc.misc.netty.nettytest.client;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufUtil;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -13,6 +11,7 @@ public class EchoClientHandler extends SimpleChannelInboundHandler<String> {
 	public void channelActive(ChannelHandlerContext ctx) throws Exception {
 		ctx.write(Unpooled.copiedBuffer("Hello!",CharsetUtil.UTF_8));
 		ctx.flush();
+		EchoClient.class.getClassLoader();
 	}
 
 	@Override
