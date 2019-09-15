@@ -16,7 +16,7 @@ public class VideoController {
      private long ChunkSize = 1000000L;
     @GetMapping("/videos/{name}")
     public ResponseEntity playVideo(@PathVariable String name,@RequestHeader HttpHeaders headers) throws Exception {
-        val video = new UrlResource("file:D:\\download\\chrome下载\\1.mp4");
+        val video = new UrlResource("file:/Users/luochao/Downloads/VID_20141229_113601.mp4");
         val region = resourceRegion(video, headers);
         return ResponseEntity.status(HttpStatus.PARTIAL_CONTENT)
                 .contentType(MediaTypeFactory.getMediaType(video).orElse(MediaType.APPLICATION_OCTET_STREAM))

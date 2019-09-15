@@ -65,7 +65,7 @@ public class ResourceRegionMessageWiter implements HttpMessageWriter<ResourceReg
                 headers.setContentLength(end - start + 1);
                 return zeroCopy(resourceRegion.getResource(), resourceRegion, response)
                         .orElseGet(() -> {
-                            val input = Mono.just(resourceRegion);
+                            Mono<? extends ResourceRegion> input = Mono.just(resourceRegion);
                             val body = this.regionEncoder.encode(input, response.bufferFactory(), REGION_TYPE, resourceMediaType, Maps.newHashMap());
                             return response.writeWith(body);
                         });

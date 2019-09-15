@@ -6,15 +6,11 @@ import com.lc.web.Model.SyncTaskResp;
 import com.lc.web.Model.crawlerBean;
 import com.lc.web.crawler.mainCrawler;
 import com.lc.web.service.MockService;
-import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpServletRequest;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -54,19 +50,12 @@ public class indexController {
         System.out.println(file);
         try {
             String name = UUID.randomUUID().toString();
-            IOUtils.copy(file.getInputStream(),new FileOutputStream(new File("F:\\uploadFile", name + ".chunk")));
+           //IOUtils.copy(file.getInputStream(),new FileOutputStream(new File("F:\\uploadFile", name + ".chunk")));
             return  name;
         } catch (Exception e) {
             e.printStackTrace();
         }
         return  "error";
-    }
-
-    @ExceptionHandler(Exception.class)
-    @ResponseBody
-    public String handleError(HttpServletRequest req, Exception exception) {
-        exception.printStackTrace();
-        return "hello world";
     }
 
     @GetMapping("/getTask")
