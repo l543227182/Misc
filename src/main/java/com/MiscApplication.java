@@ -11,11 +11,4 @@ public class MiscApplication {
 
 	}
 
-	public static void runWeb(){
-	}
-
-	public static void runWebFlux() {
-
-	}
-
 }

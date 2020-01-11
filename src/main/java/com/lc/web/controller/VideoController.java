@@ -1,3 +1,4 @@
+/*
 package com.lc.web.controller;
 
 import lombok.val;
@@ -36,3 +37,4 @@ public class VideoController {
         }
     }
 }
+*/

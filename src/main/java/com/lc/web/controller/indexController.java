@@ -35,7 +35,7 @@ public class indexController {
 
     @RequestMapping("/getCrawlerData")
     @ResponseBody
-    public Map getCrawlerData( @RequestParam(defaultValue = "1") String start, @RequestParam(defaultValue = "10") String pageSize) {
+    public Map getCrawlerData(@RequestParam(defaultValue = "1") String start, @RequestParam(defaultValue = "10") String pageSize) {
         HashMap<String,Object> map=new HashMap<>();
         List<crawlerBean> crawlerBeans = dataMapper.selectDataForPage(Integer.valueOf(start), Integer.valueOf(pageSize));
         int total = dataMapper.countData();
@@ -69,4 +69,6 @@ public class indexController {
     public SyncProjResp getProj() {
         return mockService.getProj();
     }
+
+
 }

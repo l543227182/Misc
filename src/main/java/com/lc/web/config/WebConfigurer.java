@@ -1,3 +1,4 @@
+/*
 package com.lc.web.config;
 
 import com.lc.web.converter.ResourceRegionMessageWiter;
@@ -15,3 +16,4 @@ public class  WebConfigurer implements WebFluxConfigurer {
 	}
 
 }
+*/

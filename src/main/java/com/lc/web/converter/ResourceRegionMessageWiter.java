@@ -1,3 +1,4 @@
+/*
 package com.lc.web.converter;
 
 import com.google.common.collect.Maps;
@@ -85,6 +86,7 @@ public class ResourceRegionMessageWiter implements HttpMessageWriter<ResourceReg
                     return message.writeWith(body);
                 });
     }
+
     private MediaType getResourceMediaType(MediaType mediaType, Resource resource) {
         if (mediaType != null && mediaType.isConcrete() && mediaType != MediaType.APPLICATION_OCTET_STREAM) {
             return mediaType;
@@ -93,8 +95,8 @@ public class ResourceRegionMessageWiter implements HttpMessageWriter<ResourceReg
         }
     }
 
-    private Optional<Mono<Void>>  zeroCopy( Resource resource,ResourceRegion region,
-                                            ReactiveHttpOutputMessage message) {
+    private Optional<Mono<Void>> zeroCopy(Resource resource, ResourceRegion region,
+                                          ReactiveHttpOutputMessage message) {
         if (message instanceof ZeroCopyHttpOutputMessage && resource.isFile()) {
             try {
                 val file = resource.getFile();
@@ -109,4 +111,4 @@ public class ResourceRegionMessageWiter implements HttpMessageWriter<ResourceReg
     }
 
 
-}
+}*/
