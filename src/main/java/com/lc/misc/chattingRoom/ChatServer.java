@@ -214,7 +214,7 @@ public class ChatServer implements Runnable {
 	}
 
 	public static void main(String[] args) {
-		ChatServer server = new ChatServer(19999);
+		ChatServer server = new ChatServer(9999);
 		new Thread(server).start();
 	}
 }

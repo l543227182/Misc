@@ -1,13 +1,9 @@
 package com.lc.misc.chattingRoom;
 
-import java.awt.Toolkit;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
 
 /**
  * 设置名称窗体
@@ -39,8 +35,7 @@ public class SetNameFrame extends JFrame {
 		label = new JLabel("[w:" + w + ",h:" + h + "]");
 		this.add(label);
 		label.setBounds(10, 40, 200, 100);
-		label.setText("<html>在上面的文本框中输入名字<br/>显示器宽度：" + w + "<br/>显示器高度：" + h
-				+ "</html>");
+		label.setText("<html>在上面的文本框中输入名字<br/>显示器宽度：" + w + "<br/>显示器高度：" + h + "</html>");
 
 		btnOK.addActionListener(new ActionListener() {
 			@Override
