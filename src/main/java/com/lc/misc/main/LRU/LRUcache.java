@@ -1,4 +1,4 @@
-package com.lc.misc.Main.LRU;
+package com.lc.misc.main.LRU;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -1,9 +1,4 @@
-package com.lc.misc.Main.LRU;
-
-import com.lc.misc.Main.LRU.LRUcache;
-
-import java.util.Random;
-import java.util.concurrent.Callable;
+package com.lc.misc.main.LRU;
 
 /**
  * Created by luochao.byron on 2017/9/25.

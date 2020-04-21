@@ -1,14 +1,13 @@
-package com.lc.misc.rpc.Serializer;
-
-import java.io.IOException;
+package com.lc.misc.rpc.serializer;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.esotericsoftware.kryo.io.Output;
-
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufInputStream;
 import io.netty.buffer.ByteBufOutputStream;
+
+import java.io.IOException;
 
 public class KryoSerializer
 {

@@ -1,4 +1,4 @@
-package com.lc.misc.shareDome.NIO;
+package com.lc.misc.shareDome.nio;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

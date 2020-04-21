@@ -1,4 +1,4 @@
-package com.lc.misc.MyThreadPoolExecutor;
+package com.lc.misc.myThreadPoolExecutor;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

@@ -1,4 +1,4 @@
-package com.lc.misc.Main;
+package com.lc.misc.main;
 
 import java.io.IOException;
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.lc.misc.rpc.Serializer;
+package com.lc.misc.rpc.serializer;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.Serializer;

@@ -147,7 +147,6 @@ public class NIOServerV3 {
         for (int i = 0; i < mainReactorThreads.length; i++) {
             mainReactorThreads[i] = new ReactorThread() {
                 AtomicInteger incr = new AtomicInteger(0);
-
                 @Override
                 public void handler(SelectableChannel channel) throws Exception {
                     // 只做请求分发，不做具体的数据读取
@@ -191,7 +190,7 @@ public class NIOServerV3 {
      */
     private void bind() throws IOException {
         //  1、 正式绑定端口，对外服务
-        serverSocketChannel.bind(new InetSocketAddress(8080));
+        serverSocketChannel.bind(new InetSocketAddress(8899));
         System.out.println("启动完成，端口8080");
     }
 

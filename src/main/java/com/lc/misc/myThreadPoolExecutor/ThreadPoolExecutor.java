@@ -1,4 +1,4 @@
-package com.lc.misc.MyThreadPoolExecutor;
+package com.lc.misc.myThreadPoolExecutor;
 
 import java.util.Collection;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package com.lc.misc.shareDome.BIO;
+package com.lc.misc.shareDome.bio;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -35,7 +35,6 @@ public class Server {
             InputStream inputStream = accept.getInputStream();
             threadPool.execute(() -> {
                 System.out.println("新成员加入- 线程 " + Thread.currentThread().getId() + " 接待");
-
                 writeMsg(outputStream, inputStream, accept);
             });
             socketSet.add(accept);

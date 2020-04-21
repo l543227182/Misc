@@ -1,25 +1,15 @@
-package com.lc.misc.rpc.Serializer;
-
-import java.lang.reflect.InvocationHandler;
-import java.net.URI;
-import java.util.Arrays;
-import java.util.BitSet;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Date;
-import java.util.EnumMap;
-import java.util.EnumSet;
-import java.util.GregorianCalendar;
-import java.util.Map;
-import java.util.UUID;
-import java.util.regex.Pattern;
+package com.lc.misc.rpc.serializer;
 
 import com.esotericsoftware.kryo.Serializer;
 import com.esotericsoftware.kryo.serializers.DefaultSerializers;
-import com.fasterxml.jackson.databind.ser.std.UUIDSerializer;
 import com.lc.misc.rpc.RpcRequest;
 import com.lc.misc.rpc.RpcResponse;
 import de.javakaffee.kryoserializers.*;
+
+import java.lang.reflect.InvocationHandler;
+import java.net.URI;
+import java.util.*;
+import java.util.regex.Pattern;
 
 
 public class KryoReflectionFactory extends KryoReflectionFactorySupport

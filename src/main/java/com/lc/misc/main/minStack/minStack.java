@@ -1,9 +1,6 @@
-package com.lc.misc.Main.minStack;
+package com.lc.misc.main.minStack;
 
-import java.io.IOException;
-import java.util.*;
-import java.util.function.Consumer;
-import java.util.stream.Stream;
+import java.util.LinkedList;
 
 /**
  *
