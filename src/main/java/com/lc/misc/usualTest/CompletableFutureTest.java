@@ -7,7 +7,7 @@ import java.util.concurrent.ExecutionException;
 
 public class CompletableFutureTest {
 
-        public static void main(String[] args) throws IOException, ExecutionException, InterruptedException {
+    public static void main(String[] args) throws IOException, ExecutionException, InterruptedException {
         // ImageReader ir=new PNGImageader(new Im)
 
         CompletableFuture<? extends Number> completableFuture = CompletableFuture.supplyAsync(() -> {

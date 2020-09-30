@@ -2,13 +2,13 @@ package com.lc.web.Model;
 
 import java.util.Arrays;
 
-public class itemComment{
+public class itemComment {
     private String userType;
     private double score;
     private String simplizeComment;
     private String serviceComment;
-    private String  overallComment;
-    private String [] itemServiceDetailComment = new String [4];
+    private String overallComment;
+    private String[] itemServiceDetailComment = new String[4];
     private String pid;
 
     public void setPid(String pid) {

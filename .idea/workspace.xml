@@ -1,33 +1,316 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:src" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:src" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:src" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:web" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d5a6f629-f925-4f2c-8798-9419fd06a0c9" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/CenterFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/provinceNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/test_0929.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/Main/LRU/LRUcache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/LRU/LRUcache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/Main/LRU/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/LRU/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/Main/minStack/minStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/minStack/minStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/MyThreadPoolExecutor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/MyThreadPoolExecutor/ThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/ThreadPoolExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/MyThreadPoolExecutor/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Misc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Misc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MiscApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MiscApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/ConsistentHashing/ConsistentHashingWithoutVirtualNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/ConsistentHashing/ConsistentHashingWithoutVirtualNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/theLargePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/theLargePalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/SetNameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/SetNameFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/DecrptClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/DecrptClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/EncrptUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/EncrptUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/FileSystemClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/FileSystemClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/NetClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/NetClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/BlockingArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/BlockingArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/BlockingArrayWithCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/BlockingArrayWithCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/Lagrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/Lagrange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/kafka/MyKafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/kafka/MyKafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/LRU/LRUcache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/LRU/LRUcache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/LRU/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/LRU/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/minStack/minStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/minStack/minStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/ThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/ThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/CLHLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/CLHLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/MCSLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/MCSLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/SimpleReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/SimpleReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/TimeoutLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/TimeoutLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/TryLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/TryLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/client/WebSocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/client/WebSocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServerIndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServerIndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/demo/DirectByteBufDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/demo/DirectByteBufDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/http/HttpHelloWorldServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/http/HttpHelloWorldServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/http/HttpHelloWorldServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/http/HttpHelloWorldServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/client/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/client/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/client/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/client/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/SimpleChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/SimpleChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/DirectBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/DirectBufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/Serializer/KryoHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/Serializer/KryoReflectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoReflectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/Serializer/KryoSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/Serializer/RpcRequestSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/RpcRequestSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/Serializer/RpcResponseSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/RpcResponseSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/TonyNioHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/TonyNioHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/JsonUtils2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/JsonUtils2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcFutureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcFutureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcInvokeHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcInvokeHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/TestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientAsyncProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientAsyncProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientChannelInactiveListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientChannelInactiveListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientProxyBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientProxyBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/NettyKryoDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/NettyKryoDecoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/NettyKryoEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/NettyKryoEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/BIO/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/BIO/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/NIO/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/NIO/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientDispatchHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientDispatchHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientResponseHandleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientResponseHandleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerDispatchHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerDispatchHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerRequestHandleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerRequestHandleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoReflectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoReflectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/RpcRequestSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/RpcRequestSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/RpcResponseSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/RpcResponseSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerRequestHandleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerRequestHandleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/spring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/spring/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/AverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/AverageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/CompletableFutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/CompletableFutureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/EnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JodaTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JodaTimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JsonTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JsonTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/ScheduleTaskParamsAnalyszer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/ScheduleTaskParamsAnalyszer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/SetsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/SetsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/TestExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/TestExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/bitSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/bitSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/extendsData/data3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/extendsData/data3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/extendsData/datamodel/DaemonBeatData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/extendsData/datamodel/DaemonBeatData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/flatMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/flatMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/isNotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/isNotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/sortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/sortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/streamTesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/streamTesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/POIExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/POIExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/POIUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/POIUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/Mapper/DataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/Mapper/DataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/Mapper/SubDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/Mapper/SubDataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/SyncProjResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/SyncProjResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/SyncTaskResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/SyncTaskResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/itemComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/itemComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/controller/indexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/controller/indexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/crawler/mainCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/crawler/mainCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/kafka/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/kafka/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/service/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/service/DataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/service/MockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/service/MockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/utils/StringArrayTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/utils/StringArrayTypeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hahhhhhhhh.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hahhhhhhhh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/build/check-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/build/dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/build/dev-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/element-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/element-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/alert.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/alert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/badge.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/badge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/breadcrumb-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/breadcrumb-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/breadcrumb.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/breadcrumb.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/button-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/button-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/carousel-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/carousel-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/cascader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/cascader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/col.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/col.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/collapse-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/collapse-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/collapse.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/collapse.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/color-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/color-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/date-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/date-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/element-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/element-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/form-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/form-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/input-number.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/input-number.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu-item-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu-item-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/message-box.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/message-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/message.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/message.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/notification.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/notification.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/option-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/option-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/option.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/option.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/popover.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/popover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/progress.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/progress.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/rate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/rate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/row.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/row.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/scrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/select-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/select-dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/step.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/step.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/steps.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/steps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/submenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/submenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tab-pane.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tab-pane.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/table-column.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/table-column.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/time-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/time-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/time-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/time-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/transfer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/transfer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/upload.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_fontclass.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_fontclass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_symbol.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_symbol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_unicode.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_unicode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/less/color.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/less/color.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/less/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/less/tool-bar.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/less/tool-bar.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/filter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/filter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/mixins/DataTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/mixins/DataTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/mixins/TaskRefresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/mixins/TaskRefresh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/plugin/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/plugin/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/plugin/params-serializer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/plugin/params-serializer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/router/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/router/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/router/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/router/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/router/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/router/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/router/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/router/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/static-dev/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/static-dev/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/test/e2e/runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/test/e2e/runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/test/unit/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/test/unit/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/misc/MiscApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/misc/MiscApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,19 +319,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/spring/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -56,114 +326,9 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>main\.cn\.lc\.chattingRoom\;</find>
-      <find>package main.cn.lc.chattingRoom;</find>
-      <find>package main\.cn\.lc\.chattingRoom\;</find>
-      <find>package main.cn.lc.classLoader;</find>
-      <find>package main\.cn\.lc\.classLoader\;\n</find>
-      <find>package main\.cn\.lc\.crawler\;\n</find>
-      <find>package main\.cn\.lc\.demo\;\n</find>
-      <find>package main.cn.lc.mylock;</find>
-      <find>package main\.cn\.lc\.MyThreadPoolExecutor\;</find>
-      <find>package main\.cn\.lc\.rpc\;\n</find>
-      <find>package main\.cn\.lc\.rpc\.server\;\n</find>
-      <find>package main.cn.lc.rpc.client;</find>
-      <find>package main\.cn\.lc\.rpc\.netty\;\n</find>
-      <find>package main\.cn\.lc\.rpc\.Serializer\;</find>
-      <find>package main\.cn\.lc\.usualTest\;\n</find>
-      <find>m</find>
-      <find>get_proj_copy_list</find>
-      <find>threadLocals</find>
-      <find>dispatch</find>
-      <find>handlerMappings</find>
-      <find>maxFileSize</find>
-      <find>monitorObjects</find>
-      <find>7.2.0</find>
-      <find>fileb</find>
-      <find>dmp:86248</find>
-      <find>_</find>
-      <find>configureHttpMessageCodecs</find>
-      <find>applicationContextClass</find>
-      <find>selectedKeys</find>
-      <find>array</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>package main.cn.lc.chattingRoom;</replace>
-      <replace>package com.lc.misc.chattingRoom;</replace>
-      <replace>package com.lc.misc.classLoader;</replace>
-      <replace>package com.lc.misc.crawler;</replace>
-      <replace>package com.lc.misc.demo;</replace>
-      <replace>package com.lc.misc.mylock;</replace>
-      <replace>package com.lc.misc.MyThreadPoolExecutor;</replace>
-      <replace>package com.lc.misc.rpc;</replace>
-      <replace>package com.lc.misc.rpc.server;</replace>
-      <replace>package com.lc.misc.rpc.client;</replace>
-      <replace>package com.lc.misc.rpc.netty;</replace>
-      <replace>package com.lc.misc.rpc.Serializer;</replace>
-      <replace>package com.lc.misc.usualTest;</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/extendsData/data4.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JsonTransfer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/client/EchoClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/EnumTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/AverageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/kafka/kafkaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/kafka/KafkaConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/kafka/MyKafkaConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/web/service/scheduleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/web/config/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/Main/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/JsonUtils2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MiscApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/web/converter/ResourceRegionMessageWiter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/web/controller/VideoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/web/config/WebConfigurer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/web/kafka/KafkaProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/web/controller/indexController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/web/controller/KafkaController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/web/config/SwaggerConfiger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/web/kafka/KafkaConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/FreemakerTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/freeMakerDemo/FreemakerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/spring/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServer1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/ShareDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/Bio.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/BIO/Bio.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/demo/DirectByteBufDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/demo/ByteBufDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/demo/ZeroCopyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/TonyNioHttpServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/BIO/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/NIO/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/BIO/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/SetNameFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/BufferDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ClientService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/NIO/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettyDemo/ReactorThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java" />
-      </list>
-    </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
@@ -172,32 +337,14 @@
     <other-services-enabled>false</other-services-enabled>
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="E:\code\oceanus\settings.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="misc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="misc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
-  </component>
+  <component name="ProjectId" id="1fLjDAAJBLA4e8ksCXUZowXjoPq" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -214,81 +361,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lc" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Misc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -297,33 +372,26 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="DispatcherServlet &#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;Aq&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_60/jre/lib/rt.jar!/java/util/concurrent/locks/AbstractQueuedSynchronizer.class&#10;org.springframework.web.servlet.DispatcherServlet&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;fastJsonpResponseBodyAdvice&#9;FILE&#9;jar://C:/Users/luochao.byron/.m2/repository/com/alibaba/fastjson/1.2.28/fastjson-1.2.28.jar!/com/alibaba/fastjson/support/spring/FastJsonpResponseBodyAdvice.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.14952381" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="D:\javaworkspace\Misc\src\main\java\com\lc\misc\usualTest\extendsData" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lc.misc.shareDome" />
       <recent name="com" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lc.misc.usualTest.extendsData.datamodel" />
-      <recent name="com.lc.misc.crawler" />
-      <recent name="com.lc.misc.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/lc/misc/netty" />
@@ -332,20 +400,18 @@
       <recent name="D:\javaworkspace\Misc\src\main\java\com\lc\misc\usualTest\extendsData" />
       <recent name="D:\javaworkspace\Misc\src\main\java\com\lc\web\Model" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lc.misc.usualTest" />
+      <recent name="com.lc.misc.usualTest.extendsData.datamodel" />
+      <recent name="com.lc.misc.crawler" />
+      <recent name="com.lc.misc.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="D:\javaworkspace\Misc\src\main\java\com\lc\misc\usualTest\extendsData" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ReactorMain">
+  <component name="RunManager" selected="Application.SetNameFrame">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -354,13 +420,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.misc.shareDome.bio.Client" />
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.misc.chattingRoom.ChatServer" />
       <module name="Misc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.misc.shareDome.bio.*" />
+          <option name="PATTERN" value="com.lc.misc.chattingRoom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,55 +434,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.misc.shareDome.nio.Client" />
+    <configuration name="SetNameFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.misc.chattingRoom.SetNameFrame" />
       <module name="Misc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.misc.shareDome.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NIOServerV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.misc.netty.nio.NIOServerV3" />
-      <module name="Misc" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.misc.netty.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReactorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.misc.shareDome.nettydemo.ReactorMain" />
-      <module name="Misc" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.misc.shareDome.nettydemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.misc.shareDome.nio.Server" />
-      <module name="Misc" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.misc.shareDome.nio.*" />
+          <option name="PATTERN" value="com.lc.misc.chattingRoom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -426,6 +450,48 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="provinceNameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.misc.usualTest.provinceNameTest" />
+      <module name="Misc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.misc.usualTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="streamTesk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.misc.usualTest.streamTesk" />
+      <module name="Misc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.misc.usualTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_0929" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.misc.usualTest.test_0929" />
+      <module name="Misc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.misc.usualTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -463,20 +529,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.ReactorMain" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.NIOServerV3" />
-      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.ChatServer" />
+      <item itemvalue="Application.SetNameFrame" />
+      <item itemvalue="Application.streamTesk" />
+      <item itemvalue="Application.test_0929" />
       <item itemvalue="Spring Boot.MiscApplication" />
+      <item itemvalue="Application.provinceNameTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReactorMain" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.NIOServerV3" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.SetNameFrame" />
+        <item itemvalue="Application.ChatServer" />
+        <item itemvalue="Application.provinceNameTest" />
+        <item itemvalue="Application.test_0929" />
+        <item itemvalue="Application.streamTesk" />
       </list>
     </recent_temporary>
   </component>
@@ -484,6 +550,9 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -603,6 +672,24 @@
       <workItem from="1587283839241" duration="96000" />
       <workItem from="1587347172217" duration="2647000" />
       <workItem from="1587376234803" duration="184000" />
+      <workItem from="1596004162933" duration="2146000" />
+      <workItem from="1596520769840" duration="1052000" />
+      <workItem from="1596523168118" duration="736000" />
+      <workItem from="1596765239215" duration="1365000" />
+      <workItem from="1596863464463" duration="1405000" />
+      <workItem from="1597037299857" duration="454000" />
+      <workItem from="1597298425362" duration="91000" />
+      <workItem from="1597300294251" duration="1977000" />
+      <workItem from="1597399109462" duration="4849000" />
+      <workItem from="1598080623424" duration="715000" />
+      <workItem from="1598513386981" duration="230000" />
+      <workItem from="1598594651439" duration="447000" />
+      <workItem from="1600305355160" duration="618000" />
+      <workItem from="1600917224671" duration="416000" />
+      <workItem from="1601025407962" duration="711000" />
+      <workItem from="1601377791825" duration="1312000" />
+      <workItem from="1601431814635" duration="1244000" />
+      <workItem from="1601447178575" duration="3133000" />
     </task>
     <task id="LOCAL-00001" summary="修改目录结构,springboot">
       <created>1543912073428</created>
@@ -642,80 +729,15 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361336000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3021978" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.60714287" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.42490843" weight="0.22142857" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.44566545" weight="0.2489796" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5543346" side_tool="true" weight="0.31428573" />
-      <window_info anchor="bottom" id="Statistic" order="8" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.2857143" />
-      <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32959184" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.0877551" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24969475" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.104477614" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.32967034" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32967034" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/web/node_modules/karma/config.tpl.js" />
-      </list>
-    </option>
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -734,6 +756,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -745,20 +768,97 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="181" y="123" key="#Live_Templates" timestamp="1601447236295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="181" y="123" key="#Live_Templates/0.0.1920.1040@0.0.1920.1040" timestamp="1601447236295" />
+    <state x="354" y="157" key="#Project_Structure" timestamp="1596004489665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="354" y="157" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1596004489665" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1601378193053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601378193053" />
+    <state width="433" height="464" key="DebuggerActiveHint" timestamp="1601378476577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="433" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1601378476577" />
+    <state x="648" y="254" key="FileChooserDialogImpl" timestamp="1596520824674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="648" y="254" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596520824674" />
+    <state width="1877" height="243" key="GridCell.Tab.0.bottom" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="168" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1598189747228" />
+    <state width="1877" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.0.center" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="168" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1598189747228" />
+    <state width="1877" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.0.left" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="168" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1598189747228" />
+    <state width="1877" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.0.right" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="168" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1598189747228" />
+    <state width="1877" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.1.bottom" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.1.center" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.1.left" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.1.right" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state x="188" y="67" key="SettingsEditor" timestamp="1596520826510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="188" y="67" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596520826510" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1601447321495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1601447321495" />
+    <state x="334" y="203" key="new project wizard" timestamp="1596006086034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="203" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1596006086034" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601451278197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601451278197" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java</url>
-          <line>70</line>
-          <properties />
+          <line>69</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java</url>
-          <line>69</line>
-          <properties />
+          <line>68</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_261/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <line>904</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -844,513 +944,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/SelectorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/channels/Selector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="274" column="38" selection-start-line="274" selection-start-column="38" selection-end-line="274" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/kafka/MyKafkaConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="417" column="21" selection-start-line="417" selection-start-column="21" selection-end-line="417" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="355" column="24" selection-start-line="355" selection-start-column="24" selection-end-line="355" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="270" column="17" selection-start-line="270" selection-start-column="17" selection-end-line="270" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/DirectByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="248" column="35" selection-start-line="248" selection-start-column="35" selection-end-line="248" selection-end-column="35" />
-          <folding>
-            <element signature="e#5514#5515#0" expanded="true" />
-            <element signature="e#5575#5576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/DirectBufferDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/BufferDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="1811" column="26" selection-start-line="1811" selection-start-column="26" selection-end-line="1811" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="94" column="15" lean-forward="true" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/channels/SelectableChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="218" column="33" selection-start-line="218" selection-start-column="33" selection-end-line="218" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/SelectionKeyImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/SetNameFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="190" column="30" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="1148" selection-start-line="1148" selection-end-line="1148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="160" column="29" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="208" column="34" selection-start-line="208" selection-end-line="209" />
-          <folding>
-            <element signature="e#5572#5573#0" expanded="true" />
-            <element signature="e#5643#5644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/channels/SelectionKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="240" column="36" selection-start-line="240" selection-start-column="28" selection-end-line="240" selection-end-column="36" />
-          <folding>
-            <element signature="e#11552#11553#0" expanded="true" />
-            <element signature="e#11603#11604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="248" column="11" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="11" />
-          <folding>
-            <element signature="e#7388#7389#0" expanded="true" />
-            <element signature="e#7427#7428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final.jar!/io/netty/channel/AbstractEventLoop.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final.jar!/io/netty/channel/EventLoop.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final.jar!/io/netty/channel/nio/NioEventLoop.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final.jar!/io/netty/util/concurrent/AbstractEventExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final.jar!/io/netty/util/concurrent/AbstractScheduledEventExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="71" lean-forward="true" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final.jar!/io/netty/channel/SingleThreadEventLoop.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="58" column="76" lean-forward="true" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
-          <folding>
-            <element signature="e#1985#1986#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/TonyNioHttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/ServerSocketChannelImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="137" column="31" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/channels/ServerSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="156" column="17" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2595">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8640">
-          <caret line="100" column="18" lean-forward="true" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/DateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/CompletableFutureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/bitSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/misc/spring/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.12.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Misc</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.60390353" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

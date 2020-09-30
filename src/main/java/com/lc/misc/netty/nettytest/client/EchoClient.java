@@ -1,11 +1,13 @@
 package com.lc.misc.netty.nettytest.client;
 
 import io.netty.bootstrap.Bootstrap;
-import io.netty.channel.*;
+import io.netty.channel.Channel;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.codec.FixedLengthFrameDecoder;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
@@ -16,45 +18,45 @@ import java.nio.charset.Charset;
 
 public class EchoClient {
 
-	private final String host;
-	private final int port;
+    private final String host;
+    private final int port;
 
-	public EchoClient(String host, int port) {
-		this.host = host;
-		this.port = port;
-	}
+    public EchoClient(String host, int port) {
+        this.host = host;
+        this.port = port;
+    }
 
-	public void start() throws Exception {
-		EventLoopGroup group = new NioEventLoopGroup();
-		try {
-			Bootstrap b = new Bootstrap();
-			b.group(group).channel(NioSocketChannel.class)
-					.handler(new ChannelInitializer<SocketChannel>() {
-						@Override
-						protected void initChannel(SocketChannel ch) throws Exception {
-							ch.pipeline()
+    public void start() throws Exception {
+        EventLoopGroup group = new NioEventLoopGroup();
+        try {
+            Bootstrap b = new Bootstrap();
+            b.group(group).channel(NioSocketChannel.class)
+                    .handler(new ChannelInitializer<SocketChannel>() {
+                        @Override
+                        protected void initChannel(SocketChannel ch) throws Exception {
+                            ch.pipeline()
                                     .addLast("decoder", new StringDecoder(Charset.forName("UTF-8")))
                                     .addLast("encoder", new StringEncoder(Charset.forName("UTF-8")))
-									//.addLast(new StringEncoder())
-                                 //   .addLast(new StringDecoder())
-									.addLast(new EchoClientHandler());
-						}
-					});
-			ChannelFuture f = b.connect(new InetSocketAddress(host, port)).sync();
+                                    //.addLast(new StringEncoder())
+                                    //   .addLast(new StringDecoder())
+                                    .addLast(new EchoClientHandler());
+                        }
+                    });
+            ChannelFuture f = b.connect(new InetSocketAddress(host, port)).sync();
             Channel channel = f.channel();
-           BufferedReader br  =new BufferedReader(new InputStreamReader(System.in));
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             String msg = "";
-            while(!"see-you".equals(msg)){
-                 msg = br.readLine();
+            while (!"see-you".equals(msg)) {
+                msg = br.readLine();
                 channel.writeAndFlush(msg);
             }
-                     // f.channel().closeFuture().sync();
+            // f.channel().closeFuture().sync();
         } finally {
-			group.shutdownGracefully().sync();
-		}
-	}
+            group.shutdownGracefully().sync();
+        }
+    }
 
-	public static void main(String[] args) throws Exception {
-		new EchoClient("localhost", 4455).start();
-	}
+    public static void main(String[] args) throws Exception {
+        new EchoClient("localhost", 4455).start();
+    }
 }

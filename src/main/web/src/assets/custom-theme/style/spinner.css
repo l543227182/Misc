@@ -1,5 +1,5 @@
 @charset "UTF-8";
-:root{
+:root {
   /* Transition
   -------------------------- */
   /* Colors
@@ -90,27 +90,28 @@
   --------------------------*/
 }
 
-.el-time-spinner{
+.el-time-spinner {
   width: 100%;
   white-space: nowrap;
 }
 
-.el-spinner{
+.el-spinner {
   display: inline-block;
   vertical-align: middle;
 }
 
-.el-spinner-inner{
+.el-spinner-inner {
   animation: rotate 2s linear infinite;
   width: 50px;
   height: 50px;
 }
 
-.el-spinner-inner .path{
+.el-spinner-inner .path {
   stroke: #ececec;
   stroke-linecap: round;
   animation: dash 1.5s ease-in-out infinite;
 }
+
 @keyframes rotate {
   100% {
     transform: rotate(360deg);
@@ -131,7 +132,8 @@
     stroke-dashoffset: -124;
   }
 }
-:root{
+
+:root {
   /* Transition
   -------------------------- */
   /* Colors

@@ -19,7 +19,7 @@ public abstract class ReactorThread extends Thread {
     protected Selector selector;
     private volatile boolean isRunning = false;
 
-    public ReactorThread(){
+    public ReactorThread() {
         try {
             selector = Selector.open();
         } catch (IOException e) {
@@ -29,14 +29,14 @@ public abstract class ReactorThread extends Thread {
 
     @Override
     public void run() {
-        while(isRunning) {
+        while (isRunning) {
             Runnable task = null;
             while ((task = queue.poll()) != null) {
                 task.run();
             }
             try {
                 int select = selector.select(1000);
-                if(select>0 ) {
+                if (select > 0) {
                     Set<SelectionKey> selectionKeys = selector.selectedKeys();
                     Iterator<SelectionKey> iterator = selectionKeys.iterator();
                     while (iterator.hasNext()) {
@@ -53,17 +53,18 @@ public abstract class ReactorThread extends Thread {
     }
 
     public void doStart() {
-        if(!isRunning) {
+        if (!isRunning) {
             this.isRunning = true;
             this.start();
         }
     }
-    public  SelectionKey doRegister(SelectableChannel selectableChannel) throws ExecutionException, InterruptedException {
+
+    public SelectionKey doRegister(SelectableChannel selectableChannel) throws ExecutionException, InterruptedException {
         FutureTask<SelectionKey> futureTask = new FutureTask<>(() -> selectableChannel.register(selector, 0, selectableChannel));
         queue.add(futureTask);
         SelectionKey selectionKey = futureTask.get();
         return selectionKey;
     }
 
-    public abstract  void handler(SelectionKey selectionKey) throws Exception;
+    public abstract void handler(SelectionKey selectionKey) throws Exception;
 }

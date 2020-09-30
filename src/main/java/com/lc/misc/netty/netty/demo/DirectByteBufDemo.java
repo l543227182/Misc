@@ -34,7 +34,7 @@ public class DirectByteBufDemo {
         byte b2 = buf.readByte();
         System.out.println("读取的bytes为====================>" + Arrays.toString(new byte[]{b1, b2}));
         System.out.println("读取一段内容后ByteBuf为===========>" + buf.toString());
-       //System.out.println("3.ByteBuf中的内容为===============>" + Arrays.toString(buf.array()) + "\n");
+        //System.out.println("3.ByteBuf中的内容为===============>" + Arrays.toString(buf.array()) + "\n");
 
         // 4.将读取的内容丢弃
         buf.discardReadBytes();
@@ -51,19 +51,19 @@ public class DirectByteBufDemo {
         buf.writeBytes(bytes2);
         System.out.println("写入的bytes为====================>" + Arrays.toString(bytes2));
         System.out.println("写入一段内容后ByteBuf为===========>" + buf.toString());
-       // System.out.println("6.ByteBuf中的内容为===============>" + Arrays.toString(buf.array()) + "\n");
+        // System.out.println("6.ByteBuf中的内容为===============>" + Arrays.toString(buf.array()) + "\n");
 
         // 7.将ByteBuf清零
         buf.setZero(0, buf.capacity());
         System.out.println("将内容清零后ByteBuf为==============>" + buf.toString());
-       // System.out.println("7.ByteBuf中的内容为================>" + Arrays.toString(buf.array()) + "\n");
+        // System.out.println("7.ByteBuf中的内容为================>" + Arrays.toString(buf.array()) + "\n");
 
         // 8.再次写入一段超过容量的内容
         byte[] bytes3 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
         buf.writeBytes(bytes3);
         System.out.println("写入的bytes为====================>" + Arrays.toString(bytes3));
         System.out.println("写入一段内容后ByteBuf为===========>" + buf.toString());
-       // System.out.println("8.ByteBuf中的内容为===============>" + Arrays.toString(buf.array()) + "\n");
+        // System.out.println("8.ByteBuf中的内容为===============>" + Arrays.toString(buf.array()) + "\n");
         //  随机访问索引 getByte
         //  顺序读 read*
         //  顺序写 write*

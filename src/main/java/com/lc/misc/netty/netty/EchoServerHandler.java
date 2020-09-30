@@ -31,7 +31,7 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
-        System.out.println("收到数据：" + ((ByteBuf)msg).toString(Charset.defaultCharset()));
+        System.out.println("收到数据：" + ((ByteBuf) msg).toString(Charset.defaultCharset()));
         ctx.write(Unpooled.wrappedBuffer("98877".getBytes()));
         // ((ByteBuf) msg).release();
         ctx.fireChannelRead(msg);

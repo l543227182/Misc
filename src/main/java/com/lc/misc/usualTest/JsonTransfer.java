@@ -18,20 +18,20 @@ public class JsonTransfer {
                 daemonBeatData.getInfluxFields();
         Map<String, String> influxTags = daemonBeatData.getInfluxTags();
         System.out.println(influxFields);
-        influxFields.entrySet().stream().forEach(item->{
-            if(Objects.isNull(item.getKey())){
-                throw new RuntimeException("field key is null, key :"  +item.getKey() );
+        influxFields.entrySet().stream().forEach(item -> {
+            if (Objects.isNull(item.getKey())) {
+                throw new RuntimeException("field key is null, key :" + item.getKey());
             }
-            if(Objects.isNull(item.getValue())){
-                throw new RuntimeException("field value is null, value :"  +item.getValue() );
+            if (Objects.isNull(item.getValue())) {
+                throw new RuntimeException("field value is null, value :" + item.getValue());
             }
         });
-        influxTags.entrySet().stream().forEach(item->{
-            if(Objects.isNull(item.getKey())){
-                throw new RuntimeException("tag key is null, key :"  +item.getKey() );
+        influxTags.entrySet().stream().forEach(item -> {
+            if (Objects.isNull(item.getKey())) {
+                throw new RuntimeException("tag key is null, key :" + item.getKey());
             }
-            if(Objects.isNull(item.getValue())){
-                throw new RuntimeException("tag value is null, value :"  +item.getValue() );
+            if (Objects.isNull(item.getValue())) {
+                throw new RuntimeException("tag value is null, value :" + item.getValue());
             }
         });
     }

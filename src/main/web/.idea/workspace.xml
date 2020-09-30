@@ -1,23 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:src" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:src" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:src" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:web" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2672d14c-aaaf-44b8-9a21-8e27d7b8f82f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/CenterFactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Misc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Misc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/com/MiscApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/MiscApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/config/WebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/config/WebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/ConsistentHashing/ConsistentHashingWithoutVirtualNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/ConsistentHashing/ConsistentHashingWithoutVirtualNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/algorithm/theLargePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/algorithm/theLargePalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/chattingRoom/ChatFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/chattingRoom/ChatFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/chattingRoom/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/chattingRoom/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/chattingRoom/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/chattingRoom/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/chattingRoom/SetNameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/chattingRoom/SetNameFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/DecrptClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/DecrptClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/Demo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/EncrptUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/EncrptUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/FileSystemClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/FileSystemClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/NetClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/classLoader/NetClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/demo/BlockingArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/demo/BlockingArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/demo/BlockingArrayWithCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/demo/BlockingArrayWithCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/demo/Lagrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/demo/Lagrange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/demo/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/demo/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/demo/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/demo/hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/kafka/MyKafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/kafka/MyKafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/main/LRU/LRUcache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/main/LRU/LRUcache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/main/LRU/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/main/LRU/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/main/minStack/minStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/main/minStack/minStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/myThreadPoolExecutor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/myThreadPoolExecutor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/myThreadPoolExecutor/ThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/myThreadPoolExecutor/ThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/mylock/CLHLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/mylock/CLHLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/mylock/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/mylock/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/mylock/MCSLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/mylock/MCSLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/mylock/SimpleReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/mylock/SimpleReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/mylock/TimeoutLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/mylock/TimeoutLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/mylock/TryLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/mylock/TryLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/bio/BIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/bio/BIOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/bio/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/bio/BIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/bio/BIOServer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/bio/BIOServer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/bio/BIOServer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/bio/BIOServer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/chat/client/WebSocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/chat/client/WebSocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/chat/server/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/chat/server/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/chat/server/WebSocketServerIndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/chat/server/WebSocketServerIndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/chat/server/WebSocketServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/chat/server/WebSocketServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/demo/DirectByteBufDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/demo/DirectByteBufDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/http/HttpHelloWorldServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/http/HttpHelloWorldServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/http/HttpHelloWorldServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/netty/http/HttpHelloWorldServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/nettytest/client/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/nettytest/client/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/nettytest/client/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/nettytest/client/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/nettytest/server/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/nettytest/server/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/nettytest/server/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/nettytest/server/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/nettytest/server/SimpleChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/nettytest/server/SimpleChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/nio/DirectBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/nio/DirectBufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/nio/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/nio/NIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/nio/NIOServerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/nio/NIOServerV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/nio/NIOServerV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/nio/NIOServerV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/netty/nio/TonyNioHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/netty/nio/TonyNioHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/JsonUtils2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/JsonUtils2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/RpcFutureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/RpcFutureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/RpcInvokeHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/RpcInvokeHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/RpcRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/RpcRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/RpcResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/RpcResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/TestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcClientAsyncProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcClientAsyncProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcClientChannelInactiveListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcClientChannelInactiveListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcClientProxyBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcClientProxyBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/RpcRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/client/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/NettyKryoDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/NettyKryoDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/NettyKryoEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/NettyKryoEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcClientDispatchHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcClientDispatchHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcClientResponseHandleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcClientResponseHandleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcClientResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcClientResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcServerDispatchHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcServerDispatchHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcServerRequestHandleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcServerRequestHandleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcServerRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/netty/RpcServerRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/serializer/KryoHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/serializer/KryoHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/serializer/KryoReflectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/serializer/KryoReflectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/serializer/KryoSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/serializer/KryoSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/serializer/RpcRequestSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/serializer/RpcRequestSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/serializer/RpcResponseSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/serializer/RpcResponseSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/server/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/server/RpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/server/RpcServerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/server/RpcServerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/server/RpcServerRequestHandleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/server/RpcServerRequestHandleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/rpc/server/RpcServerRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/rpc/server/RpcServerRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/bio/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/bio/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/bio/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/bio/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/nettydemo/ReactorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/nettydemo/ReactorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/nettydemo/ReactorThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/nettydemo/ReactorThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/nio/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/nio/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/nio/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/nio/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/spring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/spring/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/AverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/AverageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/CompletableFutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/CompletableFutureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/EnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/JodaTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/JodaTimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/JsonTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/JsonTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/ScheduleTaskParamsAnalyszer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/ScheduleTaskParamsAnalyszer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/SetsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/SetsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/TestExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/TestExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/bitSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/bitSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/extendsData/data3.json" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/extendsData/data3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/extendsData/datamodel/DaemonBeatData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/extendsData/datamodel/DaemonBeatData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/flatMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/flatMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/isNotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/isNotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/sortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/sortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/streamTesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/streamTesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/utils/POIExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/utils/POIExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/utils/POIUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/utils/POIUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/Mapper/DataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/Mapper/DataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/Mapper/SubDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/Mapper/SubDataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/Model/SyncProjResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/Model/SyncProjResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/Model/SyncTaskResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/Model/SyncTaskResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/Model/itemComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/Model/itemComment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/com/lc/web/controller/indexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/controller/indexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/converter/ResourceRegionMessageWiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/converter/ResourceRegionMessageWiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/crawler/mainCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/crawler/mainCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/kafka/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/kafka/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/service/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/service/DataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/service/MockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/service/MockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/utils/StringArrayTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/utils/StringArrayTypeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/hahhhhhhhh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/hahhhhhhhh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/check-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/dev-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/element-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/element-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/alert.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/alert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/badge.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/badge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/breadcrumb-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/breadcrumb-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/breadcrumb.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/breadcrumb.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/button-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/button-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/carousel-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/carousel-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/cascader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/cascader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/checkbox-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/checkbox-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/checkbox-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/checkbox-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/col.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/col.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/collapse-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/collapse-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/collapse.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/collapse.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/color-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/color-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/date-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/date-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/dropdown-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/dropdown-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/dropdown-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/dropdown-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/element-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/element-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/form-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/form-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/input-number.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/input-number.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/menu-item-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/menu-item-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/menu-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/menu-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/message-box.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/message-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/message.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/message.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/notification.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/notification.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/option-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/option-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/option.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/option.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/popover.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/popover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/progress.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/progress.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/radio-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/radio-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/radio-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/radio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/radio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/rate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/rate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/row.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/row.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/scrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/select-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/select-dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/step.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/step.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/steps.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/steps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/submenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/submenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/tab-pane.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/tab-pane.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/table-column.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/table-column.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/time-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/time-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/time-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/time-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/transfer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/transfer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/custom-theme/style/upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/custom-theme/style/upload.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/demo_fontclass.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/demo_fontclass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/demo_symbol.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/demo_symbol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/demo_unicode.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/demo_unicode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/less/color.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/color.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/less/tool-bar.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/tool-bar.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/filter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/DataTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixins/DataTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/TaskRefresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixins/TaskRefresh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin/params-serializer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin/params-serializer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static-dev/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/static-dev/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/e2e/runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/java/com/lc/misc/MiscApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/java/com/lc/misc/MiscApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/logback.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,13 +359,19 @@
   </component>
   <component name="ProjectId" id="1QorDK06HXgnvUspmGCDSxmSHKZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../pallas-front" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="D:/javaworkspace/webTest/src/main/Jweb/node_modules/eslint" />
+    <property name="node.js.selected.package.eslint" value="D:\javaworkspace\webTest\src\main\Jweb\node_modules\eslint" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -91,18 +388,6 @@
       <recent name="D:\javaworkspace\webTest\src\main\Jweb\src\mixins" />
       <recent name="D:\javaworkspace\webTest\src\main\Jweb\src\components\view\old" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.start">
     <configuration default="true" type="js.build_tools.gulp">
@@ -192,23 +477,34 @@
       <workItem from="1568520123203" duration="848000" />
       <workItem from="1575697721067" duration="660000" />
       <workItem from="1575707910262" duration="156000" />
+      <workItem from="1596006447682" duration="34000" />
+      <workItem from="1597309922232" duration="62000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="681" y="375" key="#Notifications" timestamp="1596006479370">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="375" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1596006479370" />
+    <state x="888" y="281" key="FileChooserDialogImpl" timestamp="1597309980150">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="888" y="281" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597309980150" />
   </component>
 </project>

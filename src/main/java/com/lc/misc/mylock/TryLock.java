@@ -2,7 +2,7 @@ package com.lc.misc.mylock;
 
 import java.util.concurrent.TimeUnit;
 
-public interface TryLock{
+public interface TryLock {
 
     void lock();
 

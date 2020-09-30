@@ -8,7 +8,8 @@ public class SyncProjResp {
     private String return_message;
     private Integer return_code;
     private ResponseData data;
-    public SyncProjResp(){
+
+    public SyncProjResp() {
         this.data = new ResponseData();
         this.return_code = 0;
         this.return_message = "success";
@@ -40,9 +41,11 @@ public class SyncProjResp {
 
     public static class ResponseData {
         private List<ProjModel> projectInfo;
-        public ResponseData(){
+
+        public ResponseData() {
             this.projectInfo = Lists.newArrayList();
         }
+
         public List<ProjModel> getProjectInfo() {
             return projectInfo;
         }
@@ -51,6 +54,7 @@ public class SyncProjResp {
             this.projectInfo = projectInfo;
         }
     }
+
     public static class ProjModel {
         private Integer org_id;
         private String org_name;

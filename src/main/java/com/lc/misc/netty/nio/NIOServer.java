@@ -29,12 +29,12 @@ public class NIOServer {
                         // 长连接情况下,需要手动判断数据有没有读取结束 (此处做一个简单的判断: 超过0字节就认为请求结束了)
                         if (requestBuffer.position() > 0) break;
                     }
-                    if(requestBuffer.position() == 0) continue; // 如果没数据了, 则不继续后面的处理
+                    if (requestBuffer.position() == 0) continue; // 如果没数据了, 则不继续后面的处理
                     requestBuffer.flip();
                     byte[] content = new byte[requestBuffer.limit()];
                     requestBuffer.get(content);
                     System.out.println(new String(content));
-                    System.out.println("收到数据,来自："+ socketChannel.getRemoteAddress());
+                    System.out.println("收到数据,来自：" + socketChannel.getRemoteAddress());
 
                     // 响应结果 200
                     String response = "HTTP/1.1 200 OK\r\n" +

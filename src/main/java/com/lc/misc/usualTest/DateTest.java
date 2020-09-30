@@ -15,10 +15,10 @@ public class DateTest {
         calcDuration();
     }
 
-    static void calcDuration () {
-        DateTime pointNext =new DateTime().minusDays(3);
-        DateTime end =new DateTime();
-        Map<DateTime,Integer> log = Maps.newHashMap();
+    static void calcDuration() {
+        DateTime pointNext = new DateTime().minusDays(3);
+        DateTime end = new DateTime();
+        Map<DateTime, Integer> log = Maps.newHashMap();
         Integer count = 0;
         while (pointNext.getMillis() <= end.getMillis()) {
             if (pointNext.getDayOfWeek() == 6 || pointNext.getDayOfWeek() == 7) {
@@ -35,7 +35,7 @@ public class DateTest {
         if (count != 0) {
             log.put(new DateTime(pointNext), count);
         }
-        log.keySet().stream().forEach(item->{
+        log.keySet().stream().forEach(item -> {
             System.out.println(log.get(item));
         });
         System.out.println(log);
@@ -58,7 +58,7 @@ public class DateTest {
                 e.printStackTrace();
             }
             return null;
-        }).sorted((a,b)->{
+        }).sorted((a, b) -> {
             return a.compareTo(b);
         }).map(sdf::format).forEach(System.out::println);
     }

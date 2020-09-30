@@ -7,7 +7,8 @@ export default (params) => {
   }
   return ''
 }
-function json2FormParams (obj) {
+
+function json2FormParams(obj) {
   let query = ''
   let name
   let value

@@ -29,7 +29,7 @@ public class BIOServer2 {
                         System.out.println(msg);
                     }
 
-                    System.out.println("收到数据,来自："+ request.toString());
+                    System.out.println("收到数据,来自：" + request.toString());
                     // 响应结果 200
                     OutputStream outputStream = request.getOutputStream();
                     outputStream.write("HTTP/1.1 200 OK\r\n".getBytes());

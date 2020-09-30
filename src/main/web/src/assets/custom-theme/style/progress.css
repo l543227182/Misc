@@ -1,10 +1,12 @@
-.el-progress-bar__inner:after{
-  display:inline-block;
-  content:"";
-  height:100%;
-  vertical-align:middle;
-}@charset "UTF-8";
-:root{
+.el-progress-bar__inner:after {
+  display: inline-block;
+  content: "";
+  height: 100%;
+  vertical-align: middle;
+}
+
+@charset "UTF-8";
+:root {
   /* Transition
   -------------------------- */
   /* Colors
@@ -95,30 +97,30 @@
   --------------------------*/
 }
 
-.el-progress{
-  position:relative;
-  line-height:1;
+.el-progress {
+  position: relative;
+  line-height: 1;
 }
 
-.el-progress.is-exception .el-progress-bar__inner{
-  background-color:#ff4949;
+.el-progress.is-exception .el-progress-bar__inner {
+  background-color: #ff4949;
 }
 
-.el-progress.is-exception .el-progress__text{
-  color:#ff4949;
+.el-progress.is-exception .el-progress__text {
+  color: #ff4949;
 }
 
-.el-progress.is-success .el-progress-bar__inner{
-  background-color:#13ce66;
+.el-progress.is-success .el-progress-bar__inner {
+  background-color: #13ce66;
 }
 
-.el-progress.is-success .el-progress__text{
-  color:#13ce66;
+.el-progress.is-success .el-progress__text {
+  color: #13ce66;
 }
 
-.el-progress__text{
-  font-size:14px;
-  color:rgb(72, 87, 106);
+.el-progress__text {
+  font-size: 14px;
+  color: rgb(72, 87, 106);
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
@@ -130,7 +132,7 @@
   display: block;
 }
 
-.el-progress--circle{
+.el-progress--circle {
   display: inline-block;
 }
 
@@ -164,40 +166,40 @@
   margin-right: 0;
 }
 
-.el-progress-bar{
-  padding-right:50px;
-  display:inline-block;
-  vertical-align:middle;
-  width:100%;
-  margin-right:-55px;
-  box-sizing:border-box;
+.el-progress-bar {
+  padding-right: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  margin-right: -55px;
+  box-sizing: border-box;
 }
 
-.el-progress-bar__outer{
+.el-progress-bar__outer {
   height: 6px;
   border-radius: 100px;
-  background-color:rgb(228, 232, 241);
+  background-color: rgb(228, 232, 241);
   overflow: hidden;
   position: relative;
   vertical-align: middle;
 }
 
-.el-progress-bar__inner{
+.el-progress-bar__inner {
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   border-radius: 2px 0 0 2px;
-  background-color:#20a0ff;
+  background-color: #20a0ff;
   text-align: right;
   border-radius: 100px;
   line-height: 1;
 }
 
-.el-progress-bar__innerText{
+.el-progress-bar__innerText {
   display: inline-block;
   vertical-align: middle;
-  color:#fff;
+  color: #fff;
   font-size: 12px;
   margin: 0 5px;
 }
@@ -210,7 +212,8 @@
     background-position: 32px 0;
   }
 }
-:root{
+
+:root {
   /* Transition
   -------------------------- */
   /* Colors

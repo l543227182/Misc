@@ -1,5 +1,4 @@
 package com.lc.misc.usualTest;
-import org.springframework.util.StringUtils;
 
 import java.util.Arrays;
 import java.util.BitSet;
@@ -18,7 +17,7 @@ public class ScheduleTaskParamsAnalyszer {
 
     private BitSet months;
 
-    private int recycleWeek ;
+    private int recycleWeek;
 
     //从calendar开始寻找下一个匹配cron表达式的时间
     private void doNext(Calendar calendar) {
@@ -130,17 +129,17 @@ public class ScheduleTaskParamsAnalyszer {
     }
 
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         Calendar instance = Calendar.getInstance();
 
         int i = instance.get(Calendar.DAY_OF_WEEK);
         System.out.println(i);
-        instance.add(Calendar.DAY_OF_WEEK,1);
-        i=instance.get(Calendar.DAY_OF_WEEK);
+        instance.add(Calendar.DAY_OF_WEEK, 1);
+        i = instance.get(Calendar.DAY_OF_WEEK);
         System.out.println(i);
-        instance.add(Calendar.DAY_OF_WEEK,1);
+        instance.add(Calendar.DAY_OF_WEEK, 1);
         int i1 = instance.get(Calendar.DAY_OF_WEEK);
-        instance.add(Calendar.DAY_OF_WEEK,1);
+        instance.add(Calendar.DAY_OF_WEEK, 1);
         i1 = instance.get(Calendar.DAY_OF_WEEK);
 
         System.out.println(i1);

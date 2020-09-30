@@ -1,4 +1,5 @@
 import {NOTICE_TYPE, TASK_STATUS} from '@/constant'
+
 const getMapFilter = (Map) => {
   return (value) => {
     return Map[value]

@@ -17,7 +17,7 @@ public class DaemonBeatData {
      * @return
      */
     public Map<String, String> getInfluxTags() {
-        Map<String,String> tags = Maps.newHashMap();
+        Map<String, String> tags = Maps.newHashMap();
         if (Objects.isNull(fields)) {
             return tags;
         }
@@ -63,13 +63,13 @@ public class DaemonBeatData {
 
         // filebeat
         if (Objects.nonNull(allbeats.getFilebeat())) {
-            if(Objects.nonNull(allbeats.getFilebeat().getFilebeat())) {
+            if (Objects.nonNull(allbeats.getFilebeat().getFilebeat())) {
                 fields.put("filebeat.memory", allbeats.getFilebeat().getFilebeat().getMemory());
                 fields.put("filebeat.cpu", allbeats.getFilebeat().getFilebeat().getCpu());
                 fields.put("filebeat.pid", allbeats.getFilebeat().getFilebeat().getPid());
             }
 
-            if(Objects.nonNull(allbeats.getFilebeat().getFields())) {
+            if (Objects.nonNull(allbeats.getFilebeat().getFields())) {
                 fields.put("filebeat.id", allbeats.getFilebeat().getFields().getId());
                 fields.put("filebeat.beatver", allbeats.getFilebeat().getFields().getBeatver());
                 fields.put("filebeat.ymlver", allbeats.getFilebeat().getFields().getYmlver());
@@ -78,13 +78,13 @@ public class DaemonBeatData {
 
         // metricbeat
         if (Objects.nonNull(allbeats.getMetricbeat())) {
-            if(Objects.nonNull(allbeats.getMetricbeat().getMetricbeat())) {
+            if (Objects.nonNull(allbeats.getMetricbeat().getMetricbeat())) {
                 fields.put("metricbeat.memory", allbeats.getMetricbeat().getMetricbeat().getMemory());
                 fields.put("metricbeat.cpu", allbeats.getMetricbeat().getMetricbeat().getCpu());
                 fields.put("metricbeat.pid", allbeats.getMetricbeat().getMetricbeat().getPid());
             }
 
-            if(Objects.nonNull(allbeats.getMetricbeat().getFields())) {
+            if (Objects.nonNull(allbeats.getMetricbeat().getFields())) {
                 fields.put("metricbeat.id", allbeats.getMetricbeat().getFields().getId());
                 fields.put("metricbeat.beatver", allbeats.getMetricbeat().getFields().getBeatver());
                 fields.put("metricbeat.ymlver", allbeats.getMetricbeat().getFields().getYmlver());
@@ -94,12 +94,12 @@ public class DaemonBeatData {
 
         //journalbeat
         if (Objects.nonNull(allbeats.getJournalbeat())) {
-            if(Objects.nonNull(allbeats.getJournalbeat().getJournalbeat())) {
+            if (Objects.nonNull(allbeats.getJournalbeat().getJournalbeat())) {
                 fields.put("journalbeat.memory", allbeats.getJournalbeat().getJournalbeat().getMemory());
                 fields.put("journalbeat.cpu", allbeats.getJournalbeat().getJournalbeat().getCpu());
                 fields.put("journalbeat.pid", allbeats.getJournalbeat().getJournalbeat().getPid());
             }
-            if(Objects.nonNull(allbeats.getJournalbeat().getFields())) {
+            if (Objects.nonNull(allbeats.getJournalbeat().getFields())) {
                 fields.put("journalbeat.id", allbeats.getJournalbeat().getFields().getId());
                 fields.put("journalbeat.beatver", allbeats.getJournalbeat().getFields().getBeatver());
                 fields.put("journalbeat.ymlver", allbeats.getJournalbeat().getFields().getYmlver());

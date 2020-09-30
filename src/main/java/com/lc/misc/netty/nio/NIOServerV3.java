@@ -17,7 +17,9 @@ import java.util.concurrent.atomic.AtomicInteger;
  * NIO selector 多路复用reactor线程模型
  */
 public class NIOServerV3 {
-    /** 处理业务操作的线程 */
+    /**
+     * 处理业务操作的线程
+     */
     private static ExecutorService workPool = Executors.newCachedThreadPool();
 
     /**
@@ -147,6 +149,7 @@ public class NIOServerV3 {
         for (int i = 0; i < mainReactorThreads.length; i++) {
             mainReactorThreads[i] = new ReactorThread() {
                 AtomicInteger incr = new AtomicInteger(0);
+
                 @Override
                 public void handler(SelectableChannel channel) throws Exception {
                     // 只做请求分发，不做具体的数据读取

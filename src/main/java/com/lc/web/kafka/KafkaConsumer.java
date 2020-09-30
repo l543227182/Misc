@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class KafkaConsumer {
 
     @KafkaListener(topics = "topic-test")
-    public void consumerDo (ConsumerRecord<?, ?> record) {
+    public void consumerDo(ConsumerRecord<?, ?> record) {
         System.out.println("message === " + record);
     }
 }

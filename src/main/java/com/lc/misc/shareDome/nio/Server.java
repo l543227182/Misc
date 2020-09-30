@@ -22,13 +22,14 @@ public class Server {
     private static ExecutorService threadPool = Executors.newCachedThreadPool();
 
     private static Set<SocketChannel> channels = new HashSet();
+
     public static void main(String[] args) throws Exception {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         serverSocketChannel.configureBlocking(false);
         serverSocketChannel.socket().bind(new InetSocketAddress(8899));
         Selector selector = Selector.open();
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT, serverSocketChannel);// 将serverSocketChannel注册到selector
-        threadPool.execute(()->{
+        threadPool.execute(() -> {
             try {
                 scannerWriteMsg();
             } catch (IOException e) {
@@ -79,11 +80,11 @@ public class Server {
     }
 
     public static void scannerWriteMsg() throws IOException {
-        while(true) {
+        while (true) {
             Scanner scanner = new Scanner(System.in);
             String s = scanner.nextLine();
             Iterator<SocketChannel> iterator = channels.iterator();
-            while(iterator.hasNext()) {
+            while (iterator.hasNext()) {
                 SocketChannel next = iterator.next();
                 next.write(ByteBuffer.wrap(s.getBytes()));
             }

@@ -12,7 +12,8 @@ public class AverageTest {
         List<Object> list = new ArrayList<>();
         System.out.println(calcMaxMinAverage(list));
     }
-    private static List<Double>  calcMaxMinAverage(List<Object> data){
+
+    private static List<Double> calcMaxMinAverage(List<Object> data) {
         Long start = System.currentTimeMillis();
         Double max = new Double(0);
         Double min = new Double(0);

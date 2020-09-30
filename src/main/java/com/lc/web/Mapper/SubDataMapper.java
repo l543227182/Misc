@@ -12,17 +12,17 @@ public interface SubDataMapper {
     String INSERT_FIELDS = "userType, score, simplizeComment, serviceComment, overallComment,itemServiceDetailComment,pid ";
     String SELECT_FIELDS = " id, " + INSERT_FIELDS;
 
-    @Insert({"INSERT INTO",TABLE_NAME,"(", INSERT_FIELDS,
+    @Insert({"INSERT INTO", TABLE_NAME, "(", INSERT_FIELDS,
             ") values (#{userType},#{score},#{simplizeComment},#{serviceComment},#{overallComment},#{itemServiceDetailComment},#{pid})"})
-    @Results({ @Result(property = "itemServiceDetailComment", column = "itemServiceDetailComment", typeHandler = StringArrayTypeHandler.class) })
+    @Results({@Result(property = "itemServiceDetailComment", column = "itemServiceDetailComment", typeHandler = StringArrayTypeHandler.class)})
     public int insertData(itemComment itemComment);
 
 
-    @Select({"select" ,SELECT_FIELDS,"from " ,TABLE_NAME})
-    @Results({ @Result(property = "itemServiceDetailComment", column = "itemServiceDetailComment", typeHandler = StringArrayTypeHandler.class) })
+    @Select({"select", SELECT_FIELDS, "from ", TABLE_NAME})
+    @Results({@Result(property = "itemServiceDetailComment", column = "itemServiceDetailComment", typeHandler = StringArrayTypeHandler.class)})
     public itemComment selectData();
 
 
-    @Select({"select" ,SELECT_FIELDS,"from " ,TABLE_NAME," where pid = #{pid}"})
+    @Select({"select", SELECT_FIELDS, "from ", TABLE_NAME, " where pid = #{pid}"})
     List<itemComment> selectDataByPid(String pid);
 }

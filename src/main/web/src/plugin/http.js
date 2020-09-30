@@ -43,7 +43,7 @@ export default {
           message: error
         }
       }
-    // typeof error.response.data.message === 'string' ? error.response.data.message : error.response.data.message.message
+      // typeof error.response.data.message === 'string' ? error.response.data.message : error.response.data.message.message
       return Promise.reject(typeof error.response.data.message === 'string' ? error.response.data.message : JSON.stringify(error.response.data.message))
     })
     Vue.$http = instance

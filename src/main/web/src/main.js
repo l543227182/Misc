@@ -5,41 +5,42 @@ import App from './App'
 import router from './router'
 import '@/assets/custom-theme/style/index.css'
 import '@/assets/less/index.less'
-
 // promise
 import promise from 'es6-promise'
-promise.polyfill()
-
 // vuex
 import Vuex from 'vuex'
-Vue.use(Vuex)
 import initStore from './store'
-let store = initStore(Vuex)
-
 // element-ui
 import ElementUI from 'element-ui'
-Vue.use(ElementUI)
-
 // axios
 import HttpPlugin from './plugin/http'
-Vue.use(HttpPlugin)
-
 // custom components
 import ComponentInstall from '@/components/common/install'
-ComponentInstall(Vue)
-
 // filter
 import FilterInstall from '@/filter'
+import uploader from 'vue-simple-uploader'
+import VueVideoPlayer from 'vue-video-player'
+// require videojs style
+import 'video.js/dist/video-js.css'
+
+promise.polyfill()
+
+Vue.use(Vuex)
+
+let store = initStore(Vuex)
+
+Vue.use(ElementUI)
+
+Vue.use(HttpPlugin)
+
+ComponentInstall(Vue)
+
 FilterInstall(Vue)
 
 Vue.config.productionTip = false
 
-import uploader from 'vue-simple-uploader'
 Vue.use(uploader)
-import VueVideoPlayer from 'vue-video-player'
 
-// require videojs style
-import 'video.js/dist/video-js.css'
 // import 'vue-video-player/src/custom-t
 
 Vue.use(VueVideoPlayer)
@@ -49,5 +50,5 @@ new Vue({
   store,
   router,
   template: '<App/>',
-  components: { App }
+  components: {App}
 })

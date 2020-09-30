@@ -3,6 +3,7 @@
  */
 import ViewBase from '@/components/ViewBase'
 import video from '@/components/view/video'
+
 export default {
   path: '/upload',
   component: ViewBase,
