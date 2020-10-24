@@ -2,12 +2,12 @@
 
   /* Transition
   -------------------------- */
-  --all-transition: all .3s cubic-bezier(.645,.045,.355,1);
+  --all-transition: all .3s cubic-bezier(.645, .045, .355, 1);
   --fade-transition: opacity 300ms cubic-bezier(0.23, 1, 0.32, 1);
   --fade-linear-transition: opacity 200ms linear;
   --md-fade-transition: transform 300ms cubic-bezier(0.23, 1, 0.32, 1) 100ms, opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) 100ms;
-  --border-transition-base: border-color .2s cubic-bezier(.645,.045,.355,1);
-  --color-transition-base: color .2s cubic-bezier(.645,.045,.355,1);
+  --border-transition-base: border-color .2s cubic-bezier(.645, .045, .355, 1);
+  --color-transition-base: color .2s cubic-bezier(.645, .045, .355, 1);
 
   /* Colors
   -------------------------- */
@@ -116,7 +116,6 @@
   --checkbox-button-checked-fill: var(--color-primary);
   --checkbox-button-checked-color: var(--color-white);
   --checkbox-button-checked-border-color: var(--color-primary);
-
 
 
   /* Radio
@@ -309,7 +308,7 @@
 
   /* Group
   -------------------------- */
-  --group-option-flex: 0 0 (1/5) * 100%;
+  --group-option-flex: 0 0 (1 / 5) * 100 %;
   --group-option-offset-bottom: 12px;
   --group-option-fill-hover: rgba(var(--color-black), 0.06);
   --group-title-color: var(--color-black);
@@ -466,20 +465,20 @@
   --tag-gray-border: var(--color-light-gray);
   --tag-gray-color: var(--link-color);
 
-  --tag-primary-fill: rgba(var(--color-primary),0.10);
-  --tag-primary-border: rgba(var(--color-primary),0.20);
+  --tag-primary-fill: rgba(var(--color-primary), 0.10);
+  --tag-primary-border: rgba(var(--color-primary), 0.20);
   --tag-primary-color: var(--color-primary);
 
-  --tag-success-fill: rgba(18,206,102,0.10);
-  --tag-success-border: rgba(18,206,102,0.20);
+  --tag-success-fill: rgba(18, 206, 102, 0.10);
+  --tag-success-border: rgba(18, 206, 102, 0.20);
   --tag-success-color: var(--color-success);
 
-  --tag-warning-fill: rgba(247,186,41,0.10);
-  --tag-warning-border: rgba(247,186,41,0.20);
+  --tag-warning-fill: rgba(247, 186, 41, 0.10);
+  --tag-warning-border: rgba(247, 186, 41, 0.20);
   --tag-warning-color: var(--color-warning);
 
-  --tag-danger-fill: rgba(255,73,73,0.10);
-  --tag-danger-border: rgba(255,73,73,0.20);
+  --tag-danger-fill: rgba(255, 73, 73, 0.10);
+  --tag-danger-border: rgba(255, 73, 73, 0.20);
   --tag-danger-color: var(--color-danger);
 
   /* Dropdown

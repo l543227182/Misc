@@ -19,19 +19,19 @@ public class DataService {
     @Autowired
     private SubDataMapper subDataMapper;
 
-    public int addData(crawlerBean crawlerBean){
+    public int addData(crawlerBean crawlerBean) {
         try {
             int id = dataMapper.insertData(crawlerBean);
 
-            for(itemComment ic:crawlerBean.getComments()) {
+            for (itemComment ic : crawlerBean.getComments()) {
                 ic.setPid(String.valueOf(crawlerBean.getId()));
-                try{
+                try {
                     subDataMapper.insertData(ic);
-                }catch (Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             throw new RuntimeException(e);
         }

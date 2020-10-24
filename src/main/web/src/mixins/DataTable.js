@@ -1,5 +1,5 @@
 export default {
-  data () {
+  data() {
     return {
       search: '',
       condition: {
@@ -9,12 +9,12 @@ export default {
     }
   },
   computed: {
-    sortMap () {
+    sortMap() {
       return {}
     }
   },
   methods: {
-    getQueryParams () {
+    getQueryParams() {
       const params = {}
       const pagination = this.$refs.page
       if (pagination) {
@@ -44,11 +44,11 @@ export default {
       }
       return params
     },
-    sortChange ({ column, prop, order }) {
+    sortChange({column, prop, order}) {
       this.condition.sort = prop
       this.condition.order = order
     },
-    filterChange (filters) {
+    filterChange(filters) {
       const condition = this.condition
       if (condition && condition.filters) {
         _.forEach(filters, (value, key) => {

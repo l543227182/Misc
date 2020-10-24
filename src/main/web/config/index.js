@@ -27,7 +27,7 @@ module.exports = {
     autoOpenBrowser: true,
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable:  {
+    proxyTable: {
       '/api': {
         target: 'http://localhost:1122',
         pathRewrite: {

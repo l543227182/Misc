@@ -12,6 +12,7 @@ import java.util.Scanner;
  */
 public class Client {
     private static volatile SocketChannel socketChannel;
+
     public static void main(String[] args) throws IOException {
         socketChannel = SocketChannel.open();
         socketChannel.configureBlocking(false);
@@ -45,7 +46,7 @@ public class Client {
     public static Thread readMsg() {
         Thread thread = new Thread(() -> {
             ByteBuffer buffer = ByteBuffer.allocate(1024);
-            while(true) {
+            while (true) {
                 buffer.clear();
                 StringBuffer sb = new StringBuffer();
                 try {

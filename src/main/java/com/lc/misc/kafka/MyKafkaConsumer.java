@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Properties;
 
 public class MyKafkaConsumer {
-    public static void main(String[] s){
+    public static void main(String[] s) {
         Properties props = new Properties();
         props.put("bootstrap.servers", "192.168.3.35:9092");
         props.put("group.id", "1");

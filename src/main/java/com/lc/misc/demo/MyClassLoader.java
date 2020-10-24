@@ -1,4 +1,5 @@
 package com.lc.misc.demo;
+
 import java.io.*;
 
 public class MyClassLoader extends ClassLoader {
@@ -8,13 +9,14 @@ public class MyClassLoader extends ClassLoader {
     //�������·��
     private String path = "D:/";
     private final String fileType = ".class";
-    public MyClassLoader(String name){
+
+    public MyClassLoader(String name) {
         //��ϵͳ���������Ϊ�� ��������ĸ�������
         super();
         this.name = name;
     }
 
-    public MyClassLoader(ClassLoader parent, String name){
+    public MyClassLoader(ClassLoader parent, String name) {
         //��ʾָ������������ĸ�������
         super(parent);
         this.name = name;
@@ -35,10 +37,11 @@ public class MyClassLoader extends ClassLoader {
 
     /**
      * ��ȡ.class�ļ����ֽ�����
+     *
      * @param name
      * @return
      */
-    private byte[] loaderClassData(String name){
+    private byte[] loaderClassData(String name) {
         InputStream is = null;
         byte[] data = null;
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -46,14 +49,14 @@ public class MyClassLoader extends ClassLoader {
         try {
             is = new FileInputStream(new File(path + name + fileType));
             int c = 0;
-            while(-1 != (c = is.read())){
+            while (-1 != (c = is.read())) {
                 baos.write(c);
             }
             data = baos.toByteArray();
 
         } catch (Exception e) {
             e.printStackTrace();
-        } finally{
+        } finally {
             try {
                 is.close();
                 baos.close();
@@ -68,7 +71,7 @@ public class MyClassLoader extends ClassLoader {
      * ��ȡClass����
      */
     @Override
-    public Class<?> findClass(String name){
+    public Class<?> findClass(String name) {
         byte[] data = loaderClassData(name);
         System.out.println(data);
         return this.defineClass(name, data, 0, data.length);
@@ -88,16 +91,18 @@ public class MyClassLoader extends ClassLoader {
         Object object = clazz.newInstance();
     }
 }
+
 class Sample {
 
-    public Sample(){
+    public Sample() {
         System.out.println("Sample is loaded by " + this.getClass().getClassLoader());
         new A();
     }
 }
+
 class A {
 
-    public A(){
+    public A() {
         System.out.println("A is loaded by " + this.getClass().getClassLoader());
     }
 }

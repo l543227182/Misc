@@ -12,14 +12,12 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 
-public class KryoReflectionFactory extends KryoReflectionFactorySupport
-{
-	public KryoReflectionFactory()
-	{
-		this.setRegistrationRequired(false);
-		setReferences(true); 
-		register(RpcRequest.class, new RpcRequestSerializer());
-		register(RpcResponse.class, new RpcResponseSerializer());
+public class KryoReflectionFactory extends KryoReflectionFactorySupport {
+    public KryoReflectionFactory() {
+        this.setRegistrationRequired(false);
+        setReferences(true);
+        register(RpcRequest.class, new RpcRequestSerializer());
+        register(RpcResponse.class, new RpcResponseSerializer());
         register(Arrays.asList("").getClass(), new ArraysAsListSerializer());
         register(Collections.EMPTY_LIST.getClass(), new DefaultSerializers.CollectionsEmptyListSerializer());
         register(Collections.EMPTY_MAP.getClass(), new CollectionsEmptyMapSerializer());
@@ -30,36 +28,35 @@ public class KryoReflectionFactory extends KryoReflectionFactorySupport
         register(Pattern.class, new RegexSerializer());
         register(BitSet.class, new BitSetSerializer());
         register(URI.class, new URISerializer());
-       //  register(UUID.class, new UUIDSerializer());
+        //  register(UUID.class, new UUIDSerializer());
         register(GregorianCalendar.class, new GregorianCalendarSerializer());
         register(InvocationHandler.class, new JdkProxySerializer());
         UnmodifiableCollectionsSerializer.registerSerializers(this);
         SynchronizedCollectionsSerializer.registerSerializers(this);
-	}
-	
-	@Override
-	@SuppressWarnings({"rawtypes", "unchecked"})
-	public Serializer<?> getDefaultSerializer(Class clazz)
-	{		
-		if(EnumSet.class.isAssignableFrom(clazz)) 
-			return new EnumSetSerializer();
-        
-        if(EnumMap.class.isAssignableFrom(clazz))
+    }
+
+    @Override
+    @SuppressWarnings({"rawtypes", "unchecked"})
+    public Serializer<?> getDefaultSerializer(Class clazz) {
+        if (EnumSet.class.isAssignableFrom(clazz))
+            return new EnumSetSerializer();
+
+        if (EnumMap.class.isAssignableFrom(clazz))
             return new EnumMapSerializer();
-        
-        if(Collection.class.isAssignableFrom(clazz))
+
+        if (Collection.class.isAssignableFrom(clazz))
             return new CopyForIterateCollectionSerializer();
-        
-        if(Map.class.isAssignableFrom(clazz)) 
+
+        if (Map.class.isAssignableFrom(clazz))
             return new CopyForIterateMapSerializer();
-        
-        if(Date.class.isAssignableFrom(clazz))
-            return new DateSerializer( clazz );
-        
-        if (SubListSerializers.ArrayListSubListSerializer.canSerialize(clazz) 
-        		|| SubListSerializers.JavaUtilSubListSerializer.canSerialize(clazz))
-			return SubListSerializers.createFor(clazz);		
-        
+
+        if (Date.class.isAssignableFrom(clazz))
+            return new DateSerializer(clazz);
+
+        if (SubListSerializers.ArrayListSubListSerializer.canSerialize(clazz)
+                || SubListSerializers.JavaUtilSubListSerializer.canSerialize(clazz))
+            return SubListSerializers.createFor(clazz);
+
         return super.getDefaultSerializer(clazz);
-	}	
+    }
 }

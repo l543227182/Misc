@@ -19,20 +19,22 @@ import java.util.regex.Pattern;
 public class Utils {
 
     static Logger log = LoggerFactory.getLogger(Utils.class);
-    
+
     public static final ObjectMapper mapper = new ObjectMapper();
-    
-    /** 运行环境 */
-    private static final Map<String,String> PROFILES = new HashMap<>();
-    
-    static{
-    	PROFILES.put("dev", "开发环境");
-    	PROFILES.put("devtest", "开发测试环境");
-    	PROFILES.put("test", "测试环境");
-    	PROFILES.put("vrf", "验证环境");
-    	PROFILES.put("prd", "生产环境");
+
+    /**
+     * 运行环境
+     */
+    private static final Map<String, String> PROFILES = new HashMap<>();
+
+    static {
+        PROFILES.put("dev", "开发环境");
+        PROFILES.put("devtest", "开发测试环境");
+        PROFILES.put("test", "测试环境");
+        PROFILES.put("vrf", "验证环境");
+        PROFILES.put("prd", "生产环境");
     }
-    
+
     public static String anyToString(Object v) {
         return anyToString(v, null);
     }
@@ -47,7 +49,7 @@ public class Utils {
         return v.toString();
     }
 
-    public static long anyToLong(Object v){
+    public static long anyToLong(Object v) {
         if (v == null) {
             return 0;
         }
@@ -62,8 +64,8 @@ public class Utils {
         }
         return Long.parseLong(v.toString());
     }
-    
-    
+
+
     public static int anyToInt(Object v) {
         if (v == null) {
             return 0;
@@ -115,12 +117,14 @@ public class Utils {
     }
 
     public static String implode(String[] arr, String delim) {
-        return StringUtils.join(arr,delim);
+        return StringUtils.join(arr, delim);
     }
+
     public static String implode(List<String> arr, String delim) {
-        if(arr == null || arr.size() == 0) return  "";
-        return StringUtils.join(arr.toArray(new String[0]),delim);
+        if (arr == null || arr.size() == 0) return "";
+        return StringUtils.join(arr.toArray(new String[0]), delim);
     }
+
     public static String implode(Iterable<?> iterable) {
         return StringUtils.join(iterable, ',');
     }
@@ -133,7 +137,7 @@ public class Utils {
     public static int getIpType(String ip) {
         try {
             return InetAddress.getByName(ip).isSiteLocalAddress() ? 1 : 2;
-        } catch(Exception e) {
+        } catch (Exception e) {
             return 2;
         }
     }
@@ -144,7 +148,7 @@ public class Utils {
             Date start = sdf.parse(start_time);
             Date end = sdf.parse(end_time);
             return start.getTime() <= end.getTime() && end.getTime() > new Date().getTime();
-        } catch(Exception e) {
+        } catch (Exception e) {
             return false;
         }
     }
@@ -154,7 +158,7 @@ public class Utils {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             sdf.parse(start_time);
             return true;
-        } catch(Exception e) {
+        } catch (Exception e) {
             return false;
         }
     }
@@ -168,12 +172,13 @@ public class Utils {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return format.format(time);
     }
-    
-    
+
+
     public static String longToDateStringMin(long time) {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         return format.format(time);
     }
+
     public static String longToDateString(long microseconds, String pDateTimeFormater) {
         if (StringUtils.isEmpty(pDateTimeFormater)) {
             pDateTimeFormater = "yyyy-MM-dd HH:mm:ss";
@@ -182,35 +187,38 @@ public class Utils {
         Date date = new Date(microseconds);
         return simpleDateFormat.format(date);
     }
+
     public static int getRandomInteger(int number) {
-    	return new Random().nextInt(number);
-    	
+        return new Random().nextInt(number);
+
     }
-    public static String addTime(String orginTime,int delay_time) throws ParseException {
-    	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date date= sdf.parse(orginTime);
-        delay_time=Math.abs(getRandomInteger(delay_time));
-        long time=date.getTime()+delay_time*1000;
-    	return longToDateString(time);
+
+    public static String addTime(String orginTime, int delay_time) throws ParseException {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Date date = sdf.parse(orginTime);
+        delay_time = Math.abs(getRandomInteger(delay_time));
+        long time = date.getTime() + delay_time * 1000;
+        return longToDateString(time);
     }
 
     public static String appendSlash(String path) {
-        if ( !path.endsWith("/") && !path.endsWith("\\") ) {
+        if (!path.endsWith("/") && !path.endsWith("\\")) {
             return path + "/";
         }
         return path;
     }
+
     public static String removeSlash(String path) {
-        if (path.startsWith("/") || path.startsWith("\\") ) {
+        if (path.startsWith("/") || path.startsWith("\\")) {
             return path.substring(1);
         }
         return path;
     }
-    
+
     public static String removeTimestamp(String s) {
-    	return s;		//本机上传，不在将文件名改名
+        return s;        //本机上传，不在将文件名改名
     }
-    
+
     // 将文件路径解析成目录和文件名
     public static String[] splitPath(String path) {
         try {
@@ -219,28 +227,28 @@ public class Utils {
             if (m.find()) {
                 String fileName = m.group(0);
                 String filePath = path.replaceAll("[^/\\\\]+$", "");
-                return new String[] { fileName, filePath };
+                return new String[]{fileName, filePath};
             }
         } catch (Exception ex) {
-            log.error("exception pvFilePath="+path+",e="+ex.getMessage(),ex);
+            log.error("exception pvFilePath=" + path + ",e=" + ex.getMessage(), ex);
         }
-        return new String[] { path, "" };
+        return new String[]{path, ""};
     }
 
     public static String toJsonString(Object bizParameter) {
         try {
             return mapper.writeValueAsString(bizParameter);
         } catch (Exception ex) {
-            log.error("exception e="+ex.getMessage(),ex);
+            log.error("exception e=" + ex.getMessage(), ex);
             return "";
         }
     }
-    
+
     /**
      * 将object转换为json字符串
-     * 
+     *
      * @param bizParameter 对象
-     * @return 
+     * @return
      * @throws Exception 转换失败
      */
     public static String toJson(Object bizParameter) throws Exception {
@@ -255,7 +263,7 @@ public class Utils {
             return null;
         }
     }
-    
+
     /**
      * 解析json
      *
@@ -281,7 +289,7 @@ public class Utils {
         }
         return false;
     }
-    
+
     @SuppressWarnings("unchecked")
     public static boolean checkJsonArrayFields(String jsonString, String... keyFields) {
         List<Map<String, Object>> parameterList = (List<Map<String, Object>>) parseJsonString(jsonString, List.class);
@@ -313,22 +321,22 @@ public class Utils {
                 String fTypeName = f.getGenericType().getTypeName();
                 f.setAccessible(true);
                 if (fieldName == pvPropertyName) {
-                    switch (fTypeName) {                                
-                    case "java.lang.String":
-                        return anyToInt(f.get(pvBean));
-                    case "int":
-                        return f.getInt(pvBean);
-                    case "short":
-                        return (int) f.getShort(pvBean);
-                    case "long":
-                        return (int) f.getLong(pvBean);
-                    default:
-                        break;
+                    switch (fTypeName) {
+                        case "java.lang.String":
+                            return anyToInt(f.get(pvBean));
+                        case "int":
+                            return f.getInt(pvBean);
+                        case "short":
+                            return (int) f.getShort(pvBean);
+                        case "long":
+                            return (int) f.getLong(pvBean);
+                        default:
+                            break;
                     }
                 }
             }
         } catch (Exception ex) {
-            log.error("exception e="+ex.getMessage(),ex);
+            log.error("exception e=" + ex.getMessage(), ex);
         }
         return defaultValue;
     }
@@ -345,21 +353,21 @@ public class Utils {
                 f.setAccessible(true);
                 if (fieldName == pvPropertyName) {
                     switch (fTypeName) {
-                    case "java.lang.String":
-                        return anyToString(f.get(pvBean), defaultValue);
-                    case "int":
-                        return Integer.toString(f.getInt(pvBean));
-                    case "short":
-                        return Short.toString(f.getShort(pvBean));
-                    case "long":
-                        return Long.toString(f.getLong(pvBean));
-                    default:
-                        break;
+                        case "java.lang.String":
+                            return anyToString(f.get(pvBean), defaultValue);
+                        case "int":
+                            return Integer.toString(f.getInt(pvBean));
+                        case "short":
+                            return Short.toString(f.getShort(pvBean));
+                        case "long":
+                            return Long.toString(f.getLong(pvBean));
+                        default:
+                            break;
                     }
                 }
             }
         } catch (Exception ex) {
-            log.error("exception e="+ex.getMessage(),ex);
+            log.error("exception e=" + ex.getMessage(), ex);
         }
         return defaultValue;
     }
@@ -373,70 +381,70 @@ public class Utils {
             String fieldName = f.getName();
             String fTypeName = f.getGenericType().getTypeName();
             f.setAccessible(true);
-    
+
             switch (fTypeName) {
-            case "java.lang.String":
-                try {
-                    f.set(pvBean, rs.getString(fieldName));
-                } catch (Exception ex) {
-                    log.error("exception e="+ex.getMessage(),ex);
-                }
-                break;
-            case "int":
-            case "long":
-                try {
-                    f.setInt(pvBean, rs.getInt(fieldName));
-                } catch (Exception ex) {
-                    log.error("exception e="+ex.getMessage(),ex);
-                }
-                break;
-            case "java.util.Date":
-                try {
-                    f.set(pvBean, rs.getDate(fieldName));
-                } catch (Exception ex) {
-                    log.error("exception e="+ex.getMessage(),ex);
-                }
-                break;
+                case "java.lang.String":
+                    try {
+                        f.set(pvBean, rs.getString(fieldName));
+                    } catch (Exception ex) {
+                        log.error("exception e=" + ex.getMessage(), ex);
+                    }
+                    break;
+                case "int":
+                case "long":
+                    try {
+                        f.setInt(pvBean, rs.getInt(fieldName));
+                    } catch (Exception ex) {
+                        log.error("exception e=" + ex.getMessage(), ex);
+                    }
+                    break;
+                case "java.util.Date":
+                    try {
+                        f.set(pvBean, rs.getDate(fieldName));
+                    } catch (Exception ex) {
+                        log.error("exception e=" + ex.getMessage(), ex);
+                    }
+                    break;
             }
         }
     }
-    
+
     @SuppressWarnings("rawtypes")
-	public static void setObjectPropertyFromMap(Object pvBean,Class pvBeanClass,Map<String, Object> pvMap){
+    public static void setObjectPropertyFromMap(Object pvBean, Class pvBeanClass, Map<String, Object> pvMap) {
         Field[] fs = pvBeanClass.getDeclaredFields();
         for (int i = 0; i < fs.length; i++) {
             Field f = fs[i];
             String fieldName = f.getName();
-            if(pvMap.containsKey(fieldName)){
+            if (pvMap.containsKey(fieldName)) {
                 String fTypeName = f.getGenericType().getTypeName();
                 f.setAccessible(true);
                 switch (fTypeName) {
-                case "java.lang.String":
-                    try {
-                        f.set(pvBean,  anyToString(pvMap.get(fieldName)));
-                    } catch (Exception ex) {
-                        log.error("exception e="+ex.getMessage(),ex);
-                    }                	
-                	break;
-                case "int":
-                case "long":
-                    try {
-                        f.setInt(pvBean, anyToInt(pvMap.get(fieldName)));
-                    } catch (Exception ex) {
-                        log.error("exception e="+ex.getMessage(),ex);
-                    }
-                    break;
-                default:
-                    Object v = pvMap.get(fieldName);
-                    if (v == null) {
-                        v = "";
-                    }
-                    try {
-                    	f.set(pvBean, v);
-                    } catch (Exception ex) {
-                        log.error("exception e="+ex.getMessage(),ex);
-                    }
-                    break;
+                    case "java.lang.String":
+                        try {
+                            f.set(pvBean, anyToString(pvMap.get(fieldName)));
+                        } catch (Exception ex) {
+                            log.error("exception e=" + ex.getMessage(), ex);
+                        }
+                        break;
+                    case "int":
+                    case "long":
+                        try {
+                            f.setInt(pvBean, anyToInt(pvMap.get(fieldName)));
+                        } catch (Exception ex) {
+                            log.error("exception e=" + ex.getMessage(), ex);
+                        }
+                        break;
+                    default:
+                        Object v = pvMap.get(fieldName);
+                        if (v == null) {
+                            v = "";
+                        }
+                        try {
+                            f.set(pvBean, v);
+                        } catch (Exception ex) {
+                            log.error("exception e=" + ex.getMessage(), ex);
+                        }
+                        break;
                 }
             }
         }
@@ -450,27 +458,27 @@ public class Utils {
                 String fieldName = rsMetaData.getColumnName(i);
                 String fTypeName = rsMetaData.getColumnClassName(i);
                 switch (fTypeName) {
-                case "java.lang.String":
-                    pvMap.put(fieldName, anyToString(rs.getString(fieldName), ""));
-                    break;
-                case "int":
-                case "long":
-                    pvMap.put(fieldName, new Integer(anyToInt(rs.getInt(fieldName))));
-                    break;
-                case "java.util.Date":
-                    pvMap.put(fieldName, rs.getDate(fieldName));
-                    break;
-                default:
-                    Object v = rs.getObject(fieldName);
-                    if (v == null) {
-                        v = "";
-                    }
-                    pvMap.put(fieldName, v);
-                    break;
+                    case "java.lang.String":
+                        pvMap.put(fieldName, anyToString(rs.getString(fieldName), ""));
+                        break;
+                    case "int":
+                    case "long":
+                        pvMap.put(fieldName, new Integer(anyToInt(rs.getInt(fieldName))));
+                        break;
+                    case "java.util.Date":
+                        pvMap.put(fieldName, rs.getDate(fieldName));
+                        break;
+                    default:
+                        Object v = rs.getObject(fieldName);
+                        if (v == null) {
+                            v = "";
+                        }
+                        pvMap.put(fieldName, v);
+                        break;
                 }
             }
         } catch (SQLException ex) {
-            log.error("exception e="+ex.getMessage(),ex);
+            log.error("exception e=" + ex.getMessage(), ex);
         }
     }
 
@@ -489,21 +497,21 @@ public class Utils {
             }
             String outputFiledName = (fieldsMap == null ? fieldName : (fieldsMap.containsKey(fieldName) ? fieldsMap.get(fieldName) : fieldName));
             try {
-    
+
                 switch (fTypeName) {
-                case "java.lang.String":
-                    body.put(outputFiledName, anyToString(f.get(dbModel), ""));
-                    break;
-                case "int":
-                case "long":
-                    body.put(outputFiledName, anyToInt(f.get(dbModel)));
-                    break;
-                default:
-                    body.put(outputFiledName, f.get(dbModel));
-                    break;
+                    case "java.lang.String":
+                        body.put(outputFiledName, anyToString(f.get(dbModel), ""));
+                        break;
+                    case "int":
+                    case "long":
+                        body.put(outputFiledName, anyToInt(f.get(dbModel)));
+                        break;
+                    default:
+                        body.put(outputFiledName, f.get(dbModel));
+                        break;
                 }
             } catch (Exception ex) {
-                log.error("exception e="+ex.getMessage(),ex);
+                log.error("exception e=" + ex.getMessage(), ex);
             }
         }
         return body;
@@ -528,7 +536,7 @@ public class Utils {
     }
 
     @SuppressWarnings("rawtypes")
-	public static <T> T mapToBean(Map<String, Object> map, Class<T> clazz) {
+    public static <T> T mapToBean(Map<String, Object> map, Class<T> clazz) {
         T obj = null;
         try {
             obj = clazz.newInstance();
@@ -538,118 +546,119 @@ public class Utils {
         }
         return setProps(obj, map);
     }
-    
+
     public static long dateStringToLong(String start_time) throws ParseException {
-    	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
-	    //   再是Date转换成毫秒数
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+        //   再是Date转换成毫秒数
         return sdf.parse(start_time).getTime();
     }
-    
+
     public static String dateSecondToDateMinute(String time) throws ParseException {
-    	if (StringUtils.isEmpty(time) ) {
-			return null;
-		}
-    	long timeStamp=dateStringToLong(time);
-    	return longToDateString(timeStamp,"yyyy-MM-dd HH:mm");
+        if (StringUtils.isEmpty(time)) {
+            return null;
+        }
+        long timeStamp = dateStringToLong(time);
+        return longToDateString(timeStamp, "yyyy-MM-dd HH:mm");
     }
-    
-    public static byte[] intToByte4(int i) {  
-        byte[] targets = new byte[4];  
-        targets[3] = (byte) (i & 0xFF);  
-        targets[2] = (byte) (i >> 8 & 0xFF);  
-        targets[1] = (byte) (i >> 16 & 0xFF);  
-        targets[0] = (byte) (i >> 24 & 0xFF);  
-        return targets;  
+
+    public static byte[] intToByte4(int i) {
+        byte[] targets = new byte[4];
+        targets[3] = (byte) (i & 0xFF);
+        targets[2] = (byte) (i >> 8 & 0xFF);
+        targets[1] = (byte) (i >> 16 & 0xFF);
+        targets[0] = (byte) (i >> 24 & 0xFF);
+        return targets;
     }
-    public static Date convertDate(Object pvDate)
-    {
-    	if(pvDate instanceof Date){
-    		return (Date)pvDate;
-    	}
-    	String strDate="";
-    	if(pvDate instanceof String){
-    		strDate=(String) pvDate;
-    	}else{
-    		strDate=pvDate.toString();
-    	}
-    	SimpleDateFormat simpleDataFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-    	try {
-    		return simpleDataFormat.parse(strDate);
-    	} catch (ParseException e) {
-    		return null;
-    	}
-    }    
+
+    public static Date convertDate(Object pvDate) {
+        if (pvDate instanceof Date) {
+            return (Date) pvDate;
+        }
+        String strDate = "";
+        if (pvDate instanceof String) {
+            strDate = (String) pvDate;
+        } else {
+            strDate = pvDate.toString();
+        }
+        SimpleDateFormat simpleDataFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        try {
+            return simpleDataFormat.parse(strDate);
+        } catch (ParseException e) {
+            return null;
+        }
+    }
+
     public static int verToInter(String version) {
-    	String []aInt=version.split("[.]");
-    	int verInt=0;
-    	for(int i=0;i<=aInt.length-1;i++) {
-    		verInt=Integer.parseInt(aInt[i])+verInt*10;
-    	}
-    	return verInt;
-    	
+        String[] aInt = version.split("[.]");
+        int verInt = 0;
+        for (int i = 0; i <= aInt.length - 1; i++) {
+            verInt = Integer.parseInt(aInt[i]) + verInt * 10;
+        }
+        return verInt;
+
     }
-    public static String replaceOddPathChar(String strPath)
-    {
-    	while(strPath.indexOf("//")>=0){
-    		strPath=strPath.replace("//", "/");
-    	}
-    	while(strPath.indexOf("\\\\")>=0){
-    		strPath=strPath.replace("\\\\", "\\");
-    	}
-    	return strPath;
+
+    public static String replaceOddPathChar(String strPath) {
+        while (strPath.indexOf("//") >= 0) {
+            strPath = strPath.replace("//", "/");
+        }
+        while (strPath.indexOf("\\\\") >= 0) {
+            strPath = strPath.replace("\\\\", "\\");
+        }
+        return strPath;
     }
-    
+
     /**
      * 当前运行环境名称
-     * 
+     *
      * @return
      */
-    public static String getProfileName(){
-    	
-    	String profile = System.getProperty("javaapp.profile");
-    	
+    public static String getProfileName() {
+
+        String profile = System.getProperty("javaapp.profile");
+
         if (profile == null)
             profile = System.getenv("JAVAAPP_PROFILE");
-    	
-        if(profile == null) profile = "default";
-        
+
+        if (profile == null) profile = "default";
+
         String profileName = PROFILES.get(profile);
-        
+
         return profileName == null ? profile : profileName;
     }
 
     /**
      * 判断两个对象是否相同
-     * 
+     *
      * @param obj1
      * @param obj2
      * @return
      */
-	public static boolean isEquals(Object obj1, Object obj2) {
-		
-		if(obj1 == null && obj2 == null) return true;
-		if(obj1 == null || obj2 == null) return false;
-		
-		return obj1.equals(obj2);
-	}
-	
-	/**
+    public static boolean isEquals(Object obj1, Object obj2) {
+
+        if (obj1 == null && obj2 == null) return true;
+        if (obj1 == null || obj2 == null) return false;
+
+        return obj1.equals(obj2);
+    }
+
+    /**
      * 转换为字符串数组，兼容List
-     * 
+     *
      * @param object
      * @return
      */
     @SuppressWarnings("unchecked")
-	public static String[] stringArray(Object object) {
-    	
-    	if(object == null) return null;
-    	
-    	if(object instanceof List){
-    		List<String> list = (List<String>)object;
-    		return list.toArray(new String[]{});
-    	}
-    	
-		return (String[])object;
-	}
-    
+    public static String[] stringArray(Object object) {
+
+        if (object == null) return null;
+
+        if (object instanceof List) {
+            List<String> list = (List<String>) object;
+            return list.toArray(new String[]{});
+        }
+
+        return (String[]) object;
+    }
+
 }

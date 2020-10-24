@@ -28,12 +28,12 @@ import java.util.concurrent.ConcurrentHashMap;
 @Component
 public class mainCrawler implements PageProcessor {
     private Site site = Site.me().setRetryTimes(3).setSleepTime(1000).setTimeOut(10000);
-    public static ConcurrentHashMap<String,crawlerBean> pageMap=new ConcurrentHashMap<String,crawlerBean>();
+    public static ConcurrentHashMap<String, crawlerBean> pageMap = new ConcurrentHashMap<String, crawlerBean>();
 
     @Autowired
     private DataService dataService;
 
-    public void setComments(String pageURL, Html html){
+    public void setComments(String pageURL, Html html) {
         String pageKey = pageURL.substring(pageURL.lastIndexOf("/") + 1, pageURL.lastIndexOf(".")).split("-")[0];
         crawlerBean crawlerBean = pageMap.get(pageKey);
         //爬取评论
@@ -81,7 +81,7 @@ public class mainCrawler implements PageProcessor {
         return;
     }
 
-    public void dealTargetPage(String pageURL,Html html,Page page){
+    public void dealTargetPage(String pageURL, Html html, Page page) {
 
         String s = html.xpath("//ul[@id='scoreList']/li[1]/a/span/text()").get();
         //用户评论总数
@@ -124,6 +124,7 @@ public class mainCrawler implements PageProcessor {
         cb.setTitle(title);
         cb.setEachScoreCount(eachScore.toString());
     }
+
     @Override
     public void process(Page page) {
         try {
@@ -131,27 +132,27 @@ public class mainCrawler implements PageProcessor {
             String pageURL = page.getUrl().get();
             // System.out.println(pageURL);
             if (pageURL.contains("comment")) {
-                setComments(pageURL,html);
-            }else if ((pageURL.contains("morelinetravel") ||
+                setComments(pageURL, html);
+            } else if ((pageURL.contains("morelinetravel") ||
                     pageURL.contains("grouptravel") ||
-                    pageURL.contains("freetravel") )&& !pageURL.contains("ask")&& !pageURL.contains("tours")){
+                    pageURL.contains("freetravel")) && !pageURL.contains("ask") && !pageURL.contains("tours")) {
                 try {
-                    dealTargetPage(pageURL,html,page);
-                }catch (Exception e){
+                    dealTargetPage(pageURL, html, page);
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }else{
+            } else {
                 Selectable links = page.getHtml().links();
                 List<String> all = links.regex("http://vacations.ctrip.com/tours/.*").all();
                 page.addTargetRequests(all);
                 List<String> groupitemCityUrl = links.regex("http://vacations.ctrip.com/grouptravel/.*").all();
                 List<String> morelineCityUrl = links.regex("http://vacations.ctrip.com/morelinetravel/.*").all();
-                List<String> freeitemCityUrl= links.regex("http://vacations.ctrip.com/freetravel/.*").all();
+                List<String> freeitemCityUrl = links.regex("http://vacations.ctrip.com/freetravel/.*").all();
                 page.addTargetRequests(groupitemCityUrl);
                 page.addTargetRequests(morelineCityUrl);
                 page.addTargetRequests(freeitemCityUrl);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -160,8 +161,10 @@ public class mainCrawler implements PageProcessor {
     public Site getSite() {
         return site;
     }
-    public Thread ClawlerThread ;
-    public  Spider startSpider() {
+
+    public Thread ClawlerThread;
+
+    public Spider startSpider() {
         Spider spider = Spider.create(new mainCrawler()).addUrl("http://pages.ctrip.com/public/sitemap/dj.html").thread(5);
         ClawlerThread = new Thread(new Runnable() {
             @Override
@@ -182,40 +185,41 @@ public class mainCrawler implements PageProcessor {
         return spider;
     }
 
-    public  Timer serializeTimer ;
-    public  void serializeMap(Spider spider){
+    public Timer serializeTimer;
+
+    public void serializeMap(Spider spider) {
         this.serializeTimer = new Timer();
         this.serializeTimer.schedule(new TimerTask() {
             @Override
             public void run() {
-                if(pageMap.size() >10 || spider.getStatus() == Spider.Status.Stopped){
+                if (pageMap.size() > 10 || spider.getStatus() == Spider.Status.Stopped) {
                     try {
                         Set<Map.Entry<String, crawlerBean>> entries = pageMap.entrySet();
-                        BufferedWriter bw=new BufferedWriter(
+                        BufferedWriter bw = new BufferedWriter(
                                 new OutputStreamWriter
-                                        (new FileOutputStream("C:\\Users\\luochao.byron\\Desktop\\日常\\comments.txt",true),"utf-8"));
+                                        (new FileOutputStream("C:\\Users\\luochao.byron\\Desktop\\日常\\comments.txt", true), "utf-8"));
                         for (Map.Entry<String, crawlerBean> item : entries) {
                             crawlerBean value = item.getValue();
-                            if(value.getComments().size() < value.getCommentsCount()){
+                            if (value.getComments().size() < value.getCommentsCount()) {
                                 continue;
                             }
                             dataService.addData(value);
-                            StringBuffer sb=new StringBuffer();
-                            sb.append(value.getAvargeScore() +"\n").append(value.getCity()+"\n").append(value.getCommentsCount()+"\n").
-                                    append(value.getEachScoreCount()+"\n").append(value.getResourceUrl()+"\n").append(value.getTitle()+"\n");
+                            StringBuffer sb = new StringBuffer();
+                            sb.append(value.getAvargeScore() + "\n").append(value.getCity() + "\n").append(value.getCommentsCount() + "\n").
+                                    append(value.getEachScoreCount() + "\n").append(value.getResourceUrl() + "\n").append(value.getTitle() + "\n");
                             sb.append("\n\n评论们：\n");
-                            for(itemComment ic:value.getComments()){
+                            for (itemComment ic : value.getComments()) {
                                 ic.setPid(String.valueOf(value.getId()));
-                                sb.append(StringUtils.join(ic.getItemServiceDetailComment())+"\n").append(ic.getOverallComment()+"\n").append(ic.getScore()+"\n").append(ic.getServiceComment()+"\n")
-                                        .append(ic.getSimplizeComment()+"\n").append(ic.getUserType()+"\n"+"\n");
+                                sb.append(StringUtils.join(ic.getItemServiceDetailComment()) + "\n").append(ic.getOverallComment() + "\n").append(ic.getScore() + "\n").append(ic.getServiceComment() + "\n")
+                                        .append(ic.getSimplizeComment() + "\n").append(ic.getUserType() + "\n" + "\n");
                             }
                             String s = sb.toString();
-                            bw.write(s,0,s.length());
+                            bw.write(s, 0, s.length());
                             bw.flush();
                             pageMap.remove(item.getKey());
                         }
                         bw.close();
-                        if(spider.getStatus() == Spider.Status.Stopped){
+                        if (spider.getStatus() == Spider.Status.Stopped) {
                             System.out.println(spider.isExitWhenComplete());
                             System.exit(-1);
                         }
@@ -225,6 +229,6 @@ public class mainCrawler implements PageProcessor {
                 }
 
             }
-        },1000 * 5,1000*10);
+        }, 1000 * 5, 1000 * 10);
     }
 }

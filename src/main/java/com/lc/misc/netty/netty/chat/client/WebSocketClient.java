@@ -56,8 +56,8 @@ public final class WebSocketClient {
 
     public static void main(String[] args) throws Exception {
         URI uri = new URI(URL);
-        String scheme = uri.getScheme() == null? "ws" : uri.getScheme();
-        final String host = uri.getHost() == null? "127.0.0.1" : uri.getHost();
+        String scheme = uri.getScheme() == null ? "ws" : uri.getScheme();
+        final String host = uri.getHost() == null ? "127.0.0.1" : uri.getHost();
         final int port;
         if (uri.getPort() == -1) {
             if ("ws".equalsIgnoreCase(scheme)) {
@@ -80,7 +80,7 @@ public final class WebSocketClient {
         final SslContext sslCtx;
         if (ssl) {
             sslCtx = SslContextBuilder.forClient()
-                .trustManager(InsecureTrustManagerFactory.INSTANCE).build();
+                    .trustManager(InsecureTrustManagerFactory.INSTANCE).build();
         } else {
             sslCtx = null;
         }
@@ -97,21 +97,21 @@ public final class WebSocketClient {
 
             Bootstrap b = new Bootstrap();
             b.group(group)
-             .channel(NioSocketChannel.class)
-             .handler(new ChannelInitializer<SocketChannel>() {
-                 @Override
-                 protected void initChannel(SocketChannel ch) {
-                     ChannelPipeline p = ch.pipeline();
-                     if (sslCtx != null) {
-                         p.addLast(sslCtx.newHandler(ch.alloc(), host, port));
-                     }
-                     p.addLast(
-                             new HttpClientCodec(),
-                             new HttpObjectAggregator(8192),
-                             WebSocketClientCompressionHandler.INSTANCE,
-                             handler);
-                 }
-             });
+                    .channel(NioSocketChannel.class)
+                    .handler(new ChannelInitializer<SocketChannel>() {
+                        @Override
+                        protected void initChannel(SocketChannel ch) {
+                            ChannelPipeline p = ch.pipeline();
+                            if (sslCtx != null) {
+                                p.addLast(sslCtx.newHandler(ch.alloc(), host, port));
+                            }
+                            p.addLast(
+                                    new HttpClientCodec(),
+                                    new HttpObjectAggregator(8192),
+                                    WebSocketClientCompressionHandler.INSTANCE,
+                                    handler);
+                        }
+                    });
 
             Channel ch = b.connect(uri.getHost(), port).sync().channel();
             handler.handshakeFuture().sync();
@@ -126,7 +126,7 @@ public final class WebSocketClient {
                     ch.closeFuture().sync();
                     break;
                 } else if ("ping".equals(msg.toLowerCase())) {
-                    WebSocketFrame frame = new PingWebSocketFrame(Unpooled.wrappedBuffer(new byte[] { 8, 1, 8, 1 }));
+                    WebSocketFrame frame = new PingWebSocketFrame(Unpooled.wrappedBuffer(new byte[]{8, 1, 8, 1}));
                     ch.writeAndFlush(frame);
                 } else {
                     WebSocketFrame frame = new TextWebSocketFrame(msg);

@@ -3,6 +3,7 @@
  */
 import ViewBase from '@/components/ViewBase'
 import test from '@/components/view/test'
+
 export default {
   path: '/test',
   component: ViewBase,

@@ -14,7 +14,8 @@ public class MockService {
     private SyncTaskResp taskResp;
     private AtomicInteger count = new AtomicInteger(0);
     private Integer size = 10;
-    public MockService(){
+
+    public MockService() {
         this.init(this.size);
     }
 
@@ -26,7 +27,7 @@ public class MockService {
         SyncTaskResp.ResponseData taskRespData = this.taskResp.getData();
 
         int taskId = 1;
-        for(int i=1;i<=size;i++) {
+        for (int i = 1; i <= size; i++) {
             SyncProjResp.ProjModel itemProj = new SyncProjResp.ProjModel();
             itemProj.setOrg_id(i);
             itemProj.setOrg_name("工作室-" + i);
@@ -34,7 +35,7 @@ public class MockService {
             itemProj.setProject_name("项目-" + i);
 
             projRespData.getProjectInfo().add(itemProj);
-            for(int j=1;j<=size;j++) {
+            for (int j = 1; j <= size; j++) {
                 SyncTaskResp.taskModel itemTask = new SyncTaskResp.taskModel();
                 itemTask.setProject_id(i);
                 itemTask.setTask_creator("luochao.byron");
@@ -43,7 +44,8 @@ public class MockService {
                 taskRespData.getOutSourcingTask().add(itemTask);
             }
         }
-     }
+    }
+
     public SyncProjResp getProj() {
         SyncProjResp result = this.projResp;
         /*if (count % 2 == 0) {
@@ -51,8 +53,9 @@ public class MockService {
             List<SyncProjResp.ProjModel> projectInfo = this.projResp.getData().getProjectInfo();
             result.getData().setProjectInfo(projectInfo.subList(0, projectInfo.size() / 2));
         }*/
-        return result ;
+        return result;
     }
+
     public SyncTaskResp getTask() {
         SyncTaskResp result = this.taskResp;
       /*  if (count % 2 == 0) {
@@ -60,6 +63,6 @@ public class MockService {
             List<SyncTaskResp.taskModel> outSourcingTask = this.taskResp.getData().getOutSourcingTask();
             result.getData().setOutSourcingTask(outSourcingTask.subList(0, outSourcingTask.size() / 2));
         }*/
-        return result ;
+        return result;
     }
 }

@@ -10,7 +10,7 @@ public class KafkaProducer {
     @Autowired
     public KafkaTemplate kafkaTemplate;
 
-    public void produceDo(String value ) {
-        kafkaTemplate.send("topic-test",value);
+    public void produceDo(String value) {
+        kafkaTemplate.send("topic-test", value);
     }
 }

@@ -14,11 +14,13 @@ public class SyncTaskResp {
     public SyncTaskResp(ResponseData data) {
         this.data = data;
     }
+
     public SyncTaskResp() {
         this.data = new ResponseData();
         this.return_code = 0;
         this.return_message = "success";
     }
+
     public ResponseData getData() {
         return data;
     }
@@ -43,10 +45,10 @@ public class SyncTaskResp {
         this.return_message = return_message;
     }
 
-    public static class  ResponseData{
+    public static class ResponseData {
         private List<taskModel> outSourcingTask;
 
-        public ResponseData(){
+        public ResponseData() {
             this.outSourcingTask = Lists.newArrayList();
         }
 
@@ -58,10 +60,11 @@ public class SyncTaskResp {
             this.outSourcingTask = outSourcingTask;
         }
     }
+
     public static class taskModel {
         private Integer task_id;
         private String task_name;
-        private  Integer project_id;
+        private Integer project_id;
         private String task_creator;
 
         public Integer getTask_id() {

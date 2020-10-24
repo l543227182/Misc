@@ -1,4 +1,5 @@
 package com.lc.misc.shareDome.bio;
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -41,7 +42,7 @@ public class Server {
         }
     }
 
-    public static void writeMsg(OutputStream outputStream, InputStream inputStream,Socket socket) {
+    public static void writeMsg(OutputStream outputStream, InputStream inputStream, Socket socket) {
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, "utf-8"));
             String msg;

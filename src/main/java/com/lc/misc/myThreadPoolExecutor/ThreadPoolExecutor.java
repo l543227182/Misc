@@ -88,12 +88,13 @@ public class ThreadPoolExecutor implements ExecutorService {
     public static ThreadPoolExecutor newInstance() {
         return new ThreadPoolExecutor(DEFAULT_MAXPS, DEFAULT_MAXPS, new LinkedBlockingQueue());
     }
+
     final void tryTerminate() {
-        for (;;) {
+        for (; ; ) {
             int c = ctl.get();
             if (isRunning(c) ||
                     runStateAtLeast(c, TIDYING) ||
-                    (runStateOf(c) == SHUTDOWN && ! workQueue.isEmpty()))
+                    (runStateOf(c) == SHUTDOWN && !workQueue.isEmpty()))
                 return;
 
             final ReentrantLock mainLock = this.mainLock;
@@ -114,13 +115,15 @@ public class ThreadPoolExecutor implements ExecutorService {
             // else retry on failed CAS
         }
     }
+
     @Override
     public void shutdown() {
         final ReentrantLock mainLock = this.mainLock;
         mainLock.lock();
 
-        while(!workQueue.isEmpty()){}
-        for (;;) {
+        while (!workQueue.isEmpty()) {
+        }
+        for (; ; ) {
             int c = ctl.get();
             if (runStateAtLeast(c, STOP) ||
                     ctl.compareAndSet(c, ctlOf(STOP, workerCountOf(c))))
@@ -206,7 +209,7 @@ public class ThreadPoolExecutor implements ExecutorService {
 
         if (workerCountOf(ctl.get()) >= corePoolSize || !addIfUnderCorePoolSize(command)) {
             if (isRunning(ctl.get()) && workQueue.offer(command)) {
-                System.out.println("add queue "+workQueue.size());
+                System.out.println("add queue " + workQueue.size());
             }
             // �н���� ���ܾ�����
             else if (addIfUnderMaximumPoolSize()) {
@@ -321,7 +324,7 @@ public class ThreadPoolExecutor implements ExecutorService {
             }
         }
 
-        public Runnable getTask()   {
+        public Runnable getTask() {
 
             for (; ; ) {
                 int c = ctl.get();

@@ -13,13 +13,18 @@
     "public_ip": "123.59.98.60",
     "server_id": "test_60",
     "project_id": 39,
-    "collect_instance": [394, 466],
+    "collect_instance": [
+      394,
+      466
+    ],
     "os_type": "LINUX"
   },
   "host": {
     "name": "daemonbeat"
   },
-  "tags": ["beats_input_raw_event"],
+  "tags": [
+    "beats_input_raw_event"
+  ],
   "ecs": {
     "version": "1.0.0"
   },

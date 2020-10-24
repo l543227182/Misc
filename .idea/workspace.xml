@@ -1,40 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:src" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:src" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:src" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:web" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5a6f629-f925-4f2c-8798-9419fd06a0c9" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/HWTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/HWTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/HWtest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/CenterFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/provinceNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/test_0929.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Misc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Misc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MiscApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MiscApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/ConsistentHashing/ConsistentHashingWithoutVirtualNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/ConsistentHashing/ConsistentHashingWithoutVirtualNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/theLargePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/theLargePalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/SetNameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/SetNameFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/DecrptClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/DecrptClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/EncrptUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/EncrptUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/FileSystemClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/FileSystemClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/NetClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/classLoader/NetClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/BlockingArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/BlockingArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/BlockingArrayWithCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/BlockingArrayWithCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/Lagrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/Lagrange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/demo/hello.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/kafka/MyKafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/kafka/MyKafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/LRU/LRUcache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/LRU/LRUcache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/LRU/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/LRU/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/minStack/minStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/main/minStack/minStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/ThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/myThreadPoolExecutor/ThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/CLHLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/CLHLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/MCSLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/MCSLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/SimpleReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/SimpleReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/TimeoutLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/TimeoutLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/TryLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/mylock/TryLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/bio/BIOServer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/client/WebSocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/client/WebSocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServerIndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServerIndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/chat/server/WebSocketServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/demo/DirectByteBufDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/demo/DirectByteBufDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/http/HttpHelloWorldServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/http/HttpHelloWorldServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/http/HttpHelloWorldServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/netty/http/HttpHelloWorldServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/client/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/client/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/client/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/client/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/SimpleChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nettytest/server/SimpleChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/DirectBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/DirectBufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/NIOServerV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/TonyNioHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/netty/nio/TonyNioHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/JsonUtils2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/JsonUtils2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcFutureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcFutureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcInvokeHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcInvokeHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/RpcResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/TestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientAsyncProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientAsyncProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientChannelInactiveListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientChannelInactiveListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientProxyBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcClientProxyBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/RpcRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/client/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/NettyKryoDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/NettyKryoDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/NettyKryoEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/NettyKryoEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientDispatchHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientDispatchHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientResponseHandleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientResponseHandleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcClientResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerDispatchHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerDispatchHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerRequestHandleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerRequestHandleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/netty/RpcServerRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoReflectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoReflectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/KryoSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/RpcRequestSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/RpcRequestSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/RpcResponseSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/serializer/RpcResponseSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerRequestHandleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerRequestHandleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/rpc/server/RpcServerRequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/bio/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nio/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/spring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/spring/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/AverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/AverageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/CompletableFutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/CompletableFutureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/EnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JodaTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JodaTimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JsonTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JsonTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/ScheduleTaskParamsAnalyszer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/ScheduleTaskParamsAnalyszer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/SetsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/SetsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/TestExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/TestExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/bitSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/bitSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/extendsData/data3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/extendsData/data3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/extendsData/datamodel/DaemonBeatData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/extendsData/datamodel/DaemonBeatData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/flatMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/flatMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/isNotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/isNotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/sortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/sortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/streamTesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/streamTesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/usualTest/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/POIExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/POIExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/POIUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/POIUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/Mapper/DataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/Mapper/DataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/Mapper/SubDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/Mapper/SubDataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/SyncProjResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/SyncProjResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/SyncTaskResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/SyncTaskResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/itemComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/Model/itemComment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/controller/indexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/controller/indexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/crawler/mainCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/crawler/mainCrawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/kafka/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/kafka/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/service/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/service/DataService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/service/MockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/service/MockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/utils/StringArrayTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/utils/StringArrayTypeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hahhhhhhhh.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hahhhhhhhh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/build/check-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/build/dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/build/dev-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/element-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/element-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/alert.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/alert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/badge.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/badge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/breadcrumb-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/breadcrumb-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/breadcrumb.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/breadcrumb.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/button-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/button-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/carousel-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/carousel-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/cascader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/cascader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/col.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/col.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/collapse-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/collapse-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/collapse.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/collapse.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/color-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/color-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/date-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/date-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/element-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/element-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/form-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/form-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/input-number.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/input-number.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu-item-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu-item-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/message-box.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/message-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/message.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/message.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/notification.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/notification.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/option-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/option-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/option.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/option.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/popover.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/popover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/progress.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/progress.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/radio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/rate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/rate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/row.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/row.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/scrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/select-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/select-dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/step.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/step.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/steps.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/steps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/submenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/submenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tab-pane.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tab-pane.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/table-column.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/table-column.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/time-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/time-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/time-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/time-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/transfer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/transfer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/custom-theme/style/upload.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_fontclass.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_fontclass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_symbol.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_symbol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_unicode.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/demo_unicode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/fonts/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/fonts/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/less/color.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/less/color.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/less/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/assets/less/tool-bar.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/assets/less/tool-bar.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/filter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/filter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/mixins/DataTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/mixins/DataTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/mixins/TaskRefresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/mixins/TaskRefresh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/plugin/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/plugin/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/plugin/params-serializer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/plugin/params-serializer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/router/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/router/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/router/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/router/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/router/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/router/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/router/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/router/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/static-dev/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/static-dev/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/test/e2e/runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/test/e2e/runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/test/unit/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/test/unit/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/misc/MiscApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/misc/MiscApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -46,57 +326,9 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>main\.cn\.lc\.chattingRoom\;</find>
-      <find>package main.cn.lc.chattingRoom;</find>
-      <find>package main\.cn\.lc\.chattingRoom\;</find>
-      <find>package main.cn.lc.classLoader;</find>
-      <find>package main\.cn\.lc\.classLoader\;\n</find>
-      <find>package main\.cn\.lc\.crawler\;\n</find>
-      <find>package main\.cn\.lc\.demo\;\n</find>
-      <find>package main.cn.lc.mylock;</find>
-      <find>package main\.cn\.lc\.MyThreadPoolExecutor\;</find>
-      <find>package main\.cn\.lc\.rpc\;\n</find>
-      <find>package main\.cn\.lc\.rpc\.server\;\n</find>
-      <find>package main.cn.lc.rpc.client;</find>
-      <find>package main\.cn\.lc\.rpc\.netty\;\n</find>
-      <find>package main\.cn\.lc\.rpc\.Serializer\;</find>
-      <find>package main\.cn\.lc\.usualTest\;\n</find>
-      <find>m</find>
-      <find>get_proj_copy_list</find>
-      <find>threadLocals</find>
-      <find>dispatch</find>
-      <find>handlerMappings</find>
-      <find>maxFileSize</find>
-      <find>monitorObjects</find>
-      <find>7.2.0</find>
-      <find>fileb</find>
-      <find>dmp:86248</find>
-      <find>_</find>
-      <find>configureHttpMessageCodecs</find>
-      <find>applicationContextClass</find>
-      <find>selectedKeys</find>
-      <find>array</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>package main.cn.lc.chattingRoom;</replace>
-      <replace>package com.lc.misc.chattingRoom;</replace>
-      <replace>package com.lc.misc.classLoader;</replace>
-      <replace>package com.lc.misc.crawler;</replace>
-      <replace>package com.lc.misc.demo;</replace>
-      <replace>package com.lc.misc.mylock;</replace>
-      <replace>package com.lc.misc.MyThreadPoolExecutor;</replace>
-      <replace>package com.lc.misc.rpc;</replace>
-      <replace>package com.lc.misc.rpc.server;</replace>
-      <replace>package com.lc.misc.rpc.client;</replace>
-      <replace>package com.lc.misc.rpc.netty;</replace>
-      <replace>package com.lc.misc.rpc.Serializer;</replace>
-      <replace>package com.lc.misc.usualTest;</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
@@ -107,11 +339,12 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.5.4-bin/4lcg54ki11c6mp435njk296gm5/apache-maven-3.5.4" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="E:\code\oceanus\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1jK9cyF3vHQup49PKjF8Mn1KpLW" />
+  <component name="ProjectId" id="1fLjDAAJBLA4e8ksCXUZowXjoPq" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -139,20 +372,21 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="DispatcherServlet &#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;Aq&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_60/jre/lib/rt.jar!/java/util/concurrent/locks/AbstractQueuedSynchronizer.class&#10;org.springframework.web.servlet.DispatcherServlet&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;fastJsonpResponseBodyAdvice&#9;FILE&#9;jar://C:/Users/luochao.byron/.m2/repository/com/alibaba/fastjson/1.2.28/fastjson-1.2.28.jar!/com/alibaba/fastjson/support/spring/FastJsonpResponseBodyAdvice.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lc/misc/netty" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.14952381" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -167,7 +401,7 @@
       <recent name="D:\javaworkspace\Misc\src\main\java\com\lc\web\Model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lc.misc.algorithm" />
+      <recent name="com.lc.misc.usualTest" />
       <recent name="com.lc.misc.usualTest.extendsData.datamodel" />
       <recent name="com.lc.misc.crawler" />
       <recent name="com.lc.misc.utils" />
@@ -186,41 +420,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HWTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.misc.algorithm.HWTest" />
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.misc.chattingRoom.ChatServer" />
       <module name="Misc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.misc.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HWTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.misc.algorithm.HWTest2" />
-      <module name="Misc" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.misc.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HWtest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.misc.algorithm.HWtest3" />
-      <module name="Misc" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.misc.algorithm.*" />
+          <option name="PATTERN" value="com.lc.misc.chattingRoom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,8 +448,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.misc.usualTest.Tests" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="provinceNameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.misc.usualTest.provinceNameTest" />
       <module name="Misc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -256,19 +468,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="streamTesk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.misc.usualTest.streamTesk" />
+      <module name="Misc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.misc.usualTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="test_0929" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.misc.usualTest.test_0929" />
+      <module name="Misc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.misc.usualTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,20 +529,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tests" />
-      <item itemvalue="Application.HWTest" />
-      <item itemvalue="Application.HWTest2" />
-      <item itemvalue="Application.HWtest3" />
-      <item itemvalue="Spring Boot.MiscApplication" />
+      <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.SetNameFrame" />
+      <item itemvalue="Application.streamTesk" />
+      <item itemvalue="Application.test_0929" />
+      <item itemvalue="Spring Boot.MiscApplication" />
+      <item itemvalue="Application.provinceNameTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SetNameFrame" />
-        <item itemvalue="Application.HWtest3" />
-        <item itemvalue="Application.HWTest" />
-        <item itemvalue="Application.HWTest2" />
-        <item itemvalue="Application.Tests" />
+        <item itemvalue="Application.ChatServer" />
+        <item itemvalue="Application.provinceNameTest" />
+        <item itemvalue="Application.test_0929" />
+        <item itemvalue="Application.streamTesk" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +551,9 @@
       <projects_view />
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -447,29 +672,24 @@
       <workItem from="1587283839241" duration="96000" />
       <workItem from="1587347172217" duration="2647000" />
       <workItem from="1587376234803" duration="184000" />
-      <workItem from="1587456622439" duration="320000" />
-      <workItem from="1589373854334" duration="373000" />
-      <workItem from="1589722382509" duration="558000" />
-      <workItem from="1589885746951" duration="305000" />
-      <workItem from="1589965334067" duration="178000" />
-      <workItem from="1590043939076" duration="830000" />
-      <workItem from="1590560886689" duration="1471000" />
-      <workItem from="1590825511612" duration="834000" />
-      <workItem from="1590861927467" duration="1026000" />
-      <workItem from="1590998473542" duration="469000" />
-      <workItem from="1591069390603" duration="1884000" />
-      <workItem from="1591153757437" duration="625000" />
-      <workItem from="1592288100275" duration="581000" />
-      <workItem from="1592397836045" duration="557000" />
-      <workItem from="1592446838546" duration="13000" />
-      <workItem from="1592449673112" duration="10903000" />
-      <workItem from="1592704293832" duration="181000" />
-      <workItem from="1592791589071" duration="784000" />
-      <workItem from="1592977857068" duration="511000" />
-      <workItem from="1593060156666" duration="228000" />
-      <workItem from="1593140620341" duration="830000" />
-      <workItem from="1593422896977" duration="3190000" />
-      <workItem from="1603542005645" duration="2362000" />
+      <workItem from="1596004162933" duration="2146000" />
+      <workItem from="1596520769840" duration="1052000" />
+      <workItem from="1596523168118" duration="736000" />
+      <workItem from="1596765239215" duration="1365000" />
+      <workItem from="1596863464463" duration="1405000" />
+      <workItem from="1597037299857" duration="454000" />
+      <workItem from="1597298425362" duration="91000" />
+      <workItem from="1597300294251" duration="1977000" />
+      <workItem from="1597399109462" duration="4849000" />
+      <workItem from="1598080623424" duration="715000" />
+      <workItem from="1598513386981" duration="230000" />
+      <workItem from="1598594651439" duration="447000" />
+      <workItem from="1600305355160" duration="618000" />
+      <workItem from="1600917224671" duration="416000" />
+      <workItem from="1601025407962" duration="711000" />
+      <workItem from="1601377791825" duration="1312000" />
+      <workItem from="1601431814635" duration="1244000" />
+      <workItem from="1601447178575" duration="3133000" />
     </task>
     <task id="LOCAL-00001" summary="修改目录结构,springboot">
       <created>1543912073428</created>
@@ -506,18 +726,11 @@
       <option name="project" value="LOCAL" />
       <updated>1586916219688</updated>
     </task>
-    <task id="LOCAL-00006" summary="update">
-      <created>1587456643665</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1587456643665</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -556,51 +769,99 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="173" key="GridCell.Tab.0.bottom" timestamp="1603544770822">
-      <screen x="0" y="23" width="1630" height="1027" />
+    <state x="181" y="123" key="#Live_Templates" timestamp="1601447236295">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1638" height="173" key="GridCell.Tab.0.bottom/0.23.1630.1027@0.23.1630.1027" timestamp="1603544770822" />
-    <state width="1638" height="173" key="GridCell.Tab.0.center" timestamp="1603544770821">
-      <screen x="0" y="23" width="1630" height="1027" />
+    <state x="181" y="123" key="#Live_Templates/0.0.1920.1040@0.0.1920.1040" timestamp="1601447236295" />
+    <state x="354" y="157" key="#Project_Structure" timestamp="1596004489665">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1638" height="173" key="GridCell.Tab.0.center/0.23.1630.1027@0.23.1630.1027" timestamp="1603544770821" />
-    <state width="1638" height="173" key="GridCell.Tab.0.left" timestamp="1603544770819">
-      <screen x="0" y="23" width="1630" height="1027" />
+    <state x="354" y="157" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1596004489665" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1601378193053">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1638" height="173" key="GridCell.Tab.0.left/0.23.1630.1027@0.23.1630.1027" timestamp="1603544770819" />
-    <state width="1638" height="173" key="GridCell.Tab.0.right" timestamp="1603544770821">
-      <screen x="0" y="23" width="1630" height="1027" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601378193053" />
+    <state width="433" height="464" key="DebuggerActiveHint" timestamp="1601378476577">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1638" height="173" key="GridCell.Tab.0.right/0.23.1630.1027@0.23.1630.1027" timestamp="1603544770821" />
-    <state x="480" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1603542033387">
-      <screen x="0" y="23" width="1630" height="1027" />
+    <state width="433" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1601378476577" />
+    <state x="648" y="254" key="FileChooserDialogImpl" timestamp="1596520824674">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="480" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1630.1027@0.23.1630.1027" timestamp="1603542033387" />
+    <state x="648" y="254" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596520824674" />
+    <state width="1877" height="243" key="GridCell.Tab.0.bottom" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="168" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1598189747228" />
+    <state width="1877" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.0.center" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="168" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1598189747228" />
+    <state width="1877" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.0.left" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="168" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1598189747228" />
+    <state width="1877" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.0.right" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="168" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1598189747228" />
+    <state width="1877" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.1.bottom" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.1.center" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.1.left" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state width="1877" height="243" key="GridCell.Tab.1.right" timestamp="1601451958791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
+    <state x="188" y="67" key="SettingsEditor" timestamp="1596520826510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="188" y="67" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596520826510" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1601447321495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1601447321495" />
+    <state x="334" y="203" key="new project wizard" timestamp="1596006086034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="203" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1596006086034" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601451278197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601451278197" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java</url>
-          <line>70</line>
+          <line>69</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lc/misc/shareDome/nettydemo/ReactorMain.java</url>
-          <line>69</line>
+          <line>68</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lc/web/controller/indexController.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="11" />
+          <url>jar://C:/Program Files/Java/jdk1.8.0_261/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <line>904</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Misc$Client.ic" NAME="Client Coverage Results" MODIFIED="1586770388734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -609,11 +870,6 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>applicationContext.getBean(MockService.class)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
       <expression>
         <expression-string>((KQueueSelectorImpl) selector).keys</expression-string>
         <language-id>JAVA</language-id>
@@ -667,6 +923,12 @@
         <custom-info>com.alibaba.fastjson.JSON,com.lc.misc.usualTest.extendsData.GopsGroupDto,java.util.List</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
+      <expression>
+        <expression-string>JSON.parseObject(string, List.class);</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.alibaba.fastjson.JSON,com.lc.misc.usualTest.extendsData.GopsGroupDto,java.util.List</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
@@ -682,116 +944,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.12.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Misc</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.60390353" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

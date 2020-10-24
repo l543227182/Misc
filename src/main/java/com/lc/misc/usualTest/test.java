@@ -13,19 +13,20 @@ import java.util.stream.Collectors;
 public class test {
     @Data
     @AllArgsConstructor
-    static  class A {
-    Integer inta;
-    Integer intb;
+    static class A {
+        Integer inta;
+        Integer intb;
     }
+
     public static boolean isNumber(String myString) {
 
-        final String Digits     = "(\\p{Digit}+)";
-        final String HexDigits  = "(\\p{XDigit}+)";
+        final String Digits = "(\\p{Digit}+)";
+        final String HexDigits = "(\\p{XDigit}+)";
         // an exponent is 'e' or 'E' followed by an optionally
         // signed decimal integer.
-        final String Exp        = "[eE][+-]?"+Digits;
-        final String fpRegex    =
-                ("[\\x00-\\x20]*"+  // Optional leading "whitespace"
+        final String Exp = "[eE][+-]?" + Digits;
+        final String fpRegex =
+                ("[\\x00-\\x20]*" +  // Optional leading "whitespace"
                         "[+-]?(" + // Optional sign character
                         "NaN|" +           // "NaN" string
                         "Infinity|" +      // "Infinity" string
@@ -41,10 +42,10 @@ public class test {
                         // The Java Language Specification.
 
                         // Digits ._opt Digits_opt ExponentPart_opt FloatTypeSuffix_opt
-                        "((("+Digits+"(\\.)?("+Digits+"?)("+Exp+")?)|"+
+                        "(((" + Digits + "(\\.)?(" + Digits + "?)(" + Exp + ")?)|" +
 
                         // . Digits ExponentPart_opt FloatTypeSuffix_opt
-                        "(\\.("+Digits+")("+Exp+")?)|"+
+                        "(\\.(" + Digits + ")(" + Exp + ")?)|" +
 
                         // Hexadecimal strings
                         "((" +
@@ -58,10 +59,10 @@ public class test {
                         "[fFdD]?))" +
                         "[\\x00-\\x20]*");// Optional trailing "whitespace"
         String myRegex = "[\\x00-\\x20]*[+-]?(NaN|Infinity|((((\\p{Digit}+)(\\.)?((\\p{Digit}+)?)([eE][+-]?(\\p{Digit}+))?)|(\\.((\\p{Digit}+))([eE][+-]?(\\p{Digit}+))?)|(((0[xX](\\p{XDigit}+)(\\.)?)|(0[xX](\\p{XDigit}+)?(\\.)(\\p{XDigit}+)))[pP][+-]?(\\p{Digit}+)))[fFdD]?))[\\x00-\\x20]*";
-        if (Pattern.matches(myRegex, myString)){
+        if (Pattern.matches(myRegex, myString)) {
             return true;
         } else {
-            return  false;
+            return false;
         }
     }
 
@@ -74,7 +75,8 @@ public class test {
             tagMap.put(tag.substring(0, equalSignIndex), tag.substring(equalSignIndex + 1));
         }
     }
-    public static void main(String args[]){
+
+    public static void main(String args[]) {
         List<Object> qer = Arrays.asList(1, 2, 3, 4, 5, "qer");
         String join = Joiner.on(",").join(qer);
         System.out.println(join);
@@ -99,16 +101,16 @@ public class test {
         sets.add("罗超3");
         sets.add("罗超3");
         sets.add("罗超3");
-        String result = (StringUtils.join(sets,","));
+        String result = (StringUtils.join(sets, ","));
         String substring = result.substring(0, result.length() - 1);
         System.out.println(substring);
     }
 
     private static void a() {
-        A a1 = new A(1,1);
-        A a2 = new A(2,2);
-        A a3 = new A(3,3);
-        A a4 = new A(4,4);
+        A a1 = new A(1, 1);
+        A a2 = new A(2, 2);
+        A a3 = new A(3, 3);
+        A a4 = new A(4, 4);
 
         List<A> as = Arrays.asList(a1, a2, a3, a4);
         List<A> collect = as.stream().filter(item -> item.getInta() > 2).collect(Collectors.toList());

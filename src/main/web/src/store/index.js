@@ -10,23 +10,21 @@ export default function (Vuex) {
       pageLoading: false,
       pageLoadingText: ''
     },
-    getters: {
-    },
+    getters: {},
     mutations: {
-      setUserInfo (state, userInfo) {
+      setUserInfo(state, userInfo) {
         state.id = userInfo.id
         state.name = userInfo.name
         state.is_admin = !!userInfo.is_admin
       },
-      'pageLoading/start' (state, text) {
+      'pageLoading/start'(state, text) {
         state.pageLoadingText = text
         state.pageLoading = true
       },
-      'pageLoading/stop' (state) {
+      'pageLoading/stop'(state) {
         state.pageLoading = false
       }
     },
-    actions: {
-    }
+    actions: {}
   })
 }

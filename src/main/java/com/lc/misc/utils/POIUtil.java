@@ -19,10 +19,10 @@ public class POIUtil {
         return datas;
     }
 
-    public static List<ArrayList<String>> getFileDatas(InputStream is, String fileName, Integer maxRows,int index) throws Exception {
+    public static List<ArrayList<String>> getFileDatas(InputStream is, String fileName, Integer maxRows, int index) throws Exception {
         Workbook wb = (new POIExcelUtil()).validateExcel(fileName, is, maxRows);
         POIExcelUtil poiExcelUtil = new POIExcelUtil();
-        List<ArrayList<String>> datas = poiExcelUtil.read2(wb,index);
+        List<ArrayList<String>> datas = poiExcelUtil.read2(wb, index);
         is.close();
         return datas;
     }

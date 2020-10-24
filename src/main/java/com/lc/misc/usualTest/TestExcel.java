@@ -7,7 +7,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -15,11 +18,11 @@ import java.util.Map;
 public class TestExcel {
 
     public static void main(String[] args) throws IOException {
-        System.out.println(transferExcel(new FileInputStream(new File("C:\\Users\\luochao.byron\\Desktop\\组导入.xlsx")),""));
+        System.out.println(transferExcel(new FileInputStream(new File("C:\\Users\\luochao.byron\\Desktop\\组导入.xlsx")), ""));
     }
 
-    public static List<Map<String,String>> transferExcel (InputStream inputStream, String fileName) throws IOException {
-        ArrayList<Map<String,String>> result = Lists.newArrayList();
+    public static List<Map<String, String>> transferExcel(InputStream inputStream, String fileName) throws IOException {
+        ArrayList<Map<String, String>> result = Lists.newArrayList();
         // HSSFWorkbook 标识整个excel
         Workbook hssfWorkbook = WorkbookFactory.create(inputStream);
         // HSSFWorkbook hssfWorkbook = new HSSFWorkbook(inputStream);
@@ -46,7 +49,7 @@ public class TestExcel {
                 rowData.put("groupName", groupName);
                 rowData.put("userName", userName);
                 StringBuffer sb = new StringBuffer();
-                rowData.put("remark",sb.toString());
+                rowData.put("remark", sb.toString());
                 result.add(rowData);
             }
         }

@@ -45,7 +45,7 @@ public class TonyNioHttpServer {
         // 此处表示，希望收到socket通道8080端口上建立连接这个通知
         SelectionKey selectionKey = socketChannel.register(TonyNioHttpServer.selector, 0);
         selectionKey.interestOps(selectionKey.OP_ACCEPT);
-        
+
         while (true) { // 带几个美女，坐在大厅
 
             // 如果没有新的socket与服务器有连接或者是数据交互，这里就会等待1秒

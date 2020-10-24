@@ -26,7 +26,7 @@ public class BIOServer {
                     }
                     System.out.println(msg);
                 }
-                System.out.println("收到数据,来自："+ request.toString());
+                System.out.println("收到数据,来自：" + request.toString());
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {

@@ -17,7 +17,6 @@ public class ReactorMain {
     private static ReactorThread[] subReactorThread = new ReactorThread[4];
 
     public static void main(String[] args) {
-
         for (int i = 0; i < subReactorThread.length; i++) {
             subReactorThread[i] = new ReactorThread() {
                 @Override
@@ -62,7 +61,7 @@ public class ReactorMain {
             };
         }
 
-        try  {
+        try {
             ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
             serverSocketChannel.configureBlocking(false);
             mainReactorThread[0].doStart();

@@ -8,6 +8,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
 // 多线程支持
 public class BIOServer1 {
     private static ExecutorService threadPool = Executors.newCachedThreadPool();
@@ -30,7 +31,7 @@ public class BIOServer1 {
                         }
                         System.out.println(msg);
                     }
-                    System.out.println("收到数据,来自："+ request.toString());
+                    System.out.println("收到数据,来自：" + request.toString());
                 } catch (IOException e) {
                     e.printStackTrace();
                 } finally {
