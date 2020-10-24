@@ -7,6 +7,7 @@ import com.lc.web.Model.crawlerBean;
 import com.lc.web.crawler.mainCrawler;
 import com.lc.web.service.MockService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -32,6 +33,9 @@ public class indexController {
 
     @Autowired
     private MockService mockService;
+
+    @Autowired
+    ApplicationContext applicationContext;
 
     @RequestMapping("/getCrawlerData")
     @ResponseBody
@@ -61,6 +65,7 @@ public class indexController {
     @GetMapping("/getTask")
     @ResponseBody
     public SyncTaskResp getTask() {
+
         return mockService.getTask();
     }
 

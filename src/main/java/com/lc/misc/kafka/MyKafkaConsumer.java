@@ -10,7 +10,7 @@ import java.util.Properties;
 public class MyKafkaConsumer {
     public static void main(String[] s){
         Properties props = new Properties();
-        props.put("bootstrap.servers", "192.168.122.1:9092");
+        props.put("bootstrap.servers", "192.168.3.35:9092");
         props.put("group.id", "1");
         props.put("enable.auto.commit", "true");
         props.put("auto.commit.interval.ms", "1000");
@@ -19,13 +19,15 @@ public class MyKafkaConsumer {
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         KafkaConsumer<String, String> consumer = new KafkaConsumer<>(props);
         consumer.subscribe(Arrays.asList("test"));
+        System.out.println("****************poll start...");
         while (true) {
-            System.out.println("poll start...");
             ConsumerRecords<String, String> records = consumer.poll(100);
             int count = records.count();
-            System.out.println("the numbers of topic:" + count);
+            if(count>0) {
+                System.out.println("*********************the numbers of topic:" + count);
+            }
             for (ConsumerRecord<String, String> record : records)
-                System.out.printf("offset = %d, key = %s, value = %s", record.offset(), record.key(), record.value());
+                System.out.printf("offset = %d, key = %s, value = %s \n", record.offset(), record.key(), record.value());
         }
     }
 }

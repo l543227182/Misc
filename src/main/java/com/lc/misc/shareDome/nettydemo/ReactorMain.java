@@ -6,7 +6,6 @@ import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
-import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -18,7 +17,7 @@ public class ReactorMain {
     private static ReactorThread[] subReactorThread = new ReactorThread[4];
 
     public static void main(String[] args) {
-        List
+
         for (int i = 0; i < subReactorThread.length; i++) {
             subReactorThread[i] = new ReactorThread() {
                 @Override

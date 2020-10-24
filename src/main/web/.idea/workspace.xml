@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2672d14c-aaaf-44b8-9a21-8e27d7b8f82f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/lc/misc/usualTest/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Misc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Misc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/com/MiscApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/MiscApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/config/WebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/config/WebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/controller/indexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/controller/indexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/com/lc/web/converter/ResourceRegionMessageWiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/web/converter/ResourceRegionMessageWiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/kafka/MyKafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/kafka/MyKafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/nettydemo/ReactorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/com/lc/misc/shareDome/nettydemo/ReactorMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +59,11 @@
   </component>
   <component name="ProjectId" id="1QorDK06HXgnvUspmGCDSxmSHKZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -91,18 +87,6 @@
       <recent name="D:\javaworkspace\webTest\src\main\Jweb\src\mixins" />
       <recent name="D:\javaworkspace\webTest\src\main\Jweb\src\components\view\old" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.start">
     <configuration default="true" type="js.build_tools.gulp">
@@ -145,9 +129,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.start" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.mock" />
+      <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
       <list>
@@ -192,6 +176,8 @@
       <workItem from="1568520123203" duration="848000" />
       <workItem from="1575697721067" duration="660000" />
       <workItem from="1575707910262" duration="156000" />
+      <workItem from="1592376165243" duration="46000" />
+      <workItem from="1592378921938" duration="707000" />
     </task>
     <servers />
   </component>

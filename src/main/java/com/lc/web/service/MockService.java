@@ -2,11 +2,13 @@ package com.lc.web.service;
 
 import com.lc.web.Model.SyncProjResp;
 import com.lc.web.Model.SyncTaskResp;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 @Service
+@Scope("prototype")
 public class MockService {
     private SyncProjResp projResp;
     private SyncTaskResp taskResp;
