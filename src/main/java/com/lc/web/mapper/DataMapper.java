@@ -1,7 +1,7 @@
-package com.lc.web.Mapper;
+package com.lc.web.mapper;
 
 
-import com.lc.web.Model.crawlerBean;
+import com.lc.web.model.CrawlerBean;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
@@ -15,10 +15,10 @@ public interface DataMapper {
     @Insert({"INSERT INTO", TABLE_NAME, "(", INSERT_FIELDS,
             ") values (#{resourceUrl},#{title},#{province},#{country},#{city},#{content},#{commentsCount},#{avargeScore},#{remark})"})
     @Options(useGeneratedKeys = true, keyProperty = "id", keyColumn = "id")
-    int insertData(crawlerBean crawlerBean);
+    int insertData(CrawlerBean crawlerBean);
 
     @Select({"select", SELECT_FIELDS, "from ", TABLE_NAME})
-    crawlerBean selectData();
+    CrawlerBean selectData();
 
 
     @Select({"select", SELECT_FIELDS, "from ", TABLE_NAME, " limit #{start},#{pageSize}"})
@@ -26,7 +26,7 @@ public interface DataMapper {
             @Result(property = "comments", column = "id", javaType = List.class,
                     many = @Many(select = "com.lc.Mapper.SubDataMapper.selectDataByPid"))
     })
-    List<crawlerBean> selectDataForPage(@Param("start") int start, @Param("pageSize") int pageSize);
+    List<CrawlerBean> selectDataForPage(@Param("start") int start, @Param("pageSize") int pageSize);
 
     @Select({"select", "count(*)", "from ", TABLE_NAME})
     public int countData();

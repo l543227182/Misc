@@ -1,10 +1,10 @@
 package com.lc.web.controller;
 
-import com.lc.web.Mapper.DataMapper;
-import com.lc.web.Model.SyncProjResp;
-import com.lc.web.Model.SyncTaskResp;
-import com.lc.web.Model.crawlerBean;
-import com.lc.web.crawler.mainCrawler;
+import com.lc.web.crawler.MainCrawler;
+import com.lc.web.mapper.DataMapper;
+import com.lc.web.model.CrawlerBean;
+import com.lc.web.model.SyncProjResp;
+import com.lc.web.model.SyncTaskResp;
 import com.lc.web.service.MockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -25,7 +25,7 @@ import java.util.UUID;
 public class indexController {
 
     @Autowired
-    private mainCrawler crawler;
+    private MainCrawler crawler;
 
     @Autowired
     private DataMapper dataMapper;
@@ -37,7 +37,7 @@ public class indexController {
     @ResponseBody
     public Map getCrawlerData(@RequestParam(defaultValue = "1") String start, @RequestParam(defaultValue = "10") String pageSize) {
         HashMap<String, Object> map = new HashMap<>();
-        List<crawlerBean> crawlerBeans = dataMapper.selectDataForPage(Integer.valueOf(start), Integer.valueOf(pageSize));
+        List<CrawlerBean> crawlerBeans = dataMapper.selectDataForPage(Integer.valueOf(start), Integer.valueOf(pageSize));
         int total = dataMapper.countData();
         map.put("data", crawlerBeans);
         map.put("total", total);

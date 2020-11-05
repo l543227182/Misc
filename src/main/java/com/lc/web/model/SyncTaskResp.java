@@ -1,4 +1,4 @@
-package com.lc.web.Model;
+package com.lc.web.model;
 
 
 import com.google.common.collect.Lists;

@@ -1,8 +1,8 @@
-package com.lc.web.Model;
+package com.lc.web.model;
 
 import java.util.Arrays;
 
-public class itemComment {
+public class ItemComment {
     private String userType;
     private double score;
     private String simplizeComment;

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @EnableScheduling
-public class scheduleService {
+public class ScheduleService {
 
     public void testException() {
 
