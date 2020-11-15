@@ -1,4 +1,4 @@
-package com.lc.misc.ConsistentHashing;
+package com.lc.misc.consistenthashing;
 
 import org.springframework.util.StringUtils;
 

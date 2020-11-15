@@ -1,4 +1,4 @@
-package com.lc.web.Model;
+package com.lc.web.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by luochao.byron on 2017/11/19.
  */
-public class crawlerBean {
+public class CrawlerBean {
     private int id;
     private String resourceUrl;
     private String title;
@@ -14,7 +14,7 @@ public class crawlerBean {
     private String country;
     private String city;
     private String content;
-    private List<itemComment> comments;
+    private List<ItemComment> comments;
     private int commentsCount;
     private double avargeScore;
     private String remark;
@@ -110,15 +110,15 @@ public class crawlerBean {
         this.content = content;
     }
 
-    public List<itemComment> getComments() {
+    public List<ItemComment> getComments() {
         return comments;
     }
 
-    public crawlerBean() {
-        this.comments = new ArrayList<itemComment>();
+    public CrawlerBean() {
+        this.comments = new ArrayList<ItemComment>();
     }
 
-    public void setComments(List<itemComment> comments) {
+    public void setComments(List<ItemComment> comments) {
         this.comments = comments;
     }
 

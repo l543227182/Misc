@@ -1,9 +1,9 @@
 package com.lc.web.service;
 
-import com.lc.web.Mapper.DataMapper;
-import com.lc.web.Mapper.SubDataMapper;
-import com.lc.web.Model.crawlerBean;
-import com.lc.web.Model.itemComment;
+import com.lc.web.mapper.DataMapper;
+import com.lc.web.mapper.SubDataMapper;
+import com.lc.web.model.CrawlerBean;
+import com.lc.web.model.ItemComment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,11 +19,11 @@ public class DataService {
     @Autowired
     private SubDataMapper subDataMapper;
 
-    public int addData(crawlerBean crawlerBean) {
+    public int addData(CrawlerBean crawlerBean) {
         try {
             int id = dataMapper.insertData(crawlerBean);
 
-            for (itemComment ic : crawlerBean.getComments()) {
+            for (ItemComment ic : crawlerBean.getComments()) {
                 ic.setPid(String.valueOf(crawlerBean.getId()));
                 try {
                     subDataMapper.insertData(ic);

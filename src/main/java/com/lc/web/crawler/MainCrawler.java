@@ -1,7 +1,7 @@
 package com.lc.web.crawler;
 
-import com.lc.web.Model.crawlerBean;
-import com.lc.web.Model.itemComment;
+import com.lc.web.model.CrawlerBean;
+import com.lc.web.model.ItemComment;
 import com.lc.web.service.DataService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,22 +26,22 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Component
-public class mainCrawler implements PageProcessor {
+public class MainCrawler implements PageProcessor {
     private Site site = Site.me().setRetryTimes(3).setSleepTime(1000).setTimeOut(10000);
-    public static ConcurrentHashMap<String, crawlerBean> pageMap = new ConcurrentHashMap<String, crawlerBean>();
+    public static ConcurrentHashMap<String, CrawlerBean> pageMap = new ConcurrentHashMap<String, CrawlerBean>();
 
     @Autowired
     private DataService dataService;
 
     public void setComments(String pageURL, Html html) {
         String pageKey = pageURL.substring(pageURL.lastIndexOf("/") + 1, pageURL.lastIndexOf(".")).split("-")[0];
-        crawlerBean crawlerBean = pageMap.get(pageKey);
+        CrawlerBean crawlerBean = pageMap.get(pageKey);
         //爬取评论
         Selectable allComments = html.xpath("//ul[@class='detail_comment_list']/li");
         //allComments
         int size = allComments.all().size();
         for (int i = 1; i <= size; i++) {
-            itemComment ic = new itemComment();
+            ItemComment ic = new ItemComment();
             Selectable xpath = html.xpath("//ul[@class='detail_comment_list']/li[" + i + "]");
             //每条评论的整体评论
             String overallComment = xpath.xpath("//p[2]/text()").get();
@@ -93,7 +93,7 @@ public class mainCrawler implements PageProcessor {
 
         //生成mapKey
         String pageKey = commentsUrl.substring(commentsUrl.lastIndexOf("/") + 1, commentsUrl.lastIndexOf(".")).split("-")[0];
-        crawlerBean cb = new crawlerBean();
+        CrawlerBean cb = new CrawlerBean();
         pageMap.put(pageKey, cb);
 
         // 生成评论链接
@@ -165,7 +165,7 @@ public class mainCrawler implements PageProcessor {
     public Thread ClawlerThread;
 
     public Spider startSpider() {
-        Spider spider = Spider.create(new mainCrawler()).addUrl("http://pages.ctrip.com/public/sitemap/dj.html").thread(5);
+        Spider spider = Spider.create(new MainCrawler()).addUrl("http://pages.ctrip.com/public/sitemap/dj.html").thread(5);
         ClawlerThread = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -194,12 +194,12 @@ public class mainCrawler implements PageProcessor {
             public void run() {
                 if (pageMap.size() > 10 || spider.getStatus() == Spider.Status.Stopped) {
                     try {
-                        Set<Map.Entry<String, crawlerBean>> entries = pageMap.entrySet();
+                        Set<Map.Entry<String, CrawlerBean>> entries = pageMap.entrySet();
                         BufferedWriter bw = new BufferedWriter(
                                 new OutputStreamWriter
                                         (new FileOutputStream("C:\\Users\\luochao.byron\\Desktop\\日常\\comments.txt", true), "utf-8"));
-                        for (Map.Entry<String, crawlerBean> item : entries) {
-                            crawlerBean value = item.getValue();
+                        for (Map.Entry<String, CrawlerBean> item : entries) {
+                            CrawlerBean value = item.getValue();
                             if (value.getComments().size() < value.getCommentsCount()) {
                                 continue;
                             }
@@ -208,7 +208,7 @@ public class mainCrawler implements PageProcessor {
                             sb.append(value.getAvargeScore() + "\n").append(value.getCity() + "\n").append(value.getCommentsCount() + "\n").
                                     append(value.getEachScoreCount() + "\n").append(value.getResourceUrl() + "\n").append(value.getTitle() + "\n");
                             sb.append("\n\n评论们：\n");
-                            for (itemComment ic : value.getComments()) {
+                            for (ItemComment ic : value.getComments()) {
                                 ic.setPid(String.valueOf(value.getId()));
                                 sb.append(StringUtils.join(ic.getItemServiceDetailComment()) + "\n").append(ic.getOverallComment() + "\n").append(ic.getScore() + "\n").append(ic.getServiceComment() + "\n")
                                         .append(ic.getSimplizeComment() + "\n").append(ic.getUserType() + "\n" + "\n");

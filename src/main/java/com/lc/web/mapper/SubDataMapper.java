@@ -1,6 +1,6 @@
-package com.lc.web.Mapper;
+package com.lc.web.mapper;
 
-import com.lc.web.Model.itemComment;
+import com.lc.web.model.ItemComment;
 import com.lc.web.utils.StringArrayTypeHandler;
 import org.apache.ibatis.annotations.*;
 
@@ -15,14 +15,14 @@ public interface SubDataMapper {
     @Insert({"INSERT INTO", TABLE_NAME, "(", INSERT_FIELDS,
             ") values (#{userType},#{score},#{simplizeComment},#{serviceComment},#{overallComment},#{itemServiceDetailComment},#{pid})"})
     @Results({@Result(property = "itemServiceDetailComment", column = "itemServiceDetailComment", typeHandler = StringArrayTypeHandler.class)})
-    public int insertData(itemComment itemComment);
+    public int insertData(ItemComment itemComment);
 
 
     @Select({"select", SELECT_FIELDS, "from ", TABLE_NAME})
     @Results({@Result(property = "itemServiceDetailComment", column = "itemServiceDetailComment", typeHandler = StringArrayTypeHandler.class)})
-    public itemComment selectData();
+    public ItemComment selectData();
 
 
     @Select({"select", SELECT_FIELDS, "from ", TABLE_NAME, " where pid = #{pid}"})
-    List<itemComment> selectDataByPid(String pid);
+    List<ItemComment> selectDataByPid(String pid);
 }
