@@ -1,12 +1,12 @@
 package com.lc.misc.algorithm;
 
+import java.util.Arrays;
+
+/**
+ * 数独  https://leetcode-cn.com/problems/sudoku-solver/
+ */
 class Solution {
-
-    private int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
-    private int xLength = 9;
-    private int yLength = 9;
-
-    public boolean isOk = false;
+    public int count = 0;
 
     public static void main(String[] args) {
         Solution solution = new Solution();
@@ -17,15 +17,17 @@ class Solution {
                 '.', '.', '.', '4', '1', '9', '.', '.', '5'}, {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
         solution.solveSudoku(board);
 
-        System.out.println(board);
+        Arrays.stream(board).forEach(item -> System.out.println(Arrays.toString(item)));
+
+        System.out.println(solution.count);
     }
 
     public void solveSudoku(char[][] board) {
-
+        dfs(board, 0);
     }
 
     public boolean checkXY(char[][] board, int x, int y) {
-        int[] checkX = new int[9];
+        int[] checkX = new int[10];
         for (int i = 0; i < 9; i++) {
             if (board[x][i] != '.') {
                 if (++checkX[board[x][i] - '0'] > 1) {
@@ -33,7 +35,7 @@ class Solution {
                 }
             }
         }
-        int[] checkY = new int[9];
+        int[] checkY = new int[10];
         for (int i = 0; i < 9; i++) {
             if (board[i][y] != '.') {
                 if (++checkY[board[i][y] - '0'] > 1) {
@@ -42,7 +44,7 @@ class Solution {
             }
         }
 
-        int[] checkXY = new int[9];
+        int[] checkXY = new int[10];
         int xBox = (x / 3) * 3;
         int yBox = (y / 3) * 3;
         for (int i = xBox; i < xBox + 3; i++) {
@@ -57,19 +59,29 @@ class Solution {
         return true;
     }
 
-    public boolean dfs(char[][] board, int x, int y) {
-        for (int i = x; i < xLength; i++) {
-            for (int j = y; j < yLength; j++) {
-                int z = 1;
-                if (board[i][j] == '.') {
-                    while (z <= 9) {
-                        if (checkXY(board, i, j)) {
-                            board[i][j] = (z + "").charAt(0);
-                            dfs(board, i, j);
-                        }
-                        z++;
-                    }
+    public boolean dfs(char[][] board, int deepth) {
+        count++;
+        int i = deepth / 9;
+        int j = deepth % 9;
+        if (deepth >= 81) {
+            return true;
+        }
+        int z = 1;
+        if (board[i][j] == '.') {
+            while (z <= 9) {
+                board[i][j] = (z + "").charAt(0);
+                if (checkXY(board, i, j)) {
+                    if (dfs(board, ++deepth))
+                        return true;
+                    deepth--;
                 }
+                z++;
+            }
+            board[i][j] = '.';
+            return false;
+        } else {
+            if (dfs(board, ++deepth)) {
+                return true;
             }
         }
         return false;
