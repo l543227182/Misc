@@ -1,7 +1,7 @@
 package com.lc.web.service;
 
-import com.lc.web.Model.SyncProjResp;
-import com.lc.web.Model.SyncTaskResp;
+import com.lc.web.model.SyncProjResp;
+import com.lc.web.model.SyncTaskResp;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 

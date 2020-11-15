@@ -71,8 +71,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5a6f629-f925-4f2c-8798-9419fd06a0c9" name="Default" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Misc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Misc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/SetNameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/chattingRoom/SetNameFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lc/web/service/MockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lc/web/service/MockService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +174,7 @@
       <recent name="D:\javaworkspace\Misc\src\main\java\com\lc\misc\usualTest\extendsData" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetNameFrame">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -211,6 +211,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.misc.algorithm.Solution" />
+      <module name="Misc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.misc.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -219,20 +233,6 @@
     </configuration>
     <configuration name="provinceNameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lc.misc.usualTest.provinceNameTest" />
-      <module name="Misc" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.misc.usualTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="streamTesk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.misc.usualTest.streamTesk" />
       <module name="Misc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -305,18 +305,18 @@
     <list>
       <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.SetNameFrame" />
-      <item itemvalue="Application.streamTesk" />
       <item itemvalue="Application.test_0929" />
       <item itemvalue="Application.provinceNameTest" />
       <item itemvalue="Spring Boot.MiscApplication" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.SetNameFrame" />
         <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.provinceNameTest" />
         <item itemvalue="Application.test_0929" />
-        <item itemvalue="Application.streamTesk" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +469,7 @@
       <workItem from="1603891396067" duration="237000" />
       <workItem from="1604212516527" duration="67000" />
       <workItem from="1605141660716" duration="2336000" />
-      <workItem from="1605422050665" duration="203000" />
+      <workItem from="1605422050665" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="修改目录结构,springboot">
       <created>1543912073428</created>
@@ -506,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586916219688</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1605422598640</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605422598640</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,22 +560,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="181" y="123" key="#Live_Templates/0.0.1920.1040@0.0.1920.1040" timestamp="1601447236295" />
-    <state x="354" y="157" key="#Project_Structure" timestamp="1596004489665">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="354" y="157" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1596004489665" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1601378193053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601378193053" />
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1605422598510">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="417" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1605422598510" />
     <state width="433" height="464" key="DebuggerActiveHint" timestamp="1601378476577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="433" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1601378476577" />
-    <state x="648" y="254" key="FileChooserDialogImpl" timestamp="1596520824674">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="168" y="94" key="DiffContextDialog" timestamp="1605422595843">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="648" y="254" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596520824674" />
+    <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605422595843" />
     <state width="1638" height="173" key="GridCell.Tab.0.bottom" timestamp="1603639931318">
       <screen x="0" y="23" width="1630" height="1027" />
     </state>
@@ -609,10 +616,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="243" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601451958791" />
-    <state x="188" y="67" key="SettingsEditor" timestamp="1596520826510">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="188" y="103" key="MergeDialog" timestamp="1605422712942">
+      <screen x="0" y="23" width="1632" height="1027" />
     </state>
-    <state x="188" y="67" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596520826510" />
+    <state x="188" y="103" key="MergeDialog/0.23.1632.1027@0.23.1632.1027" timestamp="1605422712942" />
+    <state x="478" y="293" key="MultipleFileMergeDialog" timestamp="1605422720278">
+      <screen x="0" y="23" width="1632" height="1027" />
+    </state>
+    <state x="478" y="293" key="MultipleFileMergeDialog/0.23.1632.1027@0.23.1632.1027" timestamp="1605422720278" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1601447321495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -621,10 +632,6 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="538" y="251" width="604" height="548" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603628765195" />
-    <state x="334" y="203" key="new project wizard" timestamp="1596006086034">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="334" y="203" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1596006086034" />
     <state x="505" y="248" key="run.anything.popup" timestamp="1603628881354">
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
@@ -652,6 +659,21 @@
           <url>jar://C:/Program Files/Java/jdk1.8.0_261/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
           <line>904</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/Solution.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/Solution.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lc/misc/algorithm/Solution.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
