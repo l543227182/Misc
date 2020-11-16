@@ -26,56 +26,40 @@ class Solution {
         dfs(board, 0);
     }
 
-    public boolean checkXY(char[][] board, int x, int y) {
-        int[] checkX = new int[10];
+    public boolean checkXY(char[][] board, int x, int y, char z) {
         for (int i = 0; i < 9; i++) {
-            if (board[x][i] != '.') {
-                if (++checkX[board[x][i] - '0'] > 1) {
-                    return false;
-                }
+            if (i != y && board[x][i] != '.' && board[x][i] == z) {
+                return false;
             }
-        }
-        int[] checkY = new int[10];
-        for (int i = 0; i < 9; i++) {
-            if (board[i][y] != '.') {
-                if (++checkY[board[i][y] - '0'] > 1) {
-                    return false;
-                }
+            if (i != x && board[i][y] != '.' && board[i][y] == z) {
+                return false;
             }
-        }
-
-        int[] checkXY = new int[10];
-        int xBox = (x / 3) * 3;
-        int yBox = (y / 3) * 3;
-        for (int i = xBox; i < xBox + 3; i++) {
-            for (int j = yBox; j < yBox + 3; j++) {
-                if (board[i][j] != '.') {
-                    if (++checkXY[board[i][j] - '0'] > 1) {
-                        return false;
-                    }
-                }
+            int xBox = (x / 3) * 3 + i / 3;
+            int yBox = (y / 3) * 3 + i % 3;
+            if (xBox != x && yBox != y && board[xBox][yBox] != '.' && board[xBox][yBox] == z) {
+                return false;
             }
         }
         return true;
     }
 
     public boolean dfs(char[][] board, int deepth) {
-        count++;
-        int i = deepth / 9;
-        int j = deepth % 9;
         if (deepth >= 81) {
             return true;
         }
-        int z = 1;
+        int i = deepth / 9;
+        int j = deepth % 9;
+
         if (board[i][j] == '.') {
-            while (z <= 9) {
-                board[i][j] = (z + "").charAt(0);
-                if (checkXY(board, i, j)) {
-                    if (dfs(board, ++deepth))
+            char z = '0';
+            while (++z <= '9') {
+                board[i][j] = z;
+                if (checkXY(board, i, j, z)) {
+                    if (dfs(board, ++deepth)) {
                         return true;
+                    }
                     deepth--;
                 }
-                z++;
             }
             board[i][j] = '.';
             return false;
