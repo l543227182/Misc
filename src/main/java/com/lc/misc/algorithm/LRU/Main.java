@@ -1,4 +1,4 @@
-package com.lc.misc.main.LRU;
+package com.lc.misc.algorithm.LRU;
 
 /**
  * Created by luochao.byron on 2017/9/25.

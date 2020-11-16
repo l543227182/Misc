@@ -1,4 +1,4 @@
-package com.lc.misc.main.minStack;
+package com.lc.misc.algorithm;
 
 import java.util.LinkedList;
 

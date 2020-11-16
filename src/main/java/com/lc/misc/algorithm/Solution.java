@@ -55,16 +55,15 @@ class Solution {
             while (++z <= '9') {
                 board[i][j] = z;
                 if (checkXY(board, i, j, z)) {
-                    if (dfs(board, ++deepth)) {
+                    if (dfs(board, deepth + 1)) {
                         return true;
                     }
-                    deepth--;
                 }
             }
             board[i][j] = '.';
             return false;
         } else {
-            if (dfs(board, ++deepth)) {
+            if (dfs(board, deepth + 1)) {
                 return true;
             }
         }
